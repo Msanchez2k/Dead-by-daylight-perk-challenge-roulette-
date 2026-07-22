@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.tsbuildinfo
+.claude/settings.local.json
+
+# Scaffold viejo sin uso, reemplazado por el proyecto en la raíz
+dbd-challenge-roulette/

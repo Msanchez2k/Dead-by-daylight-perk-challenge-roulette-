@@ -1,0 +1,1138 @@
+[
+  {
+    "id": "kl-agitacion",
+    "name": "Agitación",
+    "character": "El Trampero",
+    "image": "/perks/killer/agitacion.png",
+    "description": "Al cargar a un sobreviviente, obtienes 18% de Celeridad y tu radio de terror aumenta 12 metros.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-fuerza-bruta",
+    "name": "Fuerza Bruta",
+    "character": "El Trampero",
+    "image": "/perks/killer/fuerza-bruta.png",
+    "description": "Rompes tarimas y muros rompibles con ataques básicos, y dañas generadores un 20% más rápido.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-presencia-perturbadora",
+    "name": "Presencia Perturbadora",
+    "character": "El Trampero",
+    "image": "/perks/killer/presencia-perturbadora.png",
+    "description": "Los sobrevivientes en tu radio de terror obtienen un 10% más de pruebas de habilidad básicas, pero su zona buena es un 60% más pequeña.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sabueso-de-sangre",
+    "name": "Sabueso de Sangre",
+    "character": "El Espectro",
+    "image": "/perks/killer/sabueso-de-sangre.png",
+    "description": "Los charcos de sangre son más brillantes y duran 4 segundos más.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-depredacion",
+    "name": "Depredación",
+    "character": "El Espectro",
+    "image": "/perks/killer/depredacion.png",
+    "description": "Al dejar de perseguir a un sobreviviente, ves su aura durante 4 segundos. Recarga: 40 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-hijo-de-las-sombras",
+    "name": "Hijo de las Sombras",
+    "character": "El Espectro",
+    "image": "/perks/killer/hijo-de-las-sombras.png",
+    "description": "Cada vez que te ciegan, obtienes 10% de Celeridad durante 10 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-resistente",
+    "name": "Resistente",
+    "character": "El Pueblerino",
+    "image": "/perks/killer/resistente.png",
+    "description": "Mientras no cargas a un sobreviviente, los aturdimientos de tarima son un 50% más cortos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-hijo-de-la-luz",
+    "name": "Hijo de la Luz",
+    "character": "El Pueblerino",
+    "image": "/perks/killer/hijo-de-la-luz.png",
+    "description": "No te pueden cegar; cada vez que un sobreviviente lo intenta, ves su aura durante 10 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-reparador",
+    "name": "Reparador",
+    "character": "El Pueblerino",
+    "image": "/perks/killer/reparador.png",
+    "description": "La primera vez que cada generador llega a 70% de progreso, obtienes Indetectable durante 16 segundos y recibes una alerta.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-tanatofobia",
+    "name": "Tanatofobia",
+    "character": "La Enfermera",
+    "image": "/perks/killer/tanatofobia.png",
+    "description": "Por cada sobreviviente herido, derribado o colgado, todos reparan, purifican tótems y sabotean ganchos un 2% más lento; con 4 sobrevivientes en ese estado, el efecto se vuelve un 12% más lento adicional.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-vocacion-de-enfermera",
+    "name": "Vocación de Enfermera",
+    "character": "La Enfermera",
+    "image": "/perks/killer/vocacion-de-enfermera.png",
+    "description": "Al estar a 32 metros de sobrevivientes heridos que se están curando, ves su aura.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-aliento",
+    "name": "Aliento",
+    "character": "La Enfermera",
+    "image": "/perks/killer/aliento.png",
+    "description": "Los ruidos de respiración de los sobrevivientes son 25% más fuertes y sus gruñidos de dolor aumentan un 50%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-devoradora-de-esperanza",
+    "name": "Maleficio: Devoradora de Esperanza",
+    "character": "La Bruja",
+    "image": "/perks/killer/maleficio-devoradora-de-esperanza.png",
+    "description": "Enciende un tótem al inicio; al descolgar a alguien a 24 metros o más obtienes distintivos (hasta 5) que dan Celeridad, exponen a los sobrevivientes y, con 5, te dejan rematar a los derribados.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-ruina",
+    "name": "Maleficio: Ruina",
+    "character": "La Bruja",
+    "image": "/perks/killer/maleficio-ruina.png",
+    "description": "Enciende un tótem al inicio; mientras un generador no se repara, retrocede a 150% de velocidad.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-el-tercer-sello",
+    "name": "Maleficio: El Tercer Sello",
+    "character": "La Bruja",
+    "image": "/perks/killer/maleficio-el-tercer-sello.png",
+    "description": "Enciende un tótem al inicio; al dañar a un sobreviviente (hasta 4), sufre Ceguera.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-presencia-abrumadora",
+    "name": "Presencia Abrumadora",
+    "character": "El Doctor",
+    "image": "/perks/killer/presencia-abrumadora.png",
+    "description": "Usar un objeto a 32 metros o menos de ti causa Agotado 15 segundos; ver a un sobreviviente Agotado cerca revela su aura 4 segundos (recarga 25s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-monitorizacion-y-abuso",
+    "name": "Monitorización y Abuso",
+    "character": "El Doctor",
+    "image": "/perks/killer/monitorizacion-y-abuso.png",
+    "description": "Tu radio de terror aumenta 15% mientras persigues, y se reduce 25% cuando no persigues a nadie.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sobrecarga",
+    "name": "Sobrecarga",
+    "character": "El Doctor",
+    "image": "/perks/killer/sobrecarga.png",
+    "description": "Al dañar un generador, su regresión sube de 85% a 130% durante 30 segundos; el próximo en repararlo recibe una prueba de habilidad especial y, si falla, pierde 4% extra de progreso.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-parrillada-y-chile",
+    "name": "Parrillada y Chile",
+    "character": "El Caníbal",
+    "image": "/perks/killer/parrillada-y-chile.png",
+    "description": "Al colgar a un sobreviviente, ves el aura de los que estén a 40 metros o menos durante 5 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-noqueo",
+    "name": "Noqueo",
+    "character": "El Caníbal",
+    "image": "/perks/killer/noqueo.png",
+    "description": "Si un sobreviviente se acerca a 6 metros de una tarima que dejó caer, sufre 5% de Entorpecimiento durante 5 segundos (ventana de 6s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-muerte-de-franklin",
+    "name": "Muerte de Franklin",
+    "character": "El Caníbal",
+    "image": "/perks/killer/muerte-de-franklin.png",
+    "description": "Al dañar con un ataque básico, el sobreviviente suelta su objeto; ves el aura de objetos caídos en un radio de 64 metros.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-bestia-de-presa",
+    "name": "Bestia de Presa",
+    "character": "La Cazadora",
+    "image": "/perks/killer/bestia-de-presa.png",
+    "description": "Al obtener Sed de Sangre, te vuelves Indetectable durante 40 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-arrullo-de-cazadora",
+    "name": "Maleficio: Arrullo de Cazadora",
+    "character": "La Cazadora",
+    "image": "/perks/killer/maleficio-arrullo-de-cazadora.png",
+    "description": "Enciende un tótem al inicio; cada gancho te da un distintivo que demora las pruebas de habilidad y encoge sus zonas de éxito; con 5, desaparecen las advertencias y fallar una prueba cuesta 6% extra de progreso.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-instinto-territorial",
+    "name": "Instinto Territorial",
+    "character": "La Cazadora",
+    "image": "/perks/killer/instinto-territorial.png",
+    "description": "Si un sobreviviente entra al sótano estando a 24 metros, ves su aura 6 segundos (recarga 45s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-guardian-de-sangre",
+    "name": "Guardián de Sangre",
+    "character": "La Pesadilla",
+    "image": "/perks/killer/guardian-de-sangre.png",
+    "description": "Una vez por partida, al colgar a alguien tras abrirse una puerta de salida, ambas salidas se bloquean 60 segundos y ves el aura de los sobrevivientes cerca de los umbrales de salida.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-enfurecimiento",
+    "name": "Enfurecimiento",
+    "character": "La Pesadilla",
+    "image": "/perks/killer/enfurecimiento.png",
+    "description": "Cada generador completado te da un distintivo (máx. 5); por cada uno, rompes tarimas, dañas generadores, cargas sobrevivientes y saltas ventanas un 6% más rápido.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-recuerdame",
+    "name": "Recuérdame",
+    "character": "La Pesadilla",
+    "image": "/perks/killer/recuerdame.png",
+    "description": "Al dañar a la obsesión obtienes un distintivo (máx. 5); por cada uno, quienes no son la obsesión abren puertas de salida un 30% más lento.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-truco-del-verdugo",
+    "name": "Gancho Torturador: Truco del Verdugo",
+    "character": "La Cerda",
+    "image": "/perks/killer/gancho-torturador-truco-del-verdugo.png",
+    "description": "Al inicio, 4 ganchos aleatorios se vuelven torturadores; al cargar a alguien ves auras cerca de ellos, y te avisan si sabotean uno.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-supervision",
+    "name": "Supervisión",
+    "character": "La Cerda",
+    "image": "/perks/killer/supervision.png",
+    "description": "Ves el aura de generadores que se revierten (durante 16s tras dejar de repararse) y escuchas su reparación desde 8 metros.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-toma-una-decision",
+    "name": "Toma una Decisión",
+    "character": "La Cerda",
+    "image": "/perks/killer/toma-una-decision.png",
+    "description": "Al descolgarse solo o a otro estando a 32 metros, el sobreviviente grita y sufre Expuesto 60 segundos (recarga 60s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-coulrofobia",
+    "name": "Coulrofobia",
+    "character": "El Payaso",
+    "image": "/perks/killer/coulrofobia.png",
+    "description": "Los sobrevivientes en tu radio de terror se curan 50% más lento y sus pruebas de habilidad al curarse giran 50% más rápido.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-pim-pam-pum",
+    "name": "Pim, Pam, Pum",
+    "character": "El Payaso",
+    "image": "/perks/killer/pim-pam-pum.png",
+    "description": "Tras colgar a alguien, durante 45 segundos los generadores que dañes explotan y pierden 15% más progreso.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-desconcierto",
+    "name": "Desconcierto",
+    "character": "El Payaso",
+    "image": "/perks/killer/desconcierto.png",
+    "description": "Cada salto por ventana la bloquea 16 segundos para los sobrevivientes (solo una a la vez); tus saltos básicos son 15% más rápidos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-furia-espiritual",
+    "name": "Furia Espiritual",
+    "character": "El Espíritu",
+    "image": "/perks/killer/furia-espiritual.png",
+    "description": "Tras romper 2 tarimas, la próxima que te aturda se destruye.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-tierra-embrujada",
+    "name": "Maleficio: Tierra Embrujada",
+    "character": "El Espíritu",
+    "image": "/perks/killer/maleficio-tierra-embrujada.png",
+    "description": "Enciende 2 tótems al inicio; al bendecir o purificar cualquiera, todos los sobrevivientes sufren Expuesto 60 segundos y el otro tótem se apaga.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-rencor",
+    "name": "Rencor",
+    "character": "El Espíritu",
+    "image": "/perks/killer/rencor.png",
+    "description": "Cada generador completado avisa la ubicación de todos por 3 segundos y la obsesión ve tu aura 3s; al completarse todos, la obsesión queda Expuesta y puedes rematarla.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-discordancia",
+    "name": "Discordancia",
+    "character": "La Legión",
+    "image": "/perks/killer/discordancia.png",
+    "description": "Si 2 o más sobrevivientes reparan el mismo generador en un radio de 128 metros, recibes una alerta y ves su aura mientras lo hacen (se apaga 4s después).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-furia-ciega",
+    "name": "Furia Ciega",
+    "character": "La Legión",
+    "image": "/perks/killer/furia-ciega.png",
+    "description": "Al cargar a alguien, fallar un ataque básico reduce tu recarga un 100%, y dañarlo con ataque básico bloquea su forcejeo 4 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-doncella-de-hierro",
+    "name": "Doncella de Hierro",
+    "character": "La Legión",
+    "image": "/perks/killer/doncella-de-hierro.png",
+    "description": "Al salir de un casillero, el sobreviviente sufre Expuesto 30 segundos, grita y revela su ubicación 4s; abres casilleros 50% más rápido.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-intervencion-corrupta",
+    "name": "Intervención Corrupta",
+    "character": "La Plaga",
+    "image": "/perks/killer/intervencion-corrupta.png",
+    "description": "Al inicio, los 3 generadores más alejados se bloquean 120 segundos o hasta que derribes a alguien.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-terror-contagioso",
+    "name": "Terror Contagioso",
+    "character": "La Plaga",
+    "image": "/perks/killer/terror-contagioso.png",
+    "description": "Al derribar a un sobreviviente, los que estén en tu radio de terror gritan y te avisan su ubicación 6 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-devocion-oscura",
+    "name": "Devoción Oscura",
+    "character": "La Plaga",
+    "image": "/perks/killer/devocion-oscura.png",
+    "description": "Al dañar a la obsesión, durante 45 segundos transfieres tu radio de terror (ajustado a 40m) a ella y te vuelves Indetectable.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-soy-todo-oidos",
+    "name": "Soy Todo Oídos",
+    "character": "Ghost Face",
+    "image": "/perks/killer/soy-todo-oidos.png",
+    "description": "Ves el aura de un sobreviviente que entra o sale corriendo de un casillero, o salta a media/alta velocidad a 48 metros, durante 8 segundos (recarga 30s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-temblores-trepidantes",
+    "name": "Temblores Trepidantes",
+    "character": "Ghost Face",
+    "image": "/perks/killer/temblores-trepidantes.png",
+    "description": "Al levantar a un sobreviviente, los generadores sin reparar se bloquean 16 segundos (recarga 30s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-persecucion-furtiva",
+    "name": "Persecución Furtiva",
+    "character": "Ghost Face",
+    "image": "/perks/killer/persecucion-furtiva.png",
+    "description": "Al colgar a la obsesión obtienes 10% de Celeridad e Indetectable durante 18 segundos; quien la descuelgue se convierte en la nueva obsesión.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sobrecarga-el-demogorgon",
+    "name": "Sobrecarga",
+    "character": "El Demogorgon",
+    "image": "/perks/killer/sobrecarga-el-demogorgon.png",
+    "description": "Al derribar con ataque básico, los generadores a 32 metros explotan, pierden 8% de progreso, empiezan a revertirse y quienes los reparaban gritan.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-quebrantamientos",
+    "name": "Quebrantamientos",
+    "character": "El Demogorgon",
+    "image": "/perks/killer/quebrantamientos.png",
+    "description": "Mientras reparan un generador, los sobrevivientes sufren Ceguera y Agotado (termina 5s después de dejar de reparar).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-restriccion-cruel",
+    "name": "Restricción Cruel",
+    "character": "El Demogorgon",
+    "image": "/perks/killer/restriccion-cruel.png",
+    "description": "Al completarse un generador, ves el aura de todas las ventanas y se bloquean para los sobrevivientes durante 30 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-tacticas-zanshin",
+    "name": "Tácticas Zanshin",
+    "character": "El Oni",
+    "image": "/perks/killer/tacticas-zanshin.png",
+    "description": "Ves el aura de tarimas y ventanas en 32 metros; si dejan caer una tarima, ves su aura 5 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-eco-de-sangre",
+    "name": "Eco de Sangre",
+    "character": "El Oni",
+    "image": "/perks/killer/eco-de-sangre.png",
+    "description": "Al colgar a alguien, durante 30 segundos todos los sobrevivientes heridos sufren Agotado y Hemorragia.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-nemesis",
+    "name": "Némesis",
+    "character": "El Oni",
+    "image": "/perks/killer/nemesis.png",
+    "description": "Cegarte o aturdirte con casillero o tarima convierte al sobreviviente en la obsesión, que sufre Inconsciencia 60 segundos y revela su aura 8s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-cabeza-dentada",
+    "name": "Cabeza Dentada",
+    "character": "El Arponero de la Muerte",
+    "image": "/perks/killer/cabeza-dentada.png",
+    "description": "Tras dañar a un sobreviviente, durante 30 segundos cada buena prueba de habilidad de reparación revela el aura de quien la hace durante 8s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-interruptor-de-hombre-muerto",
+    "name": "Interruptor de Hombre Muerto",
+    "character": "El Arponero de la Muerte",
+    "image": "/perks/killer/interruptor-de-hombre-muerto.png",
+    "description": "Al colgar a alguien, la primera vez que un sobreviviente deja de reparar un generador, este se bloquea 35 segundos (recarga 35s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-retribucion",
+    "name": "Maleficio: Retribución",
+    "character": "El Arponero de la Muerte",
+    "image": "/perks/killer/maleficio-retribucion.png",
+    "description": "Enciende un tótem al inicio; bendecir o purificar un tótem causa Inconsciencia 60 segundos a quien lo intenta, y al lograrlo revela el aura de todos por 20s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-penitencia-forzada",
+    "name": "Penitencia Forzada",
+    "character": "El Ejecutor",
+    "image": "/perks/killer/penitencia-forzada.png",
+    "description": "Un sobreviviente que recibe un golpe protector sufre Desesperanza durante 80 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-senda-del-tormento",
+    "name": "Senda del Tormento",
+    "character": "El Ejecutor",
+    "image": "/perks/killer/senda-del-tormento.png",
+    "description": "Al dañar un generador, hasta que deje de revertirse obtienes Indetectable y los sobrevivientes ven su aura (recarga 30s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-atadura-mortal",
+    "name": "Atadura Mortal",
+    "character": "El Ejecutor",
+    "image": "/perks/killer/atadura-mortal.png",
+    "description": "Al terminar de curar a otro, el sobreviviente grita; hasta recibir daño, si está a 4 metros o más de quien curó, sufre Inconsciencia y ve su aura.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-garra-de-dragon",
+    "name": "Garra de Dragón",
+    "character": "El Deterioro",
+    "image": "/perks/killer/garra-de-dragon.png",
+    "description": "Al dañar un generador, durante 30 segundos quien lo repare primero grita, revela su ubicación 4s y sufre Expuesto 60s (recarga 30s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-inmortal",
+    "name": "Maleficio: Inmortal",
+    "character": "El Deterioro",
+    "image": "/perks/killer/maleficio-inmortal.png",
+    "description": "Enciende un tótem al inicio; si se bendice o purifica otro maleficio, este lo reemplaza conservando sus distintivos; ves el aura de sobrevivientes cerca de tótems apagados.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-favor-de-sangre",
+    "name": "Maleficio: Favor de Sangre",
+    "character": "El Deterioro",
+    "image": "/perks/killer/maleficio-favor-de-sangre.png",
+    "description": "Enciende un tótem al inicio; al dañar a un sobreviviente, las tarimas en pie en 32 metros se bloquean 15 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-acumulador",
+    "name": "Acumulador",
+    "character": "Los Gemelos",
+    "image": "/perks/killer/acumulador.png",
+    "description": "Aparecen 2 cofres extra al inicio; te avisan si alguien toma un objeto o abre un cofre en 64 metros.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-opresion",
+    "name": "Opresión",
+    "character": "Los Gemelos",
+    "image": "/perks/killer/opresion.png",
+    "description": "Al dañar un generador, hasta 4 más comienzan a revertirse y dan una prueba de habilidad especial a quien los repare (recarga 35s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-golpe-de-gracia",
+    "name": "Golpe de Gracia",
+    "character": "Los Gemelos",
+    "image": "/perks/killer/golpe-de-gracia.png",
+    "description": "Cada generador completado da 2 distintivos (máx. 5); gasta 1 al embestir para alargarla un 80%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-deslumbrante",
+    "name": "Deslumbrante",
+    "character": "El Embaucador",
+    "image": "/perks/killer/deslumbrante.png",
+    "description": "Al cargar a alguien, los sobrevivientes en tu radio de terror sufren Expuesto, que dura 30 segundos tras salir del radio o soltar/colgar al cargado (recarga 60s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-control-del-publico",
+    "name": "Maleficio: Control del Público",
+    "character": "El Embaucador",
+    "image": "/perks/killer/maleficio-control-del-publico.png",
+    "description": "La primera vez que salten a media o alta velocidad por una ventana se enciende un tótem; las últimas 6 ventanas usadas así se bloquean, saltas por ellas 15% más rápido y ves su aura en 24 metros.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sin-salida",
+    "name": "Sin Salida",
+    "character": "El Embaucador",
+    "image": "/perks/killer/sin-salida.png",
+    "description": "El primer cuelgue de cada sobreviviente da un distintivo; al completarse los generadores, abrir una puerta se bloquea 12 segundos más 12s por distintivo, y recibes una alerta.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-perseguidor-letal",
+    "name": "Perseguidor Letal",
+    "character": "Némesis",
+    "image": "/perks/killer/perseguidor-letal.png",
+    "description": "Al inicio ves el aura de todos los sobrevivientes 9 segundos; cada vez que ves un aura por tiempo, su duración aumenta 2s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-histeria",
+    "name": "Histeria",
+    "character": "Némesis",
+    "image": "/perks/killer/histeria.png",
+    "description": "Cuando un sobreviviente ileso resulta herido, todos los heridos sufren Inconsciencia 40 segundos (recarga 20s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-erupcion",
+    "name": "Erupción",
+    "character": "Némesis",
+    "image": "/perks/killer/erupcion.png",
+    "description": "Al dañar un generador y derribar a alguien, todos los generadores explotan, pierden 10% de progreso, se revierten y quienes los reparaban gritan y revelan su aura 12s (recarga 30s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-abrazo-de-la-muerte",
+    "name": "Abrazo de la Muerte",
+    "character": "La Artista",
+    "image": "/perks/killer/abrazo-de-la-muerte.png",
+    "description": "El primer cuelgue de cada sobreviviente da un distintivo; alejarte 16 metros de un gancho bloquea todos los generadores 10s, y con 4 distintivos, 40s más y ves el aura de tu obsesión 10s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-dolor-resonante",
+    "name": "Gancho Torturador: Dolor Resonante",
+    "character": "La Artista",
+    "image": "/perks/killer/gancho-torturador-dolor-resonante.png",
+    "description": "Al inicio, 4 ganchos se vuelven torturadores y obtienes 4 distintivos; el primer cuelgue en uno gasta 1 distintivo para explotar el generador con más progreso, que pierde 20% y se revierte mientras quienes lo reparan gritan.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-arrepentimiento",
+    "name": "Maleficio: Arrepentimiento",
+    "character": "La Artista",
+    "image": "/perks/killer/maleficio-arrepentimiento.png",
+    "description": "Ves el aura de tótems purificados y puedes reavivarlos una vez cada uno; los sobrevivientes ven auras de tótems reavivados en 16m y curan/reparan 20% más lento (+3% por cada uno extra); si se reaviva los 5 tótems a la vez, se bloquean.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-torrente-de-ira",
+    "name": "Gancho Torturador: Torrente de Ira",
+    "character": "La Onryō",
+    "image": "/perks/killer/gancho-torturador-torrente-de-ira.png",
+    "description": "Al inicio, 4 ganchos aleatorios se vuelven torturadores; al descolgar a alguien de uno, ves el aura de otros sobrevivientes 7 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-anuncio-de-salmuera",
+    "name": "Anuncio de Salmuera",
+    "character": "La Onryō",
+    "image": "/perks/killer/anuncio-de-salmuera.png",
+    "description": "Al dañar un generador, se revierte 50% más rápido durante 70 segundos; en ese tiempo, buenas pruebas de habilidad al repararlo te avisan.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-tormenta-despiadada",
+    "name": "Tormenta Despiadada",
+    "character": "La Onryō",
+    "image": "/perks/killer/tormenta-despiadada.png",
+    "description": "La primera vez que un generador llega a 90%, quienes lo reparan reciben pruebas especiales; si fallan o se detienen, se bloquea 20 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-disolucion",
+    "name": "Disolución",
+    "character": "La Draga",
+    "image": "/perks/killer/disolucion.png",
+    "description": "3 segundos después de que alguien recibe daño, durante 20s la próxima tarima que salten rápido en tu radio de terror se destruye.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-oscuridad-revelada",
+    "name": "Oscuridad Revelada",
+    "character": "La Draga",
+    "image": "/perks/killer/oscuridad-revelada.png",
+    "description": "Al revisar un casillero, ves el aura de sobrevivientes en 8 metros de los casilleros durante 8 segundos (recarga 30s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-contacto-septico",
+    "name": "Contacto Séptico",
+    "character": "La Draga",
+    "image": "/perks/killer/contacto-septico.png",
+    "description": "Un sobreviviente curándose en tu radio de terror sufre Ceguera y Agotado (termina 30s después de dejar de curarse).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-anatomia-superior",
+    "name": "Anatomía Superior",
+    "character": "La Mente Maestra",
+    "image": "/perks/killer/anatomia-superior.png",
+    "description": "Si un sobreviviente salta rápido a 12 metros de ti, tu próximo salto de ventana es 40% más rápido (recarga 25s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-conciencia-de-estar-despierto",
+    "name": "Conciencia de Estar Despierto",
+    "character": "La Mente Maestra",
+    "image": "/perks/killer/conciencia-de-estar-despierto.png",
+    "description": "Al cargar a un sobreviviente, ves el aura de los demás en 20 metros.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-terminal",
+    "name": "Terminal",
+    "character": "La Mente Maestra",
+    "image": "/perks/killer/terminal.png",
+    "description": "Al completarse todos los generadores, heridos, derribados y colgados sufren Desesperanza hasta 45s después de abrirse una puerta de salida.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-no-hay-donde-esconderse",
+    "name": "No Hay Dónde Esconderse",
+    "character": "El Caballero",
+    "image": "/perks/killer/no-hay-donde-esconderse.png",
+    "description": "Al dañar un generador, ves el aura de sobrevivientes a 24 metros o menos durante 5 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-enfrentar-a-la-oscuridad",
+    "name": "Maleficio: Enfrentar a la Oscuridad",
+    "character": "El Caballero",
+    "image": "/perks/killer/maleficio-enfrentar-a-la-oscuridad.png",
+    "description": "Al dañar a un sobreviviente, recibe un maleficio y se enciende un tótem; cada 25s otros sobrevivientes fuera de tu radio gritan y ves su aura 2s; el maleficio se apaga si el marcado se derriba o se cura.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-soberbia",
+    "name": "Soberbia",
+    "character": "El Caballero",
+    "image": "/perks/killer/soberbia.png",
+    "description": "Un sobreviviente que te aturde sufre Expuesto 30 segundos (recarga 20s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-hora-de-la-caceria",
+    "name": "Hora de la Cacería",
+    "character": "La Comerciante de Calaveras",
+    "image": "/perks/killer/hora-de-la-caceria.png",
+    "description": "Al perseguir a tu obsesión, romper tarimas/muros o dañar generadores te da 7% de Celeridad 10s; dañar con ataque básico al sobreviviente con más tiempo de persecución lo convierte en la nueva obsesión.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-plaf",
+    "name": "¡Plaf!",
+    "character": "La Comerciante de Calaveras",
+    "image": "/perks/killer/plaf.png",
+    "description": "Obtienes 3 distintivos al inicio (máx. 3, +1 por cuelgue); gasta 1 al romper una tarima o muro para que los sobrevivientes en 36 metros griten y revelen su aura 6s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-influencia",
+    "name": "Influencia",
+    "character": "La Comerciante de Calaveras",
+    "image": "/perks/killer/influencia.png",
+    "description": "Descolgarse solo o a otro hace que ese sobreviviente cure 30% más lento durante 60 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-limites-geneticos",
+    "name": "Límites Genéticos",
+    "character": "La Singularidad",
+    "image": "/perks/killer/limites-geneticos.png",
+    "description": "Un sobreviviente que recibe daño sufre Agotado 8 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-duda-forzada",
+    "name": "Duda Forzada",
+    "character": "La Singularidad",
+    "image": "/perks/killer/duda-forzada.png",
+    "description": "Al derribar a alguien, otros en 16 metros sufren 20% de Entorpecimiento 10s (recarga 30s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-aprendizaje-automatizado",
+    "name": "Aprendizaje Automatizado",
+    "character": "La Singularidad",
+    "image": "/perks/killer/aprendizaje-automatizado.png",
+    "description": "Al dañar un generador, queda comprometido; al completarse, obtienes 8% de Celeridad e Indetectable durante 60s (solo uno comprometido a la vez).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-arma-definitiva",
+    "name": "Arma Definitiva",
+    "character": "El Xenomorfo",
+    "image": "/perks/killer/arma-definitiva.png",
+    "description": "Al revisar un casillero, sobrevivientes en 40 metros sufren Ceguera 30 segundos y gritan (recarga 45s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-brutalidad-veloz",
+    "name": "Brutalidad Veloz",
+    "character": "El Xenomorfo",
+    "image": "/perks/killer/brutalidad-veloz.png",
+    "description": "Dañar con ataque básico da 5% de Celeridad 10 segundos; mientras persigues, no puedes obtener Sed de Sangre.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-instinto-alienigena",
+    "name": "Instinto Alienígena",
+    "character": "El Xenomorfo",
+    "image": "/perks/killer/instinto-alienigena.png",
+    "description": "Al colgar a alguien, el sobreviviente herido más lejano sufre Inconsciencia 60 segundos y revela su aura 8s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-yo-tambien-puedo-jugar",
+    "name": "Maleficio: Yo También Puedo Jugar",
+    "character": "El Chico Bueno",
+    "image": "/perks/killer/maleficio-yo-tambien-puedo-jugar.png",
+    "description": "Si te ciegan o aturden 2 veces sin este maleficio activo, se enciende un tótem; cegarte o aturdirte mientras no cargas a nadie da Ceguera 1.5s a quien lo hizo.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-amigos-hasta-el-fin",
+    "name": "Amigos Hasta el Fin",
+    "character": "El Chico Bueno",
+    "image": "/perks/killer/amigos-hasta-el-fin.png",
+    "description": "Colgar a alguien que no es la obsesión la expone 20s y revela su aura 10s; colgar a la obsesión hace que otro sobreviviente grite, te avise y se convierta en la nueva obsesión.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-baterias-incluidas",
+    "name": "Baterías Incluidas",
+    "character": "El Chico Bueno",
+    "image": "/perks/killer/baterias-incluidas.png",
+    "description": "A 16 metros o menos de un generador completo obtienes 5% de Celeridad (termina 5s tras salir del radio).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-desatado",
+    "name": "Desatado",
+    "character": "Lo Desconocido",
+    "image": "/perks/killer/desatado.png",
+    "description": "Cuando un sobreviviente ileso resulta herido, durante 30s tus saltos básicos de ventana dan 7% de Celeridad 10s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-imprevisto",
+    "name": "Imprevisto",
+    "character": "Lo Desconocido",
+    "image": "/perks/killer/imprevisto.png",
+    "description": "Al dañar un generador, tu radio de terror se ajusta a él (32m) y obtienes Indetectable durante 30s (recarga 30s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-inacabado",
+    "name": "Inacabado",
+    "character": "Lo Desconocido",
+    "image": "/perks/killer/inacabado.png",
+    "description": "Fallar una prueba de habilidad te da 3 distintivos (máx. 30); al dañar un generador, gástalos todos: pierde 1% de progreso y se bloquea 1s por distintivo, y al desbloquearse empieza a revertirse (recarga 60s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-armonizacion-de-tejido",
+    "name": "Armonización de Tejido",
+    "character": "El Liche",
+    "image": "/perks/killer/armonizacion-de-tejido.png",
+    "description": "La primera vez que un objeto se agota, cae al piso; cerca de él ambos ven las auras, y quien lo recoja sufre Inconsciencia 30s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-toque-languido",
+    "name": "Toque Lánguido",
+    "character": "El Liche",
+    "image": "/perks/killer/toque-languido.png",
+    "description": "Asustar a un cuervo a 36 metros o menos de ti causa Agotado 10 segundos (recarga 5s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-arrogancia-oscura",
+    "name": "Arrogancia Oscura",
+    "character": "El Liche",
+    "image": "/perks/killer/arrogancia-oscura.png",
+    "description": "Saltas ventanas 25% más rápido; si te ciegan o aturden con tarima, su duración aumenta 15%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-destino-miserable",
+    "name": "Maleficio: Destino Miserable",
+    "character": "El Señor Oscuro",
+    "image": "/perks/killer/maleficio-destino-miserable.png",
+    "description": "Al completarse el primer generador se enciende un tótem; la obsesión repara 33% más lento y ve el aura del tótem en 12 metros.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-codicia-humana",
+    "name": "Codicia Humana",
+    "character": "El Señor Oscuro",
+    "image": "/perks/killer/codicia-humana.png",
+    "description": "Ves el aura de sobrevivientes a 8 metros de cofres bloqueados 5s; puedes bloquear cofres (recarga 10s) y ves el aura de los bloqueados.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-dominacion",
+    "name": "Dominación",
+    "character": "El Señor Oscuro",
+    "image": "/perks/killer/dominacion.png",
+    "description": "El primer cofre o tótem que cada sobreviviente desbloquee o purifique se bloquea 16 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-trueno-sismico",
+    "name": "Trueno Sísmico",
+    "character": "La Señora de los Sabuesos",
+    "image": "/perks/killer/trueno-sismico.png",
+    "description": "Al caer 1.2 metros o más, tus embestidas son 75% más largas durante 25s (recarga 5s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-brujula-irregular",
+    "name": "Gancho Torturador: Brújula Irregular",
+    "character": "La Señora de los Sabuesos",
+    "image": "/perks/killer/gancho-torturador-brujula-irregular.png",
+    "description": "Al inicio, 4 ganchos aleatorios se vuelven torturadores (y cualquiera que se descuelgue se convierte en uno); colgar en uno revela el aura del generador con más progreso durante 10s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sin-piedad",
+    "name": "Sin Piedad",
+    "character": "La Señora de los Sabuesos",
+    "image": "/perks/killer/sin-piedad.png",
+    "description": "Al autocurarse y llegar a 75%, el sobreviviente recibe pruebas especiales; si falla o se detiene, sufre Desesperanza 30 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-pura-miseria",
+    "name": "Maleficio: Pura Miseria",
+    "character": "El Ghoul",
+    "image": "/perks/killer/maleficio-pura-miseria.png",
+    "description": "Tras 8 golpes básicos se enciende un tótem; dañar con ataque básico causa 5% de Entorpecimiento 15s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-unidos-por-siempre",
+    "name": "Unidos por Siempre",
+    "character": "El Ghoul",
+    "image": "/perks/killer/unidos-por-siempre.png",
+    "description": "Recibir daño da un distintivo (máx. 8); por cada uno, cuelgas y cargas/derribas sobrevivientes 4% más rápido.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-nadie-es-libre",
+    "name": "Nadie es Libre",
+    "character": "El Ghoul",
+    "image": "/perks/killer/nadie-es-libre.png",
+    "description": "El primer cuelgue de cada sobreviviente da un distintivo; al completarse los generadores, tarimas y ventanas se bloquean 16s por distintivo.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-pedido-de-ayuda",
+    "name": "Pedido de Ayuda",
+    "character": "El Animatrónico",
+    "image": "/perks/killer/pedido-de-ayuda.png",
+    "description": "Al dañar un generador, queda comprometido; al completarse, tu recarga de ataque básico es 25% más corta durante 60s (solo uno a la vez).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-miedo-fantasmal",
+    "name": "Miedo Fantasmal",
+    "character": "El Animatrónico",
+    "image": "/perks/killer/miedo-fantasmal.png",
+    "description": "Un sobreviviente que te mira en tu radio de terror grita y revela su aura 2 segundos (recarga 60s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-caos",
+    "name": "Caos",
+    "character": "El Animatrónico",
+    "image": "/perks/killer/caos.png",
+    "description": "Las puertas de salida con 80% o más de progreso se revierten a 100% de velocidad, con sus luces titilando al azar.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-voracidad",
+    "name": "Voracidad",
+    "character": "La Krasue",
+    "image": "/perks/killer/voracidad.png",
+    "description": "El primer cuelgue de cada sobreviviente da un distintivo; con 4, todos gritan y sufren Expuesto 60 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-ojo-errante",
+    "name": "Ojo Errante",
+    "character": "La Krasue",
+    "image": "/perks/killer/ojo-errante.png",
+    "description": "Al perseguir a alguien, durante 5s ves el aura de otros heridos en 20 metros (recarga 30s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-obertura-de-la-perdicion",
+    "name": "Maleficio: Obertura de la Perdición",
+    "character": "La Krasue",
+    "image": "/perks/killer/maleficio-obertura-de-la-perdicion.png",
+    "description": "Enciende un tótem al inicio y maldice el generador más lejano; tras 5s reparándolo obtienes Indetectable 30s con tu radio ajustado a él, y luego el maleficio pasa al siguiente generador más lejano.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-retrocede-el-tiempo",
+    "name": "Retrocede el Tiempo",
+    "character": "Uno",
+    "image": "/perks/killer/retrocede-el-tiempo.png",
+    "description": "Tras colgar a alguien, durante 60s puedes detonar un generador en 20 metros para que pierda 10% de progreso y se revierta.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-proyecto-secreto",
+    "name": "Proyecto Secreto",
+    "character": "Uno",
+    "image": "/perks/killer/proyecto-secreto.png",
+    "description": "Bendecir o purificar un tótem bloquea un generador aleatorio 30s; mientras haya uno bloqueado, obtienes Indetectable 30s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-mente-colmena",
+    "name": "Maleficio: Mente Colmena",
+    "character": "Uno",
+    "image": "/perks/killer/maleficio-mente-colmena.png",
+    "description": "El primer cuelgue enciende un tótem; el aura de los generadores muestra su progreso, y al quedar solo 1, todos explotan, pierden 10% de progreso, se revierten y el tótem se apaga.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-terror-hasta-la-muerte",
+    "name": "Maleficio: Terror hasta la Muerte",
+    "character": "El Acuchillador",
+    "image": "/perks/killer/maleficio-terror-hasta-la-muerte.png",
+    "description": "Tras colgar a 3 sobrevivientes distintos se enciende un tótem; al perseguir, romper una tarima hace gritar a los que estén a 13 metros y te da 13% de Entorpecimiento 3s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sombra-silenciosa",
+    "name": "Sombra Silenciosa",
+    "character": "El Acuchillador",
+    "image": "/perks/killer/sombra-silenciosa.png",
+    "description": "Cada cuelgue te da Indetectable 13 segundos; al completarse todos los generadores, obtienes Indetectable.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-matanza",
+    "name": "Matanza",
+    "character": "El Acuchillador",
+    "image": "/perks/killer/matanza.png",
+    "description": "Romper tarimas o muros da un distintivo (máx. 13); al cegarte o aturdirte con tarima, durante 13s obtienes 1% de Celeridad por distintivo (recarga 20s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-acechador-de-ciervos",
+    "name": "Acechador de Ciervos",
+    "character": "Ventaja",
+    "image": "/perks/killer/acechador-de-ciervos.png",
+    "description": "Cada 30 segundos, el sobreviviente con menor tiempo de persecución ve tu aura 3s; mientras te ve, tú ves la suya.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-apreton-de-hierro",
+    "name": "Apretón de Hierro",
+    "character": "Ventaja",
+    "image": "/perks/killer/apreton-de-hierro.png",
+    "description": "Al cargar a alguien, forcejea 12% más lento y su forcejeo es 75% más débil.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-carnicero-chapucero",
+    "name": "Carnicero Chapucero",
+    "character": "Ventaja",
+    "image": "/perks/killer/carnicero-chapucero.png",
+    "description": "Dañar con ataque básico causa Hemorragia y Destrozado durante 90s; con Hemorragia, pierden progreso de curación 25% más rápido.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-desasosiego",
+    "name": "Desasosiego",
+    "character": "Ventaja",
+    "image": "/perks/killer/desasosiego.png",
+    "description": "Tu radio de terror aumenta un 30%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-esperanza-rota",
+    "name": "Esperanza Rota",
+    "character": "Ventaja",
+    "image": "/perks/killer/esperanza-rota.png",
+    "description": "Sofocar un tótem de bendición revela el aura de sobrevivientes cerca 8s y lo destruye.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-espias-de-las-sombras",
+    "name": "Espías de las Sombras",
+    "character": "Ventaja",
+    "image": "/perks/killer/espias-de-las-sombras.png",
+    "description": "Si un sobreviviente asusta a un cuervo a 36 metros, recibes una alerta (recarga 5s).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-heridas-supurantes",
+    "name": "Gancho Torturador: Heridas Supurantes",
+    "character": "Ventaja",
+    "image": "/perks/killer/gancho-torturador-heridas-supurantes.png",
+    "description": "Al inicio, 4 ganchos se vuelven torturadores; descolgarse de uno causa Hemorragia y Destrozado 90s, y hasta recibir daño, curan y reparan 16% más lento.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-el-bufon-de-la-fortuna",
+    "name": "Maleficio: El Bufón de la Fortuna",
+    "character": "Ventaja",
+    "image": "/perks/killer/maleficio-el-bufon-de-la-fortuna.png",
+    "description": "El primer cuelgue de cada sobreviviente lo maldice y enciende un tótem (bloqueado para otros 90s); el maldecido sufre Inconsciencia y ve el aura del tótem en 16 metros.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sin-restricciones",
+    "name": "Sin Restricciones",
+    "character": "Ventaja",
+    "image": "/perks/killer/sin-restricciones.png",
+    "description": "Al completarse un generador, el que tenga más progreso se bloquea 25 segundos.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-santuario-monstruoso",
+    "name": "Gancho Torturador: Santuario Monstruoso",
+    "character": "Ventaja",
+    "image": "/perks/killer/gancho-torturador-santuario-monstruoso.png",
+    "description": "Al inicio, 4 ganchos aleatorios y los del sótano se vuelven torturadores; sacrificar a alguien cerca de uno (24m) es 20% más rápido.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-implacable",
+    "name": "Implacable",
+    "character": "Ventaja",
+    "image": "/perks/killer/implacable.png",
+    "description": "Fallar un ataque básico reduce tu recarga un 30%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-insidia",
+    "name": "Insidia",
+    "character": "Ventaja",
+    "image": "/perks/killer/insidia.png",
+    "description": "Tras 1 segundo inmóvil, obtienes Indetectable hasta que actúas.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-la-emocion-de-la-caza",
+    "name": "Maleficio: La Emoción de la Caza",
+    "character": "Ventaja",
+    "image": "/perks/killer/maleficio-la-emocion-de-la-caza.png",
+    "description": "Enciende un tótem al inicio; por cada tótem apagado o de maleficio restante obtienes un distintivo, y por cada uno, bendecir o purificar tótems es 12% más lento.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-nadie-escapa-de-la-muerte",
+    "name": "Maleficio: Nadie Escapa de la Muerte",
+    "character": "Ventaja",
+    "image": "/perks/killer/maleficio-nadie-escapa-de-la-muerte.png",
+    "description": "Al completarse todos los generadores se enciende un tótem: los sobrevivientes sufren Expuesto y obtienes 4% de Celeridad; ven su aura en 4 metros, que se expande a 24 en 30s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-mira-como-corren",
+    "name": "Mira Cómo Corren",
+    "character": "Ventaja",
+    "image": "/perks/killer/mira-como-corren.png",
+    "description": "Dejar de perseguir a la obsesión da un distintivo (máx. 3, recarga 10s); cada uno da 5% de Celeridad, pero atacar gasta 1.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-que-sigan-esperando",
+    "name": "Que Sigan Esperando",
+    "character": "Ventaja",
+    "image": "/perks/killer/que-sigan-esperando.png",
+    "description": "Dañar con ataque básico a alguien que no es la obsesión da un distintivo (máx. 8) que reduce tu recarga 4% cada uno; dañar a la obsesión te quita 2, y mientras esté muerta no ganas más.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sacrifica-a-los-debiles",
+    "name": "Sacrifica a los Débiles",
+    "character": "Ventaja",
+    "image": "/perks/killer/sacrifica-a-los-debiles.png",
+    "description": "Colgar a alguien que no es la obsesión da un distintivo; mientras la obsesión viva, por cada uno los demás curan, reparan y sabotean 3% más lento, mientras ella lo hace 33% más rápido.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-murmullo-amargo",
+    "name": "Murmullo Amargo",
+    "character": "Ventaja",
+    "image": "/perks/killer/murmullo-amargo.png",
+    "description": "Al completarse un generador, ves el aura de sobrevivientes en 16 metros durante 5s; al completarse todos, ves la de todos durante 10s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-murmullos",
+    "name": "Murmullos",
+    "character": "Ventaja",
+    "image": "/perks/killer/murmullos.png",
+    "description": "A 32 metros o menos de un sobreviviente, oyes susurros al azar.",
+    "role": "killer"
+  }
+]

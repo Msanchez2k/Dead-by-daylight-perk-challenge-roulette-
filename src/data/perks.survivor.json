@@ -1,0 +1,1386 @@
+[
+  {
+    "id": "sv-vinculo",
+    "name": "Vínculo",
+    "character": "Dwight Fairfield",
+    "image": "/perks/survivor/vinculo.png",
+    "description": "Revela el aura de los demás sobrevivientes en un radio de 36 metros.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-lider",
+    "name": "Líder",
+    "character": "Dwight Fairfield",
+    "image": "/perks/survivor/lider.png",
+    "description": "En un radio de 10 metros, los demás sobrevivientes purifican tótems, se curan, abren la puerta de salida, sabotean ganchos, descuelgan compañeros y desbloquean cofres un 30% más rápido; el efecto dura 20 segundos tras alejarse.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-demuestra-lo-que-vales",
+    "name": "Demuestra Lo Que Vales",
+    "character": "Dwight Fairfield",
+    "image": "/perks/survivor/demuestra-lo-que-vales.png",
+    "description": "Por cada sobreviviente a 4 metros o menos de ti, todos reparan generadores un 10% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-adrenalina",
+    "name": "Adrenalina",
+    "character": "Meg Thomas",
+    "image": "/perks/survivor/adrenalina.png",
+    "description": "Al completarse todos los generadores, si estabas derribado o herido te curas al instante; luego obtienes 50% de Celeridad 3 segundos y después sufres Agotado 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-velocidad-silenciosa",
+    "name": "Velocidad Silenciosa",
+    "character": "Meg Thomas",
+    "image": "/perks/survivor/velocidad-silenciosa.png",
+    "description": "Entrar a un casillero o saltar hacia él no hace ruido ni alerta al asesino. Recarga: 15 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-esprint",
+    "name": "Esprint",
+    "character": "Meg Thomas",
+    "image": "/perks/survivor/esprint.png",
+    "description": "Al empezar a correr, obtienes 50% de Celeridad 3 segundos y luego sufres Agotado 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-conocimientos-de-botanica",
+    "name": "Conocimientos de Botánica",
+    "character": "Claudette Morel",
+    "image": "/perks/survivor/conocimientos-de-botanica.png",
+    "description": "Te curas 50% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-empatia",
+    "name": "Empatía",
+    "character": "Claudette Morel",
+    "image": "/perks/survivor/empatia.png",
+    "description": "Ves el aura de los sobrevivientes heridos en un radio de 128 metros.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-autocuracion",
+    "name": "Autocuración",
+    "character": "Claudette Morel",
+    "image": "/perks/survivor/autocuracion.png",
+    "description": "Puedes curarte sin botiquín, aunque 65% más lento.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-espiritu-calmado",
+    "name": "Espíritu Calmado",
+    "character": "Jake Park",
+    "image": "/perks/survivor/espiritu-calmado.png",
+    "description": "No asustas a los cuervos ni gritas; bendecir/purificar tótems y abrir cofres se hace en silencio, pero 30% más lento.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-voluntad-de-hierro",
+    "name": "Voluntad de Hierro",
+    "character": "Jake Park",
+    "image": "/perks/survivor/voluntad-de-hierro.png",
+    "description": "Sin heridas ni Agotado, tus gruñidos de dolor son 100% más silenciosos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-sabotear",
+    "name": "Sabotear",
+    "character": "Jake Park",
+    "image": "/perks/survivor/sabotear.png",
+    "description": "En un radio de 56 metros de donde el asesino enganchó a alguien, ves el aura de los ganchos (incluidos los torturadores) y puedes sabotearlos. Recarga: 60 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-caida-equilibrada",
+    "name": "Caída Equilibrada",
+    "character": "Nea Karlsson",
+    "image": "/perks/survivor/caida-equilibrada.png",
+    "description": "Al caer 1.2 metros o más: 50% de Celeridad 3 segundos, luego Agotado 40 segundos; el tambaleo dura 75% menos y los gruñidos por la caída son 100% más silenciosos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-evasion-urbana",
+    "name": "Evasión Urbana",
+    "character": "Nea Karlsson",
+    "image": "/perks/survivor/evasion-urbana.png",
+    "description": "Agachado, te mueves con un 100% de Celeridad.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-de-la-calle",
+    "name": "De la Calle",
+    "character": "Nea Karlsson",
+    "image": "/perks/survivor/de-la-calle.png",
+    "description": "La primera vez que agotas las cargas de un objeto ves el aura del asesino 8 segundos; además, los objetos que sacas de cofres traen 80% más de cargas.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-tiempo-prestado",
+    "name": "Tiempo Prestado",
+    "character": "William \"bill\" Overbeck",
+    "image": "/perks/survivor/tiempo-prestado.png",
+    "description": "Al descolgar a alguien, conserva 10 segundos extra de Resistencia y de Celeridad tras abandonar el gancho.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-inquebrantable",
+    "name": "Inquebrantable",
+    "character": "William \"bill\" Overbeck",
+    "image": "/perks/survivor/inquebrantable.png",
+    "description": "Una vez por partida puedes recuperarte por completo tras ser derribado; además te recuperas 35% más rápido estando en el suelo.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-abandonado-a-tu-suerte",
+    "name": "Abandonado a Tu Suerte",
+    "character": "William \"bill\" Overbeck",
+    "image": "/perks/survivor/abandonado-a-tu-suerte.png",
+    "description": "Si eres el único sobreviviente con vida, ves el aura de la trampilla dentro de un radio de 32 metros.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-as-en-la-manga",
+    "name": "As en la Manga",
+    "character": "Ace Visconti",
+    "image": "/perks/survivor/as-en-la-manga.png",
+    "description": "Los objetos que sacas de cofres siempre traen un accesorio (garantizado uno menor, con 100% de probabilidad de uno poco común); conservas los accesorios al escapar.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-a-mano-descubierta",
+    "name": "A Mano Descubierta",
+    "character": "Ace Visconti",
+    "image": "/perks/survivor/a-mano-descubierta.png",
+    "description": "Todos los sobrevivientes ganan 16 metros extra de alcance en sus lecturas de aura.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-subir-las-apuestas",
+    "name": "Subir las Apuestas",
+    "character": "Ace Visconti",
+    "image": "/perks/survivor/subir-las-apuestas.png",
+    "description": "Por cada sobreviviente con vida, todos ganan 3% de suerte; además todos pueden intentar descolgarse a sí mismos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-pericia-tecnica",
+    "name": "Pericia Técnica",
+    "character": "Feng Min",
+    "image": "/perks/survivor/pericia-tecnica.png",
+    "description": "Al reparar, el radio del ruido del generador se reduce 8 metros, y fallar una prueba básica ya no hace explotar el generador (solo pierde 3% extra de progreso).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-agilidad",
+    "name": "Agilidad",
+    "character": "Feng Min",
+    "image": "/perks/survivor/agilidad.png",
+    "description": "Al hacer un salto rápido o medio, obtienes 50% de Celeridad 3 segundos y luego Agotado 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-alerta",
+    "name": "Alerta",
+    "character": "Feng Min",
+    "image": "/perks/survivor/alerta.png",
+    "description": "Cuando el asesino rompe una tarima o pared, o daña un generador, recibes una notificación de sonido y ves su aura 5 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-fajador",
+    "name": "Fajador",
+    "character": "David King",
+    "image": "/perks/survivor/fajador.png",
+    "description": "Al ser descolgado, si tienes heridas y estás corriendo, ganas Resistencia 0.5 segundos y luego sufres Agotado 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-me-da-igual",
+    "name": "Me Da Igual",
+    "character": "David King",
+    "image": "/perks/survivor/me-da-igual.png",
+    "description": "Empiezas la partida herido con Desesperanza permanente; a cambio, tus gruñidos son 100% más silenciosos, no dejas charcos de sangre, te recuperas 25% más rápido y puedes recuperarte por completo.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-vamos-a-vivir-para-siempre",
+    "name": "Vamos a Vivir para Siempre",
+    "character": "David King",
+    "image": "/perks/survivor/vamos-a-vivir-para-siempre.png",
+    "description": "Curas a sobrevivientes derribados 100% más rápido; al terminar de curar a uno, le das Resistencia 10 segundos. Recarga: 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-farmacia",
+    "name": "Farmacia",
+    "character": "Quentin Smith",
+    "image": "/perks/survivor/farmacia.png",
+    "description": "Los cofres que desbloqueas contienen un botiquín raro, los desbloqueas 125% más rápido, y el asesino solo puede oírte hacerlo desde 12 metros.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-vigilia",
+    "name": "Vigilia",
+    "character": "Quentin Smith",
+    "image": "/perks/survivor/vigilia.png",
+    "description": "En un radio de 16 metros, todos pierden un 66% más rápido los efectos Ceguera, Desesperanza, Agotado, Expuesto, Hemorragia, Entorpecimiento, Destrozado e Inconsciencia; el efecto persiste 15 segundos tras alejarse.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-despierta",
+    "name": "¡Despierta!",
+    "character": "Quentin Smith",
+    "image": "/perks/survivor/despierta.png",
+    "description": "Al completarse todos los generadores, ves el aura de los interruptores de las puertas; al abrir una, los demás ven tu aura, y las puertas se abren un 12.5% más rápido por cada sobreviviente con vida.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-tenacidad",
+    "name": "Tenacidad",
+    "character": "Detective Tapp",
+    "image": "/perks/survivor/tenacidad.png",
+    "description": "Al ser derribado, obtienes 50% de Celeridad, puedes arrastrarte mientras te recuperas, y tus gruñidos son 75% más silenciosos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-corazonada",
+    "name": "Corazonada",
+    "character": "Detective Tapp",
+    "image": "/perks/survivor/corazonada.png",
+    "description": "Al completarse un generador, durante 20 segundos ves el aura de cofres, generadores y tótems en un radio de 64 metros.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-bajo-vigilancia",
+    "name": "Bajo Vigilancia",
+    "character": "Detective Tapp",
+    "image": "/perks/survivor/bajo-vigilancia.png",
+    "description": "Tras esconderte 15 segundos en el radio de terror, ganas 1 distintivo (máx. 4); al gastar uno en una prueba básica buena, esta se vuelve excelente y da 1% extra de progreso.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-oportunidades",
+    "name": "Oportunidades",
+    "character": "Kate Denson",
+    "image": "/perks/survivor/oportunidades.png",
+    "description": "Ves el aura de tarimas, muros rompibles y ventanas en un radio de 32 metros.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-arrebato",
+    "name": "Arrebato",
+    "character": "Kate Denson",
+    "image": "/perks/survivor/arrebato.png",
+    "description": "Mientras te carga el asesino, cada caída de 1.2 metros o más suma 33% de tu progreso de forcejeo, forcejeas con 80% más fuerza, y a 16 metros el asesino no ve el aura de los ganchos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-baila-conmigo",
+    "name": "Baila Conmigo",
+    "character": "Kate Denson",
+    "image": "/perks/survivor/baila-conmigo.png",
+    "description": "Salir a toda velocidad de un casillero o hacer un salto medio/rápido no deja marcas de arañazos durante 5 segundos. Recarga: 15 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-distraccion",
+    "name": "Distracción",
+    "character": "Adam Francis",
+    "image": "/perks/survivor/distraccion.png",
+    "description": "Tras esconderte 20 segundos en el radio de terror, agachado e inmóvil, puedes lanzar una piedra a 20 metros que alerta al asesino y deja marcas de arañazo en su lugar.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-liberacion",
+    "name": "Liberación",
+    "character": "Adam Francis",
+    "image": "/perks/survivor/liberacion.png",
+    "description": "Una vez por partida, si descuelgas a alguien de forma segura, puedes descolgarte tú mismo después; al hacerlo, sufres Desesperanza 60 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-autodidacta",
+    "name": "Autodidacta",
+    "character": "Adam Francis",
+    "image": "/perks/survivor/autodidacta.png",
+    "description": "Empiezas con 0 de 5 distintivos; curarte sin botiquín acumula distintivos que dan 15% de progreso extra cada uno (las curaciones básicas dan 15% menos de entrada, y no hay pruebas excelentes).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-ruptura",
+    "name": "Ruptura",
+    "character": "Jeff Johansen",
+    "image": "/perks/survivor/ruptura.png",
+    "description": "Al ser descolgado, el gancho usado se rompe y tarda 180 segundos en repararse; además ves el aura del asesino 6 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-postratamiento",
+    "name": "Postratamiento",
+    "character": "Jeff Johansen",
+    "image": "/perks/survivor/postratamiento.png",
+    "description": "Tú y hasta 3 sobrevivientes ven sus auras mutuamente al descolgarse o curarse entre sí; dura hasta que te enganchan.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-distorsion",
+    "name": "Distorsión",
+    "character": "Jeff Johansen",
+    "image": "/perks/survivor/distorsion.png",
+    "description": "Tras ser perseguido 15 segundos, ganas 1 distintivo (máx. 2); sin estar derribado, al intentar el asesino ver tu aura gastas 1 para que no pueda verla ni tus arañazos durante 12 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-solidaridad",
+    "name": "Solidaridad",
+    "character": "Jane Romero",
+    "image": "/perks/survivor/solidaridad.png",
+    "description": "Al curar a otro sin botiquín estando herido tú mismo, también recibes progreso de curación al 70% de velocidad.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-serenidad",
+    "name": "Serenidad",
+    "character": "Jane Romero",
+    "image": "/perks/survivor/serenidad.png",
+    "description": "La primera vez que reparas cada generador ves el aura del asesino 8 segundos; al completarlo, no dejas marcas de arañazos por 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-de-frente",
+    "name": "De Frente",
+    "character": "Jane Romero",
+    "image": "/perks/survivor/de-frente.png",
+    "description": "Tras esconderte 3 segundos en un casillero, sales de golpe para aturdir al asesino 3 segundos si está a 2.5 metros; luego quedas Agotado 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-nos-vemos",
+    "name": "Nos Vemos",
+    "character": "Ashley J. Williams",
+    "image": "/perks/survivor/nos-vemos.png",
+    "description": "Derribado en el suelo, cada vez que el asesino te carga, la mitad de tu progreso de recuperación se suma al de forcejeo (hasta un 50%).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-sujetate",
+    "name": "Sujétate",
+    "character": "Ashley J. Williams",
+    "image": "/perks/survivor/sujetate.png",
+    "description": "Al curar a un derribado, ambos ven el aura del asesino; al completar la cura o su recuperación total, ambos ganan 50% de Celeridad y no dejan arañazos por 5 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-el-temple-del-hombre",
+    "name": "El Temple del Hombre",
+    "character": "Ashley J. Williams",
+    "image": "/perks/survivor/el-temple-del-hombre.png",
+    "description": "Tras recibir 3 golpes protectores estando herido, el siguiente derribo no te hace daño; al curarte a 16 metros o más del asesino, este ve tu aura; además, aumenta tu probabilidad de ser la obsesión desde el inicio.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-mejor-juntos",
+    "name": "Mejor Juntos",
+    "character": "Nancy Wheeler",
+    "image": "/perks/survivor/mejor-juntos.png",
+    "description": "Mientras reparas, otros ven el aura de ese generador; al derribar el asesino a alguien, ves el aura de los demás sobrevivientes 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-fijacion",
+    "name": "Fijación",
+    "character": "Nancy Wheeler",
+    "image": "/perks/survivor/fijacion.png",
+    "description": "Caminar te da 20% de Celeridad y puedes ver tus propias marcas de arañazos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-fuerza-interior",
+    "name": "Fuerza Interior",
+    "character": "Nancy Wheeler",
+    "image": "/perks/survivor/fuerza-interior.png",
+    "description": "Al purificar un tótem estando herido y sin Desesperanza, esconderte 8 segundos en un casillero te cura al instante.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-ninero",
+    "name": "Niñero",
+    "character": "Steve Harrington",
+    "image": "/perks/survivor/ninero.png",
+    "description": "Al descolgar a alguien, esa persona gana 10% de Celeridad, no deja sangre ni arañazos por 30 segundos, y ves el aura del asesino 8 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-camaraderia",
+    "name": "Camaradería",
+    "character": "Steve Harrington",
+    "image": "/perks/survivor/camaraderia.png",
+    "description": "Si forcejeas en el gancho y hay otro sobreviviente a 16 metros, el temporizador de sacrificio se detiene 34 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-segundo-aliento",
+    "name": "Segundo Aliento",
+    "character": "Steve Harrington",
+    "image": "/perks/survivor/segundo-aliento.png",
+    "description": "Tras curar a alguien sin tener Desesperanza, al ser descolgado la sufres; si no te derriban en 20 segundos, te curas de forma instantánea.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-golpe-de-suerte",
+    "name": "Golpe de Suerte",
+    "character": "Yui Kimura",
+    "image": "/perks/survivor/golpe-de-suerte.png",
+    "description": "Estando herido, hasta 60 segundos no dejas sangre ni arañazos; curar a otro suma 1 segundo extra de duración por cada segundo de curación.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-por-cualquier-medio",
+    "name": "Por Cualquier Medio",
+    "character": "Yui Kimura",
+    "image": "/perks/survivor/por-cualquier-medio.png",
+    "description": "Junto a una tarima derribada, puedes restablecerla en 3 segundos; además ves el aura de las tarimas caídas.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-fuga",
+    "name": "Fuga",
+    "character": "Yui Kimura",
+    "image": "/perks/survivor/fuga.png",
+    "description": "A 5 metros de alguien siendo cargado, ganas 10% de Celeridad y esa persona forcejea 25% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-extraoficialmente",
+    "name": "Extraoficialmente",
+    "character": "Zarina Kassir",
+    "image": "/perks/survivor/extraoficialmente.png",
+    "description": "Mientras falten generadores y no estés enganchado, al salir de un gancho tienes 40 segundos con Resistencia, gruñidos 100% más silenciosos y aura oculta al asesino.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-arenque-rojo",
+    "name": "Arenque Rojo",
+    "character": "Zarina Kassir",
+    "image": "/perks/survivor/arenque-rojo.png",
+    "description": "Reparar un generador solo 1 segundo revela su aura; esconderte en un casillero envía una alerta falsa al asesino hacia ese generador. Recarga: 15 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-por-la-gente",
+    "name": "Por la Gente",
+    "character": "Zarina Kassir",
+    "image": "/perks/survivor/por-la-gente.png",
+    "description": "Sin heridas, puedes curar a otro sin botiquín de forma instantánea a cambio de recibir daño tú, sufrir Desesperanza 60 segundos y volverte la obsesión (aunque al inicio tienes menos probabilidad de serlo).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-defensa-del-alma",
+    "name": "Defensa del Alma",
+    "character": "Cheryl Mason",
+    "image": "/perks/survivor/defensa-del-alma.png",
+    "description": "Con un maleficio activo, puedes recuperarte por completo; cada vez que lo haces así, ganas Resistencia 8 segundos. Recarga: 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-pacto-de-sangre",
+    "name": "Pacto de Sangre",
+    "character": "Cheryl Mason",
+    "image": "/perks/survivor/pacto-de-sangre.png",
+    "description": "Sin ser la obsesión, tú y la obsesión ven sus auras mutuamente si están heridos; al terminar de curarse uno al otro a 16 metros o menos, ambos ganan 7% de Celeridad (y tienes menos probabilidad de ser la obsesión al inicio).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-alianza-reprimida",
+    "name": "Alianza Reprimida",
+    "character": "Cheryl Mason",
+    "image": "/perks/survivor/alianza-reprimida.png",
+    "description": "Tras reparar en solitario durante 45 segundos, puedes bloquear ese generador 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-visionario",
+    "name": "Visionario",
+    "character": "Felix Richter",
+    "image": "/perks/survivor/visionario.png",
+    "description": "Ves el aura de los generadores en un radio de 32 metros; al completarse uno, el tiempo de recarga es de 16 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-medidas-desesperadas",
+    "name": "Medidas Desesperadas",
+    "character": "Felix Richter",
+    "image": "/perks/survivor/medidas-desesperadas.png",
+    "description": "Por cada sobreviviente herido, derribado o enganchado, te curas y te descuelgas 20% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-disenado-para-durar",
+    "name": "Diseñado para Durar",
+    "character": "Felix Richter",
+    "image": "/perks/survivor/disenado-para-durar.png",
+    "description": "Al llevar un objeto gastado, esconderte 10 segundos en un casillero lo recarga hasta 99%, pero reduce sus cargas totales 33% cada vez que lo haces.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-detallista",
+    "name": "Detallista",
+    "character": "Élodie Rakoto",
+    "image": "/perks/survivor/detallista.png",
+    "description": "Empiezas con 4 distintivos; puedes gastar 1 para hurgar en un cofre vacío (hasta 2 veces por cofre); hurgas cofres 80% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-engano",
+    "name": "Engaño",
+    "character": "Élodie Rakoto",
+    "image": "/perks/survivor/engano.png",
+    "description": "Al fingir que entras a un casillero a toda velocidad, no entras, el asesino recibe una alerta falsa, y no dejas sangre ni arañazos por 5 segundos. Recarga: 15 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-lucha-de-poderes",
+    "name": "Lucha de Poderes",
+    "character": "Élodie Rakoto",
+    "image": "/perks/survivor/lucha-de-poderes.png",
+    "description": "Si te carga el asesino, tienes 15% o más de forcejeo y hay una tarima vertical cerca, puedes derribarla para aturdirlo; derribado, ves el aura de las tarimas verticales.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-via-rapida",
+    "name": "Vía Rápida",
+    "character": "Lee Yun-jin",
+    "image": "/perks/survivor/via-rapida.png",
+    "description": "Descolgar a alguien da 1 distintivo (máx. 3); al lograr una prueba excelente reparando, gastas todos los distintivos para dar 5% de progreso permanente al generador por cada uno.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-exito-arrollador",
+    "name": "Éxito Arrollador",
+    "character": "Lee Yun-jin",
+    "image": "/perks/survivor/exito-arrollador.png",
+    "description": "Aturdir al asesino con una tarima te da 50% de Celeridad 4 segundos, luego Agotado 20 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-autopreservacion",
+    "name": "Autopreservación",
+    "character": "Lee Yun-jin",
+    "image": "/perks/survivor/autopreservacion.png",
+    "description": "Cada vez que enganchan a otro sobreviviente, sufres Elusión 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-contramedida",
+    "name": "Contramedida",
+    "character": "Jill Valentine",
+    "image": "/perks/survivor/contramedida.png",
+    "description": "Empiezas con 1 distintivo; purificar un tótem da otro y revela el tótem más lejano 14 segundos; cada distintivo acelera 25% la purificación de tótems.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-resurgimiento",
+    "name": "Resurgimiento",
+    "character": "Jill Valentine",
+    "image": "/perks/survivor/resurgimiento.png",
+    "description": "Al ser descolgado, recibes 70% de progreso de curación al instante.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-mina-cegadora",
+    "name": "Mina Cegadora",
+    "character": "Jill Valentine",
+    "image": "/perks/survivor/mina-cegadora.png",
+    "description": "Tras reparar 40% de los generadores, junto a uno puedes colocar una trampa de 120 segundos (todos ven su aura); si el asesino la daña, queda aturdido 4 segundos y quien mire la explosión queda cegado.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-aguante-el-dolor",
+    "name": "Aguante el Dolor",
+    "character": "Leon S. Kennedy",
+    "image": "/perks/survivor/aguante-el-dolor.png",
+    "description": "Al curarte, ni tú ni el curado hacen ruido; al fallar una prueba básica, solo pierdes 1% de progreso y no se alerta al asesino.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-granada-aturdidora",
+    "name": "Granada Aturdidora",
+    "character": "Leon S. Kennedy",
+    "image": "/perks/survivor/granada-aturdidora.png",
+    "description": "Tras reparar 40% de los generadores, escondido en un casillero puedes fabricar una granada cegadora: ciega a quien mire la explosión, pero alerta al asesino.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-espiritu-de-novato",
+    "name": "Espíritu de Novato",
+    "character": "Leon S. Kennedy",
+    "image": "/perks/survivor/espiritu-de-novato.png",
+    "description": "Tras lograr 3 pruebas básicas de reparación, ves el aura del generador mientras retrocede.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-clarividencia",
+    "name": "Clarividencia",
+    "character": "Mikaela Reid",
+    "image": "/perks/survivor/clarividencia.png",
+    "description": "Al bendecir o purificar un tótem sin llevar objeto, puedes ver durante 12 segundos y 64 metros el aura de cofres, interruptores de salida, generadores, la trampilla y los ganchos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-bendicion-circulo-de-curacion",
+    "name": "Bendición: Círculo de Curación",
+    "character": "Mikaela Reid",
+    "image": "/perks/survivor/bendicion-circulo-de-curacion.png",
+    "description": "Bendice un tótem (combinando todas las bendiciones activas); en su radio, curarse sin botiquín cura a otros 100% más rápido, y los heridos son visibles para los demás.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-bendicion-paso-de-las-sombras",
+    "name": "Bendición: Paso de las Sombras",
+    "character": "Mikaela Reid",
+    "image": "/perks/survivor/bendicion-paso-de-las-sombras.png",
+    "description": "Bendice un tótem; en su radio no dejas arañazos y el asesino no ve tu aura (persiste 4 segundos tras salir del radio).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-superar",
+    "name": "Superar",
+    "character": "Jonah Vasquez",
+    "image": "/perks/survivor/superar.png",
+    "description": "Al recibir daño, conservas tu mejora de velocidad 2 segundos más, luego sufres Agotado 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-correccion",
+    "name": "Corrección",
+    "character": "Jonah Vasquez",
+    "image": "/perks/survivor/correccion.png",
+    "description": "Empiezas con 3 distintivos (máx. 5); una prueba básica excelente da 1 más; si otro sobreviviente falla una prueba básica, gastas 1 distintivo para volverla buena y ver su aura 6 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-bendicion-exponencial",
+    "name": "Bendición: Exponencial",
+    "character": "Jonah Vasquez",
+    "image": "/perks/survivor/bendicion-exponencial.png",
+    "description": "Bendice un tótem; los sobrevivientes derribados en su radio se recuperan 100% más rápido y pueden llegar a recuperarse por completo.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-consejos-de-papa",
+    "name": "Consejos de Papá",
+    "character": "Yoichi Asakawa",
+    "image": "/perks/survivor/consejos-de-papa.png",
+    "description": "Al aturdir al asesino, durante 7 segundos no emites gruñidos, sangre ni arañazos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-conexion-empatica",
+    "name": "Conexión Empática",
+    "character": "Yoichi Asakawa",
+    "image": "/perks/survivor/conexion-empatica.png",
+    "description": "Curas a otros sobrevivientes 35% más rápido, y los heridos ven tu aura.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-bendicion-teoria-oscura",
+    "name": "Bendición: Teoría Oscura",
+    "character": "Yoichi Asakawa",
+    "image": "/perks/survivor/bendicion-teoria-oscura.png",
+    "description": "Bendice un tótem; en su radio todos ganan 3% de Celeridad (termina 4 segundos tras salir del radio).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-enfoque-interno",
+    "name": "Enfoque Interno",
+    "character": "Haddie Kaur",
+    "image": "/perks/survivor/enfoque-interno.png",
+    "description": "Cuando el asesino daña a otro sobreviviente, ves su aura 10 segundos; también ves las marcas de arañazos de los demás.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-manifiesto-residual",
+    "name": "Manifiesto Residual",
+    "character": "Haddie Kaur",
+    "image": "/perks/survivor/manifiesto-residual.png",
+    "description": "Cegar al asesino le aplica Ceguera 30 segundos; puedes hurgar en un cofre una vez para garantizar una linterna poco común.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-demasiado-entusiasta",
+    "name": "Demasiado Entusiasta",
+    "character": "Haddie Kaur",
+    "image": "/perks/survivor/demasiado-entusiasta.png",
+    "description": "Bendecir o purificar un tótem te hace reparar 10% más rápido hasta recibir daño (el efecto se duplica si era un tótem de maleficio).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-sistema-de-espionaje",
+    "name": "Sistema de Espionaje",
+    "character": "Ada Wong",
+    "image": "/perks/survivor/sistema-de-espionaje.png",
+    "description": "Tras reparar 40% de los generadores, junto a uno puedes instalar una trampa de 120 segundos (o hasta que el asesino lo dañe) que revela su aura a todos; si el asesino se acerca a 14 metros de ese generador, todos ven su aura.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-curacion-reactiva",
+    "name": "Curación Reactiva",
+    "character": "Ada Wong",
+    "image": "/perks/survivor/curacion-reactiva.png",
+    "description": "Estando herido, si otro sobreviviente a 32 metros recibe daño, ganas 50% de progreso de curación al instante.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-perfil-bajo",
+    "name": "Perfil Bajo",
+    "character": "Ada Wong",
+    "image": "/perks/survivor/perfil-bajo.png",
+    "description": "Si el resto de sobrevivientes están derribados o enganchados, durante 90 segundos no haces ruido, ni dejas sangre ni arañazos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-mejor-que-nuevo",
+    "name": "Mejor Que Nuevo",
+    "character": "Rebecca Chambers",
+    "image": "/perks/survivor/mejor-que-nuevo.png",
+    "description": "Tras curar a alguien, hasta que reciba daño, bendecir/purificar, curar y desbloquear cofres son 16% más rápidos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-consuelo",
+    "name": "Consuelo",
+    "character": "Rebecca Chambers",
+    "image": "/perks/survivor/consuelo.png",
+    "description": "Una vez por estado de gancho, a 6 metros de alguien enganchado, puedes detener su progreso de sacrificio 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-hiperconcentracion",
+    "name": "Hiperconcentración",
+    "character": "Rebecca Chambers",
+    "image": "/perks/survivor/hiperconcentracion.png",
+    "description": "Cada prueba básica excelente da 1 distintivo (máx. 6); por cada uno, las pruebas aparecen y giran 4% más rápido y dan 30% más progreso al acertarlas; fallar, lograr solo una prueba buena, o dejar de reparar/curar te quita todos los distintivos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-energia-potencial",
+    "name": "Energía Potencial",
+    "character": "Vittorio Toscano",
+    "image": "/perks/survivor/energia-potencial.png",
+    "description": "Al reparar, acumulas distintivos en vez de progreso (máx. 20); puedes gastarlos todos para convertir cada uno en 1% de progreso; recibir daño te los quita todos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-conocimiento-de-la-niebla",
+    "name": "Conocimiento de la Niebla",
+    "character": "Vittorio Toscano",
+    "image": "/perks/survivor/conocimiento-de-la-niebla.png",
+    "description": "Al reparar, cada prueba básica excelente revela el aura del asesino 6 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-tactica-rapida",
+    "name": "Táctica Rápida",
+    "character": "Vittorio Toscano",
+    "image": "/perks/survivor/tactica-rapida.png",
+    "description": "Perseguido por el asesino, ves el aura de los demás sobrevivientes y ellos reparan 5% más rápido; recibir daño te da una recarga de 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-sueltate",
+    "name": "Suéltate",
+    "character": "Thalita Lyra",
+    "image": "/perks/survivor/sueltate.png",
+    "description": "Perseguido, cada salto medio o rápido es silencioso hasta 6 segundos y reinicia ese temporizador mientras dure. Recarga: 45 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-competencia-amistosa",
+    "name": "Competencia Amistosa",
+    "character": "Thalita Lyra",
+    "image": "/perks/survivor/competencia-amistosa.png",
+    "description": "Al terminar de reparar un generador junto a alguien más, los que ya terminaron reparan 5% más rápido durante los siguientes 120 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-trabajo-en-equipo-el-poder-de-dos",
+    "name": "Trabajo en Equipo: El Poder de Dos",
+    "character": "Thalita Lyra",
+    "image": "/perks/survivor/trabajo-en-equipo-el-poder-de-dos.png",
+    "description": "Al terminar de curar a alguien estando a 16 metros, ambos ganan 5% de Celeridad (termina 4 segundos después de separarse).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-personaje-secundario",
+    "name": "Personaje Secundario",
+    "character": "Renato Lyra",
+    "image": "/perks/survivor/personaje-secundario.png",
+    "description": "Cuando el asesino carga a alguien, tienes 10 segundos en los que empezar a correr te da 50% de Celeridad 5 segundos y luego Agotado 20 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-impulso-sangriento",
+    "name": "Impulso Sangriento",
+    "character": "Renato Lyra",
+    "image": "/perks/survivor/impulso-sangriento.png",
+    "description": "Mientras falten generadores y no estés enganchado, una vez cada 60 segundos puedes eliminar el efecto Agotado al instante (se desactiva con acciones destacadas).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-trabajo-en-equipo-sigilo-colectivo",
+    "name": "Trabajo en Equipo: Sigilo Colectivo",
+    "character": "Renato Lyra",
+    "image": "/perks/survivor/trabajo-en-equipo-sigilo-colectivo.png",
+    "description": "Al terminar de curarte alguien a 16 metros, ninguno deja marcas de arañazos (termina 4 segundos tras separarse).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-solucionador-de-problemas",
+    "name": "Solucionador de Problemas",
+    "character": "Gabriel Soma",
+    "image": "/perks/survivor/solucionador-de-problemas.png",
+    "description": "Perseguido, ves el aura del generador con más progreso y, al soltar una tarima, el aura del asesino 6 segundos; termina 10 segundos después de dejar de perseguirte.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-nacido-para-esto",
+    "name": "Nacido para Esto",
+    "character": "Gabriel Soma",
+    "image": "/perks/survivor/nacido-para-esto.png",
+    "description": "Herido, al terminar de curar a otro ganas Resistencia 10 segundos; con Herida profunda, ganas 3% de Celeridad.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-chatarrero",
+    "name": "Chatarrero",
+    "character": "Gabriel Soma",
+    "image": "/perks/survivor/chatarrero.png",
+    "description": "Reparando con la caja de herramientas vacía, cada prueba excelente da 1 distintivo; con 5, recargas la caja al instante pero reparas 50% más lento 30 segundos. Además, puedes hurgar un cofre extra que dará una caja de herramientas poco común.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-dramaturgia",
+    "name": "Dramaturgia",
+    "character": "Nicolas Cage",
+    "image": "/perks/survivor/dramaturgia.png",
+    "description": "Sin heridas y corriendo, activas 25% de Celeridad 2 segundos y luego Agotado 40 segundos; después ocurre al azar uno de estos efectos: otro impulso de Celeridad, Expuesto 12 segundos, un objeto raro con accesorios, o solo gritar sin efecto (no se repite el mismo resultado dos veces seguidas).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-companero-de-escena",
+    "name": "Compañero de Escena",
+    "character": "Nicolas Cage",
+    "image": "/perks/survivor/companero-de-escena.png",
+    "description": "En el radio de terror, mirar al asesino te hace gritar y ver su aura 6 segundos; hay 50% de probabilidad de gritar otra vez y ver su aura 2 segundos más. Recarga: 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-giro-argumental",
+    "name": "Giro Argumental",
+    "character": "Nicolas Cage",
+    "image": "/perks/survivor/giro-argumental.png",
+    "description": "Herido, agachado e inmóvil, puedes tumbarte en silencio; una vez por partida, mientras estás así, no haces ruido, te recuperas 25% más rápido y puedes sanar del todo. Al lograrlo, ganas 50% de Celeridad 4 segundos y te curas al instante (se puede reactivar tras completarse los generadores).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-estrella-de-la-suerte",
+    "name": "Estrella de la Suerte",
+    "character": "Ellen Ripley",
+    "image": "/perks/survivor/estrella-de-la-suerte.png",
+    "description": "En un casillero no emites gruñidos; al salir, durante 30 segundos ves el aura del generador más cercano y de otros sobrevivientes, sin gruñidos ni sangre. Recarga: 25 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-trampa-quimica",
+    "name": "Trampa Química",
+    "character": "Ellen Ripley",
+    "image": "/perks/survivor/trampa-quimica.png",
+    "description": "Tras reparar 20%, junto a una tarima caída puedes instalar una trampa de 60 segundos (todos ven su aura); si el asesino la rompe, obtiene 50% de Entorpecimiento 4 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-agil",
+    "name": "Ágil",
+    "character": "Ellen Ripley",
+    "image": "/perks/survivor/agil.png",
+    "description": "Sin heridas y corriendo, el asesino no oye tus pasos; las acciones rápidas recargan en 10 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-campeon-de-la-luz",
+    "name": "Campeón de la Luz",
+    "character": "Alan Wake",
+    "image": "/perks/survivor/campeon-de-la-luz.png",
+    "description": "Usar la linterna da 50% de Celeridad; cegar al asesino le da 20% de Entorpecimiento 6 segundos. Recarga: 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-bendicion-iluminacion",
+    "name": "Bendición: Iluminación",
+    "character": "Alan Wake",
+    "image": "/perks/survivor/bendicion-iluminacion.png",
+    "description": "Bendice un tótem; en su radio se ve el aura de cofres y generadores, y con un tótem de bendición activo bendices/purificas 10% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-fecha-limite",
+    "name": "Fecha Límite",
+    "character": "Alan Wake",
+    "image": "/perks/survivor/fecha-limite.png",
+    "description": "Herido, las pruebas básicas tienen 10% más probabilidad de aparecer y lo hacen en zonas aleatorias; fallar una te quita 50% de progreso.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-invocacion-aranas-tejedoras",
+    "name": "Invocación: Arañas Tejedoras",
+    "character": "Sable Ward",
+    "image": "/perks/survivor/invocacion-aranas-tejedoras.png",
+    "description": "En el sótano junto al círculo, inicias un ritual visible para otros que pueden unirse; al completarlo, todos los generadores ganan 10 cargas permanentes, pero quedas herido y con Desesperanza. Solo una vez por partida.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-fortaleza-en-las-sombras",
+    "name": "Fortaleza en las Sombras",
+    "character": "Sable Ward",
+    "image": "/perks/survivor/fortaleza-en-las-sombras.png",
+    "description": "En el sótano puedes curarte solo (65%... 30% más lento) y ver el aura del asesino 10 segundos al terminar de curarte.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-malicia",
+    "name": "Malicia",
+    "character": "Sable Ward",
+    "image": "/perks/survivor/malicia.png",
+    "description": "En el sótano puedes descolgarte tú mismo; al ser descolgado, ves el aura del asesino 20 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-ilusion-reflejada",
+    "name": "Ilusión Reflejada",
+    "character": "Aestri Yazar",
+    "image": "/perks/survivor/ilusion-reflejada.png",
+    "description": "Tras reparar 20%, junto a un cofre, interruptor, generador o tótem, puedes crear una ilusión falsa que dura 60 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-inspiracion-bardica",
+    "name": "Inspiración Bárdica",
+    "character": "Aestri Yazar",
+    "image": "/perks/survivor/inspiracion-bardica.png",
+    "description": "Inmóvil, puedes tocar para potenciar a todos en 16 metros hasta 15 segundos (todos ven tu aura); tira un d20: 1 solo grita sin efecto, 2-10 da 1% extra de progreso en pruebas básicas, 11-19 da 2%, 20 da 3%. Si completas la actuación, dura 90 segundos más. Recarga: 90 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-mirada-fija",
+    "name": "Mirada Fija",
+    "character": "Aestri Yazar",
+    "image": "/perks/survivor/mirada-fija.png",
+    "description": "Tras 2 segundos inmóvil, hasta que te muevas, ves en 24 metros el aura del asesino, de los cofres y de los generadores.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-elegancia",
+    "name": "Elegancia",
+    "character": "Lara Croft",
+    "image": "/perks/survivor/elegancia.png",
+    "description": "Sin heridas, tus saltos rápidos son 20% más veloces. Recarga de saltos: 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-endurecida",
+    "name": "Endurecida",
+    "character": "Lara Croft",
+    "image": "/perks/survivor/endurecida.png",
+    "description": "Al bendecir/purificar un tótem o desbloquear un cofre, en vez de gritar ves el aura del asesino 5 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-especialista",
+    "name": "Especialista",
+    "character": "Lara Croft",
+    "image": "/perks/survivor/especialista.png",
+    "description": "Hurgar o desbloquear un cofre da 1 distintivo (máx. 6); al lograr una prueba excelente reparando, gastas todos para dar 4% de progreso permanente por cada uno.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-ojos-de-belmont",
+    "name": "Ojos de Belmont",
+    "character": "Trevor Belmont",
+    "image": "/perks/survivor/ojos-de-belmont.png",
+    "description": "Al completarse un generador, ves el aura del asesino 3 segundos; cada vez que la ves así, su duración aumenta 2 segundos más.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-exultacion",
+    "name": "Exultación",
+    "character": "Trevor Belmont",
+    "image": "/perks/survivor/exultacion.png",
+    "description": "Aturdir al asesino con una tarima mejora la rareza de tu objeto un nivel (si es posible) y, de mejorarlo, lo recarga 75%. Recarga: 20 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-momento-de-gloria",
+    "name": "Momento de Gloria",
+    "character": "Trevor Belmont",
+    "image": "/perks/survivor/momento-de-gloria.png",
+    "description": "Tras hurgar/desbloquear 2 cofres sin tener Desesperanza, al herirte la sufres; si no te derriban en 60 segundos, te curas al instante.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-invocacion-cuervos-traicioneros",
+    "name": "Invocación: Cuervos Traicioneros",
+    "character": "Taurie Cain",
+    "image": "/perks/survivor/invocacion-cuervos-traicioneros.png",
+    "description": "En el sótano junto al círculo, inicias un ritual visible para otros; al completarlo, cada vez que el asesino asuste a un cuervo cerca de un sobreviviente, todos ven su aura 2 segundos, pero quedas herido y con Desesperanza. Una vez por partida.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-punto-y-aparte",
+    "name": "Punto y Aparte",
+    "character": "Taurie Cain",
+    "image": "/perks/survivor/punto-y-aparte.png",
+    "description": "Al terminar de curar a alguien mientras otro te cura a ti, puedes activar Desesperanza; si no te derriban en 60 segundos, te curas al instante.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-cargar-a-cuestas",
+    "name": "Cargar a Cuestas",
+    "character": "Taurie Cain",
+    "image": "/perks/survivor/cargar-a-cuestas.png",
+    "description": "Una vez por partida, sin tener 2 estados de gancho, puedes descolgar a alguien junto a ti en el gancho: pierde 1 estado, tú ganas 1, gritas, y sufres Expuesto 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-no-hagas-dano",
+    "name": "No Hagas Daño",
+    "character": "Orela Rose",
+    "image": "/perks/survivor/no-hagas-dano.png",
+    "description": "Al curar a alguien, cada estado de gancho que tenga acelera tu curación 50%; cada prueba excelente da 3% de progreso extra.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-el-deber-de-cuidar",
+    "name": "El Deber de Cuidar",
+    "character": "Orela Rose",
+    "image": "/perks/survivor/el-deber-de-cuidar.png",
+    "description": "Sin heridas, cada golpe protector que recibes da a los demás en 12 metros 25% de Celeridad 6 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-respuesta-rapida",
+    "name": "Respuesta Rápida",
+    "character": "Orela Rose",
+    "image": "/perks/survivor/respuesta-rapida.png",
+    "description": "Salir a toda velocidad de un casillero te da Agotado 20 segundos; cada vez que te da Agotado, ves el aura del asesino 2 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-ingenio-apocaliptico",
+    "name": "Ingenio Apocalíptico",
+    "character": "Rick Grimes",
+    "image": "/perks/survivor/ingenio-apocaliptico.png",
+    "description": "Tras hurgar/desbloquear 2 cofres, junto a una tarima rota puedes crear una tarima frágil en 4 segundos; ves el aura de tarimas rotas en 32 metros.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-ven-por-mi",
+    "name": "¡Ven por Mí!",
+    "character": "Rick Grimes",
+    "image": "/perks/survivor/ven-por-mi.png",
+    "description": "Al descolgar a alguien, agachado e inmóvil, puedes hacer que los heridos/derribados en 24 metros no hagan ruido ni dejen sangre o arañazos por 15 segundos, pero gritas y el asesino ve tu aura 5 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-trabajo-en-equipo-entereza",
+    "name": "Trabajo en Equipo: Entereza",
+    "character": "Rick Grimes",
+    "image": "/perks/survivor/trabajo-en-equipo-entereza.png",
+    "description": "Herido, si otro sobreviviente a 24 metros ciega o aturde con tarima al asesino, durante 30 segundos no haces ruido, ni dejas sangre ni arañazos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-conviccion",
+    "name": "Convicción",
+    "character": "Michonne Grimes",
+    "image": "/perks/survivor/conviccion.png",
+    "description": "Al terminar de curar a alguien mientras estás en el suelo con 25% o más de recuperación, puedes recuperarte al instante; sufres Desesperanza y, tras 30 segundos, vuelves a caer.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-ultimo-enfrentamiento",
+    "name": "Último Enfrentamiento",
+    "character": "Michonne Grimes",
+    "image": "/perks/survivor/ultimo-enfrentamiento.png",
+    "description": "Tras esconderte 90 segundos en el radio de terror, un salto rápido puede aturdir al asesino 3 segundos si está a 2.5 metros. Una vez por partida.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-trabajo-en-equipo-lanzamiento",
+    "name": "Trabajo en Equipo: Lanzamiento",
+    "character": "Michonne Grimes",
+    "image": "/perks/survivor/trabajo-en-equipo-lanzamiento.png",
+    "description": "Cegar o aturdir con tarima al asesino da, durante 10 segundos, Resistencia y visión de su aura a los heridos en 24 metros.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-vida-itinerante",
+    "name": "Vida Itinerante",
+    "character": "Vee Boonyasak",
+    "image": "/perks/survivor/vida-itinerante.png",
+    "description": "Herido, sin Desesperanza y reparando: cada prueba excelente da 1 distintivo, cada fallo quita 1; con 4, puedes gastarlos todos para curar 100% más rápido hasta que dejes de hacerlo.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-uno-dos-tres-cuatro",
+    "name": "¡Uno, Dos, Tres, Cuatro!",
+    "character": "Vee Boonyasak",
+    "image": "/perks/survivor/uno-dos-tres-cuatro.png",
+    "description": "Inmóvil, puedes tocar música para potenciar a todos en 16 metros hasta 15 segundos (te ven el aura); mientras tocas, curar o reparar tiene 20% más probabilidad de generar pruebas básicas. Si completas la actuación, dura 90 segundos más. Recarga: 90 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-notas-fantasma",
+    "name": "Notas Fantasma",
+    "character": "Vee Boonyasak",
+    "image": "/perks/survivor/notas-fantasma.png",
+    "description": "Con Agotado activo, tus marcas de arañazos desaparecen 50% más rápido, y el propio Agotado se reduce 10% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-bada-bada-bum",
+    "name": "Bada, Bada, Bum",
+    "character": "Dustin Henderson",
+    "image": "/perks/survivor/bada-bada-bum.png",
+    "description": "Tras reparar 20%, junto a una ventana puedes instalar una trampa de 60 segundos (todos ven su aura); si el asesino salta por ahí, explota y le da 50% de Entorpecimiento 6 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-cambio-de-planes",
+    "name": "Cambio de Planes",
+    "character": "Dustin Henderson",
+    "image": "/perks/survivor/cambio-de-planes.png",
+    "description": "Empiezas con 2 distintivos; en un casillero con una caja de herramientas normal, gastas 1 para convertirla (con tus accesorios) en un botiquín de la misma rareza, con 100% de cargas y accesorios aleatorios.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-trabajo-en-equipo-circuito-completo",
+    "name": "Trabajo en Equipo: Circuito Completo",
+    "character": "Dustin Henderson",
+    "image": "/perks/survivor/trabajo-en-equipo-circuito-completo.png",
+    "description": "Por cada sobreviviente reparando contigo, las zonas de prueba básica buena crecen 25%; reparando con al menos otro, lo haces 5% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-percepcion-extrasensorial",
+    "name": "Percepción Extrasensorial",
+    "character": "Once",
+    "image": "/perks/survivor/percepcion-extrasensorial.png",
+    "description": "Tras agacharte 4 segundos, ves auras en un radio que crece hasta 44 metros, pero sufres Elusión e Inconsciencia; al levantarte (o tras 11 segundos), recarga: 40 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-te-vemos",
+    "name": "Te Vemos",
+    "character": "Once",
+    "image": "/perks/survivor/te-vemos.png",
+    "description": "Cada vez que el asesino ve tu aura, ganas 1 distintivo (recarga 10 segundos); al llegar a 4, los gastas todos para que todos vean el aura del asesino 15 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-trabajo-en-equipo-tono-gentil",
+    "name": "Trabajo en Equipo: Tono Gentil",
+    "character": "Once",
+    "image": "/perks/survivor/trabajo-en-equipo-tono-gentil.png",
+    "description": "Por cada sobreviviente reparando contigo, el radio de ruido del generador baja 25%; reparando con al menos otro, lo haces 5% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-estado-de-flujo",
+    "name": "Estado de Flujo",
+    "character": "Kwon Tae-young",
+    "image": "/perks/survivor/estado-de-flujo.png",
+    "description": "Cada generador completado da 1 distintivo (máx. 5); por cada uno, bendecir/purificar, curar y descolgar son 10% más rápidos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-un-lugar-para-nosotros",
+    "name": "Un Lugar para Nosotros",
+    "character": "Kwon Tae-young",
+    "image": "/perks/survivor/un-lugar-para-nosotros.png",
+    "description": "Al curar a alguien, ambos sufren Elusión; al curar a la obsesión, ambos sufren Elusión 30 segundos (y tienes menos probabilidad de ser la obsesión desde el inicio).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-cinco-movimientos-adelante",
+    "name": "Cinco Movimientos Adelante",
+    "character": "Kwon Tae-young",
+    "image": "/perks/survivor/cinco-movimientos-adelante.png",
+    "description": "En el radio de terror o perseguido, ves el aura de las 5 tarimas/ventanas más cercanas; tras soltar una tarima empiezas a moverte 50% antes. Recarga por tarima soltada: 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-maxima-velocidad",
+    "name": "Máxima Velocidad",
+    "character": "Shane Wiigwaas",
+    "image": "/perks/survivor/maxima-velocidad.png",
+    "description": "Un salto rápido sobre una tarima da 15% de Celeridad 3 segundos y restablece esa tarima, bloqueándola 60 segundos (todos ven su aura). Recarga: 60 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-echar-una-mano",
+    "name": "Echar una Mano",
+    "character": "Shane Wiigwaas",
+    "image": "/perks/survivor/echar-una-mano.png",
+    "description": "Al bendecir/purificar un tótem, puedes dar 4 cargas de curación permanentes a alguien que estés curando (una vez por sobreviviente).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-interrogatorio",
+    "name": "Interrogatorio",
+    "character": "Shane Wiigwaas",
+    "image": "/perks/survivor/interrogatorio.png",
+    "description": "En el radio de terror sin ser perseguido, el asesino deja marcas de luz visibles 10 segundos; pisarlas te da Elusión, que termina 5 segundos después.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-ganas-de-vivir",
+    "name": "Ganas de Vivir",
+    "character": "Ventaja",
+    "image": "/perks/survivor/ganas-de-vivir.png",
+    "description": "Mientras falten generadores y no estés enganchado, en una ventana de 60 segundos, la primera vez que el asesino te carga puedes superar una prueba especial que lo aturde 4 segundos y te convierte en la obsesión (no funciona tras una acción destacada); desde el inicio tienes más probabilidad de ser la obsesión.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-hasta-terminar-con-el-ultimo",
+    "name": "Hasta Terminar con el Último",
+    "character": "Ventaja",
+    "image": "/perks/survivor/hasta-terminar-con-el-ultimo.png",
+    "description": "Cada muerte de un sobreviviente te da 1 distintivo; por cada uno, el asesino no ve tu aura en 24 metros. Si eres el último con vida, reparas 75% más rápido y abres puertas/trampilla 50% más rápido (más probabilidad de ser la obsesión desde el inicio).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-union-obsesiva",
+    "name": "Unión Obsesiva",
+    "character": "Ventaja",
+    "image": "/perks/survivor/union-obsesiva.png",
+    "description": "Siendo la obsesión, cada 30 segundos el asesino ve tu aura 3 segundos; mientras eso pasa, tú también ves la suya y purificas, curas y reparas 6% más rápido (más probabilidad de ser la obsesión desde el inicio).",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-carne-resbaladiza",
+    "name": "Carne Resbaladiza",
+    "character": "Ventaja",
+    "image": "/perks/survivor/carne-resbaladiza.png",
+    "description": "Puedes intentar descolgarte hasta 6 veces, con 4% más de probabilidad de éxito cada intento.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-caza-menor",
+    "name": "Caza Menor",
+    "character": "Ventaja",
+    "image": "/perks/survivor/caza-menor.png",
+    "description": "En 12 metros, mirar un tótem en un cono de 45° da notificación de audio (recarga 10 segundos); cada tótem que otro purifique te da 1 distintivo (máx. 5), y cada uno reduce el cono 5°.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-de-pies-ligeros",
+    "name": "De Pies Ligeros",
+    "character": "Ventaja",
+    "image": "/perks/survivor/de-pies-ligeros.png",
+    "description": "Tus marcas de arañazos desaparecen 5 segundos más rápido y quedan más espaciadas entre sí.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-deja-vu",
+    "name": "Déjà Vu",
+    "character": "Ventaja",
+    "image": "/perks/survivor/deja-vu.png",
+    "description": "Ves el aura de los 3 generadores más cercanos entre sí y los reparas 6% más rápido.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-escalofrios",
+    "name": "Escalofríos",
+    "character": "Ventaja",
+    "image": "/perks/survivor/escalofrios.png",
+    "description": "En 36 metros, que el asesino te mire da notificación de audio; mientras te mira, bendecir/purificar, curar, abrir puertas, reparar, sabotear, descolgar y desbloquear cofres son 6% más rápidos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-esperanza",
+    "name": "Esperanza",
+    "character": "Ventaja",
+    "image": "/perks/survivor/esperanza.png",
+    "description": "Al completarse todos los generadores, ganas 5% de Celeridad permanente.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-esto-no-puede-estar-pasando",
+    "name": "Esto No Puede Estar Pasando",
+    "character": "Ventaja",
+    "image": "/perks/survivor/esto-no-puede-estar-pasando.png",
+    "description": "Herido, las zonas de prueba básica excelente son 30% más grandes.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-familia",
+    "name": "Familia",
+    "character": "Ventaja",
+    "image": "/perks/survivor/familia.png",
+    "description": "En el gancho, todos los sobrevivientes se ven entre sí; si el asesino está a 16 metros de ti enganchado, todos lo ven. Fuera del gancho, ves a los demás mientras alguien está enganchado, y ves al asesino si está a 16 metros de esa persona.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-instinto-de-saqueador",
+    "name": "Instinto de Saqueador",
+    "character": "Ventaja",
+    "image": "/perks/survivor/instinto-de-saqueador.png",
+    "description": "Ves el aura de cofres bloqueados y objetos caídos en 64 metros; desbloquear un cofre da 50% más probabilidad de un objeto de rareza superior.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-nadie-se-queda-atras",
+    "name": "Nadie Se Queda Atrás",
+    "character": "Ventaja",
+    "image": "/perks/survivor/nadie-se-queda-atras.png",
+    "description": "Al completarse todos los generadores: te curas y descuelgas 100% más rápido, cada descolgado gana 10% extra de Celeridad, y ves el aura de los demás.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-percepcion-oscura",
+    "name": "Percepción Oscura",
+    "character": "Ventaja",
+    "image": "/perks/survivor/percepcion-oscura.png",
+    "description": "Al completarse un generador, si el asesino está a 24 metros o menos, ves su aura 10 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-premonicion",
+    "name": "Premonición",
+    "character": "Ventaja",
+    "image": "/perks/survivor/premonicion.png",
+    "description": "Si el asesino está a 36 metros dentro de un cono de 45° y lo miras, escuchas notificación de audio. Recarga: 30 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-resiliencia",
+    "name": "Resiliencia",
+    "character": "Ventaja",
+    "image": "/perks/survivor/resiliencia.png",
+    "description": "Herido: bendecir/purificar, curar, abrir puertas, reparar, sabotear, descolgar, desbloquear cofres y saltar son 9% más rápidos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-sobreviviremos",
+    "name": "Sobreviviremos",
+    "character": "Ventaja",
+    "image": "/perks/survivor/sobreviviremos.png",
+    "description": "Al descolgar a alguien, durante 90 segundos curas a los demás 100% más rápido.",
+    "role": "survivor"
+  }
+]
