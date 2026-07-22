@@ -50,4 +50,23 @@ export function useBackgroundMusic(enabled: boolean) {
       audioRef.current?.pause();
     };
   }, []);
+
+  // Pausa la música cuando la pestaña/pantalla queda en segundo plano
+  // (celular bloqueado, cambio de app, etc.) y la retoma al volver, si
+  // el ajuste de música sigue activado.
+  useEffect(() => {
+    function handleVisibilityChange() {
+      const audio = audioRef.current;
+      if (!audio) return;
+
+      if (document.hidden) {
+        audio.pause();
+      } else if (enabled) {
+        audio.play().catch(() => {});
+      }
+    }
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
+  }, [enabled]);
 }
