@@ -60,6 +60,8 @@ export interface UIStrings {
   };
   credits: {
     title: string;
+    createdByTitle: string;
+    createdByText: string;
     imagesTitle: string;
     imagesText: string;
     privacyTitle: string;
@@ -129,6 +131,8 @@ export const translations: Record<Language, UIStrings> = {
     },
     credits: {
       title: 'Créditos y Privacidad',
+      createdByTitle: 'Creado por',
+      createdByText: 'M. Sánchez',
       imagesTitle: 'Créditos de imágenes',
       imagesText:
         'Los íconos de perks, logos y demás material gráfico relacionado con Dead by Daylight que se usan en este sitio son propiedad de Behaviour Interactive Inc. Se usan aquí como contenido de fans, sin fines de lucro, al amparo de su política de contenido de fans. Todos los derechos sobre esas imágenes pertenecen a sus respectivos dueños.',
@@ -198,6 +202,8 @@ export const translations: Record<Language, UIStrings> = {
     },
     credits: {
       title: 'Credits & Privacy',
+      createdByTitle: 'Created by',
+      createdByText: 'M. Sánchez',
       imagesTitle: 'Image credits',
       imagesText:
         'Perk icons, logos, and other Dead by Daylight-related artwork used on this site are property of Behaviour Interactive Inc. They are used here as non-commercial fan content under their fan content policy. All rights to that artwork belong to their respective owners.',

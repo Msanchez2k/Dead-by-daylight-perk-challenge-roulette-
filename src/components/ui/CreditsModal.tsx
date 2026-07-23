@@ -16,6 +16,13 @@ export function CreditsModal({ onClose }: CreditsModalProps) {
 
         <div className="flex flex-col gap-1">
           <h3 className="font-display text-xs uppercase tracking-[0.15em] text-blood-500">
+            {t.createdByTitle}
+          </h3>
+          <p className="text-sm leading-relaxed text-bone-300">{t.createdByText}</p>
+        </div>
+
+        <div className="flex flex-col gap-1">
+          <h3 className="font-display text-xs uppercase tracking-[0.15em] text-blood-500">
             {t.imagesTitle}
           </h3>
           <p className="text-sm leading-relaxed text-bone-300">{t.imagesText}</p>
