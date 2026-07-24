@@ -24,7 +24,6 @@ export function SettingsPanel({ settings, onToggle, onClose }: SettingsPanelProp
           <MenuRow label={t.language}>
             <LanguageSwitch />
           </MenuRow>
-          <p className="px-5 py-2.5 text-[10px] leading-relaxed text-steel-400">{t.languageNotice}</p>
           <MenuRow label={t.sound}>
             <Toggle
               label={t.sound}

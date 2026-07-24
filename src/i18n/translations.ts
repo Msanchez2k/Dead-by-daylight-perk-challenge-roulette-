@@ -37,7 +37,6 @@ export interface UIStrings {
     emptySlot: string;
     wildcard: string;
     language: string;
-    languageNotice: string;
     close: string;
   };
   wildcard: {
@@ -107,7 +106,6 @@ export const translations: Record<Language, UIStrings> = {
       emptySlot: 'Espacio vacío en la ruleta',
       wildcard: 'Comodín en la ruleta',
       language: 'Idioma',
-      languageNotice: 'Reinicia la página después de cambiar el idioma para que se aplique del todo.',
       close: 'Cerrar',
     },
     wildcard: {
@@ -178,7 +176,6 @@ export const translations: Record<Language, UIStrings> = {
       emptySlot: 'Empty slot in roulette',
       wildcard: 'Wildcard in roulette',
       language: 'Language',
-      languageNotice: 'Reload the page after changing the language for it to fully apply.',
       close: 'Close',
     },
     wildcard: {

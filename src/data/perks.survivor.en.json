@@ -1250,7 +1250,7 @@
   {
     "id": "sv-ganas-de-vivir",
     "name": "Decisive Strike",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/ganas-de-vivir.png",
     "description": "While generators remain and you aren’t hooked, within a 60-second window, the first time the killer picks you up you can pass a special skill check that stuns them for 4 seconds and makes you the obsession (doesn’t work after a standout action); you also have a higher obsession chance from the start.",
     "role": "survivor"
@@ -1258,7 +1258,7 @@
   {
     "id": "sv-hasta-terminar-con-el-ultimo",
     "name": "Sole Survivor",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/hasta-terminar-con-el-ultimo.png",
     "description": "Each survivor death grants you 1 token; each token hides your aura from the killer within 24 meters. As the last one alive, you repair 75% faster and open doors/the hatch 50% faster (with a higher obsession chance from the start).",
     "role": "survivor"
@@ -1266,7 +1266,7 @@
   {
     "id": "sv-union-obsesiva",
     "name": "Object of Obsession",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/union-obsesiva.png",
     "description": "As the obsession, every 30 seconds the killer sees your aura for 3 seconds; while that happens, you also see theirs and cleanse, heal, and repair 6% faster (with a higher obsession chance from the start).",
     "role": "survivor"
@@ -1274,7 +1274,7 @@
   {
     "id": "sv-carne-resbaladiza",
     "name": "Slippery Meat",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/carne-resbaladiza.png",
     "description": "You can attempt to unhook yourself up to 6 times, with a 4% higher success chance each attempt.",
     "role": "survivor"
@@ -1282,7 +1282,7 @@
   {
     "id": "sv-caza-menor",
     "name": "Small Game",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/caza-menor.png",
     "description": "Within 12 meters, looking at a totem in a 45° cone gives a sound notification (10-second cooldown); every totem another survivor cleanses grants 1 token (max 5), and each one narrows the cone by 5°.",
     "role": "survivor"
@@ -1290,7 +1290,7 @@
   {
     "id": "sv-de-pies-ligeros",
     "name": "Lightweight",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/de-pies-ligeros.png",
     "description": "Your scratch marks fade 5 seconds faster and are spaced further apart.",
     "role": "survivor"
@@ -1298,7 +1298,7 @@
   {
     "id": "sv-deja-vu",
     "name": "Déjà Vu",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/deja-vu.png",
     "description": "You see the aura of the 3 generators closest to each other and repair them 6% faster.",
     "role": "survivor"
@@ -1306,7 +1306,7 @@
   {
     "id": "sv-escalofrios",
     "name": "Spine Chill",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/escalofrios.png",
     "description": "Within 36 meters, the killer looking at you gives a sound notification; while they are, blessing/cleansing, healing, opening doors, repairing, sabotaging, unhooking, and unlocking chests are 6% faster.",
     "role": "survivor"
@@ -1314,7 +1314,7 @@
   {
     "id": "sv-esperanza",
     "name": "Hope",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/esperanza.png",
     "description": "When all generators are completed, you gain permanent 5% Haste.",
     "role": "survivor"
@@ -1322,7 +1322,7 @@
   {
     "id": "sv-esto-no-puede-estar-pasando",
     "name": "This Is Not Happening",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/esto-no-puede-estar-pasando.png",
     "description": "While injured, great skill check zones are 30% bigger.",
     "role": "survivor"
@@ -1330,7 +1330,7 @@
   {
     "id": "sv-familia",
     "name": "Kindred",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/familia.png",
     "description": "On the hook, all survivors see each other; if the killer is within 16 meters of you while hooked, everyone sees them. Off the hook, you see others while someone is hooked, and see the killer if they’re within 16 meters of that person.",
     "role": "survivor"
@@ -1338,7 +1338,7 @@
   {
     "id": "sv-instinto-de-saqueador",
     "name": "Plunderer’s Instinct",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/instinto-de-saqueador.png",
     "description": "You see the aura of locked chests and dropped items within 64 meters; unlocking a chest has a 50% higher chance of a higher-rarity item.",
     "role": "survivor"
@@ -1346,7 +1346,7 @@
   {
     "id": "sv-nadie-se-queda-atras",
     "name": "No One Left Behind",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/nadie-se-queda-atras.png",
     "description": "When all generators are completed: you heal and unhook 100% faster, each unhooked survivor gains 10% extra Haste, and you see everyone’s aura.",
     "role": "survivor"
@@ -1354,7 +1354,7 @@
   {
     "id": "sv-percepcion-oscura",
     "name": "Dark Sense",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/percepcion-oscura.png",
     "description": "When a generator is completed, if the killer is within 24 meters, you see their aura for 10 seconds.",
     "role": "survivor"
@@ -1362,7 +1362,7 @@
   {
     "id": "sv-premonicion",
     "name": "Premonition",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/premonicion.png",
     "description": "If the killer is within 36 meters inside a 45° cone and you look at them, you hear a sound notification. Cooldown: 30 seconds.",
     "role": "survivor"
@@ -1370,7 +1370,7 @@
   {
     "id": "sv-resiliencia",
     "name": "Resilience",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/resiliencia.png",
     "description": "While injured: blessing/cleansing, healing, opening doors, repairing, sabotaging, unhooking, unlocking chests, and vaulting are 9% faster.",
     "role": "survivor"
@@ -1378,7 +1378,7 @@
   {
     "id": "sv-sobreviviremos",
     "name": "We’ll Make It",
-    "character": "Ventaja",
+    "character": "General",
     "image": "/perks/survivor/sobreviviremos.png",
     "description": "When you unhook someone, for 90 seconds you heal others 100% faster.",
     "role": "survivor"

@@ -1,0 +1,1138 @@
+[
+  {
+    "id": "kl-agitacion",
+    "name": "Agitation",
+    "character": "The Trapper",
+    "image": "/perks/killer/agitacion.png",
+    "description": "When carrying a survivor, you gain 18% Haste and your terror radius increases by 12 meters.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-fuerza-bruta",
+    "name": "Brutal Strength",
+    "character": "The Trapper",
+    "image": "/perks/killer/fuerza-bruta.png",
+    "description": "You break pallets and breakable walls with basic attacks, and damage generators 20% faster.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-presencia-perturbadora",
+    "name": "Unnerving Presence",
+    "character": "The Trapper",
+    "image": "/perks/killer/presencia-perturbadora.png",
+    "description": "Survivors within your terror radius get 10% more basic skill checks, but their good zone is 60% smaller.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sabueso-de-sangre",
+    "name": "Bloodhound",
+    "character": "The Wraith",
+    "image": "/perks/killer/sabueso-de-sangre.png",
+    "description": "Blood pools are brighter and last 4 seconds longer.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-depredacion",
+    "name": "Predator",
+    "character": "The Wraith",
+    "image": "/perks/killer/depredacion.png",
+    "description": "When you stop chasing a survivor, you see their aura for 4 seconds. Cooldown: 40 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-hijo-de-las-sombras",
+    "name": "Shadowborn",
+    "character": "The Wraith",
+    "image": "/perks/killer/hijo-de-las-sombras.png",
+    "description": "Every time you are blinded, you gain 10% Haste for 10 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-resistente",
+    "name": "Enduring",
+    "character": "The Hillbilly",
+    "image": "/perks/killer/resistente.png",
+    "description": "While not carrying a survivor, pallet stuns are 50% shorter.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-hijo-de-la-luz",
+    "name": "Lightborn",
+    "character": "The Hillbilly",
+    "image": "/perks/killer/hijo-de-la-luz.png",
+    "description": "You cannot be blinded; every time a survivor tries, you see their aura for 10 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-reparador",
+    "name": "Tinkerer",
+    "character": "The Hillbilly",
+    "image": "/perks/killer/reparador.png",
+    "description": "The first time each generator reaches 70% progress, you gain Undetectable for 16 seconds and receive an alert.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-tanatofobia",
+    "name": "Thanatophobia",
+    "character": "The Nurse",
+    "image": "/perks/killer/tanatofobia.png",
+    "description": "For each injured, downed, or hooked survivor, everyone repairs, cleanses totems, and sabotages hooks 2% slower; with 4 survivors in that state, the effect becomes an extra 12% slower.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-vocacion-de-enfermera",
+    "name": "A Nurse's Calling",
+    "character": "The Nurse",
+    "image": "/perks/killer/vocacion-de-enfermera.png",
+    "description": "While within 32 meters of injured survivors who are healing or being healed, you see their aura.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-aliento",
+    "name": "Stridor",
+    "character": "The Nurse",
+    "image": "/perks/killer/aliento.png",
+    "description": "Survivors' breathing sounds are 25% louder, and their grunts of pain are increased by 50%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-devoradora-de-esperanza",
+    "name": "Hex: Devour Hope",
+    "character": "The Hag",
+    "image": "/perks/killer/maleficio-devoradora-de-esperanza.png",
+    "description": "A dull totem ignites at the start; unhooking someone while you are 24 meters or more away grants you tokens (up to 5) that give Haste, expose survivors, and at 5 let you kill downed survivors.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-ruina",
+    "name": "Hex: Ruin",
+    "character": "The Hag",
+    "image": "/perks/killer/maleficio-ruina.png",
+    "description": "A dull totem ignites at the start; while a generator isn't being repaired, it regresses at 150% speed.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-el-tercer-sello",
+    "name": "Hex: The Third Seal",
+    "character": "The Hag",
+    "image": "/perks/killer/maleficio-el-tercer-sello.png",
+    "description": "A dull totem ignites at the start; damaging a survivor (up to 4) inflicts Blindness.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-presencia-abrumadora",
+    "name": "Overwhelming Presence",
+    "character": "The Doctor",
+    "image": "/perks/killer/presencia-abrumadora.png",
+    "description": "Using an item within 32 meters of you causes Exhausted for 15 seconds; seeing an Exhausted survivor nearby reveals their aura for 4 seconds (25s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-monitorizacion-y-abuso",
+    "name": "Monitor & Abuse",
+    "character": "The Doctor",
+    "image": "/perks/killer/monitorizacion-y-abuso.png",
+    "description": "Your terror radius increases 15% while chasing, and shrinks 25% when not chasing anyone.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sobrecarga",
+    "name": "Overcharge",
+    "character": "The Doctor",
+    "image": "/perks/killer/sobrecarga.png",
+    "description": "When you damage a generator, its regression rises from 85% to 130% for 30 seconds; the next survivor to repair it gets a special skill check, and failing it costs an extra 4% progress.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-parrillada-y-chile",
+    "name": "Barbecue & Chilli",
+    "character": "The Cannibal",
+    "image": "/perks/killer/parrillada-y-chile.png",
+    "description": "When you hook a survivor, for 5 seconds you see the aura of everyone within 40 meters of the hook.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-noqueo",
+    "name": "Knock Out",
+    "character": "The Cannibal",
+    "image": "/perks/killer/noqueo.png",
+    "description": "If a survivor comes within 6 meters of a pallet they dropped, they suffer 5% Hindered for 5 seconds (6s window).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-muerte-de-franklin",
+    "name": "Franklin's Demise",
+    "character": "The Cannibal",
+    "image": "/perks/killer/muerte-de-franklin.png",
+    "description": "Damaging with a basic attack makes the survivor drop their item; you see the aura of dropped items within a 64-meter radius.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-bestia-de-presa",
+    "name": "Beast of Prey",
+    "character": "The Huntress",
+    "image": "/perks/killer/bestia-de-presa.png",
+    "description": "Gaining Bloodlust grants you Undetectable for 40 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-arrullo-de-cazadora",
+    "name": "Hex: Huntress's Lullaby",
+    "character": "The Huntress",
+    "image": "/perks/killer/maleficio-arrullo-de-cazadora.png",
+    "description": "A dull totem ignites at the start; every hook grants a token that delays skill check warnings and shrinks their success zones; at 5, warnings disappear and failing a check costs an extra 6% progress.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-instinto-territorial",
+    "name": "Territorial Imperative",
+    "character": "The Huntress",
+    "image": "/perks/killer/instinto-territorial.png",
+    "description": "If a survivor enters the basement while you are 24 meters away, you see their aura for 6 seconds (45s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-guardian-de-sangre",
+    "name": "Blood Warden",
+    "character": "The Nightmare",
+    "image": "/perks/killer/guardian-de-sangre.png",
+    "description": "Once per trial, hooking someone after an exit gate has been opened blocks both gates for 60 seconds and reveals the aura of survivors near the exit thresholds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-enfurecimiento",
+    "name": "Fire Up",
+    "character": "The Nightmare",
+    "image": "/perks/killer/enfurecimiento.png",
+    "description": "Each completed generator grants 1 token (max 5); for each one, you break pallets, damage generators, carry survivors, and vault windows 6% faster.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-recuerdame",
+    "name": "Remember Me",
+    "character": "The Nightmare",
+    "image": "/perks/killer/recuerdame.png",
+    "description": "Damaging the obsession grants 1 token (max 5); for each, non-obsession survivors open exit gates 30% slower.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-truco-del-verdugo",
+    "name": "Scourge Hook: Hangman's Trick",
+    "character": "The Pig",
+    "image": "/perks/killer/gancho-torturador-truco-del-verdugo.png",
+    "description": "At the start, 4 random hooks become scourge hooks; carrying someone reveals auras near them, and you get alerted if one is being sabotaged.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-supervision",
+    "name": "Surveillance",
+    "character": "The Pig",
+    "image": "/perks/killer/supervision.png",
+    "description": "You see the aura of regressing generators (for 16s after repair stops) and hear their repair from 8 meters.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-toma-una-decision",
+    "name": "Make Your Choice",
+    "character": "The Pig",
+    "image": "/perks/killer/toma-una-decision.png",
+    "description": "Self-unhooking or unhooking another while you are within 32 meters makes the survivor scream and suffer Exposed for 60 seconds (60s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-coulrofobia",
+    "name": "Coulrophobia",
+    "character": "The Clown",
+    "image": "/perks/killer/coulrofobia.png",
+    "description": "Survivors within your terror radius heal 50% slower and their healing skill checks rotate 50% faster.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-pim-pam-pum",
+    "name": "Pop Goes the Weasel",
+    "character": "The Clown",
+    "image": "/perks/killer/pim-pam-pum.png",
+    "description": "After hooking someone, for the next 45 seconds any generator you damage explodes and loses 15% more progress.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-desconcierto",
+    "name": "Bamboozle",
+    "character": "The Clown",
+    "image": "/perks/killer/desconcierto.png",
+    "description": "Every window vault blocks it for survivors for 16 seconds (only one at a time); your basic vaults are 15% faster.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-furia-espiritual",
+    "name": "Spirit Fury",
+    "character": "The Spirit",
+    "image": "/perks/killer/furia-espiritual.png",
+    "description": "After breaking 2 pallets, the next one that stuns you is destroyed.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-tierra-embrujada",
+    "name": "Hex: Haunted Ground",
+    "character": "The Spirit",
+    "image": "/perks/killer/maleficio-tierra-embrujada.png",
+    "description": "2 dull totems ignite at the start; blessing or cleansing either one gives all survivors Exposed for 60 seconds and snuffs out the other totem.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-rencor",
+    "name": "Rancor",
+    "character": "The Spirit",
+    "image": "/perks/killer/rencor.png",
+    "description": "Every completed generator alerts you to everyone's location for 3 seconds and the obsession sees your aura for 3s; once all generators are done, the obsession becomes Exposed and can be mori'd.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-discordancia",
+    "name": "Discordance",
+    "character": "The Legion",
+    "image": "/perks/killer/discordancia.png",
+    "description": "If 2 or more survivors repair the same generator within a 128-meter radius, you get an alert and see its aura while they do (fades 4s after they stop).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-furia-ciega",
+    "name": "Mad Grit",
+    "character": "The Legion",
+    "image": "/perks/killer/furia-ciega.png",
+    "description": "While carrying someone, missing a basic attack reduces your cooldown by 100%, and hitting the carried survivor with a basic attack blocks their wiggle progress for 4 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-doncella-de-hierro",
+    "name": "Iron Maiden",
+    "character": "The Legion",
+    "image": "/perks/killer/doncella-de-hierro.png",
+    "description": "Leaving a locker exposes the survivor for 30 seconds, makes them scream, and reveals their location for 4s; you open lockers 50% faster.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-intervencion-corrupta",
+    "name": "Corrupt Intervention",
+    "character": "The Plague",
+    "image": "/perks/killer/intervencion-corrupta.png",
+    "description": "At the start, the 3 generators farthest from you are blocked for 120 seconds or until you down someone.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-terror-contagioso",
+    "name": "Infectious Fright",
+    "character": "The Plague",
+    "image": "/perks/killer/terror-contagioso.png",
+    "description": "When you down a survivor, everyone within your terror radius screams and alerts you to their location for 6 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-devocion-oscura",
+    "name": "Dark Devotion",
+    "character": "The Plague",
+    "image": "/perks/killer/devocion-oscura.png",
+    "description": "Damaging the obsession makes you transfer your terror radius (set to 40m) to them and turns you Undetectable for 45 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-soy-todo-oidos",
+    "name": "I’m All Ears",
+    "character": "Ghost Face",
+    "image": "/perks/killer/soy-todo-oidos.png",
+    "description": "You see the aura of a survivor sprinting into or out of a locker, or performing a medium/fast vault within 48 meters, for 8 seconds (30s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-temblores-trepidantes",
+    "name": "Thrilling Tremors",
+    "character": "Ghost Face",
+    "image": "/perks/killer/temblores-trepidantes.png",
+    "description": "Picking up a survivor blocks all unrepaired generators for 16 seconds (30s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-persecucion-furtiva",
+    "name": "Furtive Chase",
+    "character": "Ghost Face",
+    "image": "/perks/killer/persecucion-furtiva.png",
+    "description": "Hooking the obsession grants 10% Haste and Undetectable for 18 seconds; whoever unhooks them becomes the new obsession.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sobrecarga-el-demogorgon",
+    "name": "Surge",
+    "character": "The Demogorgon",
+    "image": "/perks/killer/sobrecarga-el-demogorgon.png",
+    "description": "Downing someone with a basic attack makes generators within 32 meters explode, lose 8% progress, start regressing, and make anyone repairing them scream.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-quebrantamientos",
+    "name": "Cruel Limits",
+    "character": "The Demogorgon",
+    "image": "/perks/killer/quebrantamientos.png",
+    "description": "While survivors repair a generator, they suffer Blindness and Exhausted (ends 5s after they stop repairing).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-restriccion-cruel",
+    "name": "Mindbreaker",
+    "character": "The Demogorgon",
+    "image": "/perks/killer/restriccion-cruel.png",
+    "description": "When a generator is completed, you see the aura of every window and they are blocked for survivors for 30 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-tacticas-zanshin",
+    "name": "Zanshin Tactics",
+    "character": "The Oni",
+    "image": "/perks/killer/tacticas-zanshin.png",
+    "description": "You see the aura of pallets and windows within 32 meters; if a survivor drops a pallet, you see its aura for 5 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-eco-de-sangre",
+    "name": "Blood Echo",
+    "character": "The Oni",
+    "image": "/perks/killer/eco-de-sangre.png",
+    "description": "Hooking someone gives every injured survivor Exhausted and Hemorrhage for 30 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-nemesis",
+    "name": "Nemesis",
+    "character": "The Oni",
+    "image": "/perks/killer/nemesis.png",
+    "description": "Blinding you or stunning you with a locker or pallet makes the survivor the obsession, who suffers Oblivious for 60 seconds and reveals their aura for 8s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-cabeza-dentada",
+    "name": "Gearhead",
+    "character": "The Deathslinger",
+    "image": "/perks/killer/cabeza-dentada.png",
+    "description": "After damaging a survivor, for 30 seconds every good repair skill check reveals the aura of whoever made it for 8 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-interruptor-de-hombre-muerto",
+    "name": "Dead Man's Switch",
+    "character": "The Deathslinger",
+    "image": "/perks/killer/interruptor-de-hombre-muerto.png",
+    "description": "When you hook someone, the first survivor to stop repairing a generator blocks it for 35 seconds (35s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-retribucion",
+    "name": "Hex: Retribution",
+    "character": "The Deathslinger",
+    "image": "/perks/killer/maleficio-retribucion.png",
+    "description": "A dull totem ignites at the start; blessing or cleansing a totem inflicts Oblivious for 60 seconds on whoever tries, and succeeding reveals everyone’s aura for 20s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-penitencia-forzada",
+    "name": "Forced Penance",
+    "character": "The Executioner",
+    "image": "/perks/killer/penitencia-forzada.png",
+    "description": "A survivor who takes a protection hit suffers Broken for 80 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-senda-del-tormento",
+    "name": "Trail of Torment",
+    "character": "The Executioner",
+    "image": "/perks/killer/senda-del-tormento.png",
+    "description": "Damaging a generator grants you Undetectable and reveals its aura to survivors until it stops regressing (30s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-atadura-mortal",
+    "name": "Deathbound",
+    "character": "The Executioner",
+    "image": "/perks/killer/atadura-mortal.png",
+    "description": "When a survivor finishes healing another, they scream; until they take damage, being within 4 meters or more of who healed them inflicts Oblivious and reveals their aura.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-garra-de-dragon",
+    "name": "Dragon's Grip",
+    "character": "The Blight",
+    "image": "/perks/killer/garra-de-dragon.png",
+    "description": "When you damage a generator, for the next 30 seconds whoever repairs it first screams, reveals their location for 4s, and suffers Exposed for 60s (30s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-inmortal",
+    "name": "Hex: Undying",
+    "character": "The Blight",
+    "image": "/perks/killer/maleficio-inmortal.png",
+    "description": "A dull totem ignites at the start; if another hex totem is blessed or cleansed, this one replaces it keeping its tokens; you see the aura of survivors near dull totems within 4 meters.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-favor-de-sangre",
+    "name": "Hex: Blood Favor",
+    "character": "The Blight",
+    "image": "/perks/killer/maleficio-favor-de-sangre.png",
+    "description": "A dull totem ignites at the start; damaging a survivor blocks upright pallets within 32 meters for 15 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-acumulador",
+    "name": "Hoarder",
+    "character": "The Twins",
+    "image": "/perks/killer/acumulador.png",
+    "description": "Two extra chests appear at the start; you get alerted if someone picks up an item or opens a chest within 64 meters.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-opresion",
+    "name": "Oppression",
+    "character": "The Twins",
+    "image": "/perks/killer/opresion.png",
+    "description": "Damaging a generator makes up to 4 others start regressing and gives whoever repairs them a special skill check (35s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-golpe-de-gracia",
+    "name": "Coup de Grâce",
+    "character": "The Twins",
+    "image": "/perks/killer/golpe-de-gracia.png",
+    "description": "Each completed generator grants 2 tokens (max 5); spend 1 while charging to extend it by 80%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-deslumbrante",
+    "name": "Starstruck",
+    "character": "The Trickster",
+    "image": "/perks/killer/deslumbrante.png",
+    "description": "While carrying someone, survivors within your terror radius suffer Exposed, lasting 30 seconds after leaving the radius or after you drop/hook the carried survivor (60s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-control-del-publico",
+    "name": "Hex: Crowd Control",
+    "character": "The Trickster",
+    "image": "/perks/killer/maleficio-control-del-publico.png",
+    "description": "The first time survivors vault a window at medium/fast speed, a dull totem ignites; the last 6 windows used that way get blocked, you vault them 15% faster, and see their aura within 24 meters.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sin-salida",
+    "name": "No Way Out",
+    "character": "The Trickster",
+    "image": "/perks/killer/sin-salida.png",
+    "description": "The first hook on each survivor grants 1 token; once all generators are done, starting to open an exit gate blocks it for 12 seconds plus 12s per token, and you get an alert.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-perseguidor-letal",
+    "name": "Lethal Pursuer",
+    "character": "Nemesis",
+    "image": "/perks/killer/perseguidor-letal.png",
+    "description": "At the start you see every survivor's aura for 9 seconds; every time you see a survivor's aura for a duration, it's extended by 2 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-histeria",
+    "name": "Hysteria",
+    "character": "Nemesis",
+    "image": "/perks/killer/histeria.png",
+    "description": "When an unharmed survivor is injured, every injured survivor suffers Oblivious for 40 seconds (20s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-erupcion",
+    "name": "Eruption",
+    "character": "Nemesis",
+    "image": "/perks/killer/erupcion.png",
+    "description": "Damaging a generator and then downing someone makes every generator explode, lose 10% progress, start regressing, and makes anyone repairing them scream and reveal their aura for 12s (30s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-abrazo-de-la-muerte",
+    "name": "Grim Embrace",
+    "character": "The Artist",
+    "image": "/perks/killer/abrazo-de-la-muerte.png",
+    "description": "Each survivor's first hook grants 1 token; moving 16 meters away from a hooked survivor blocks all generators for 10s, and at 4 tokens, for 40s more and you see your obsession's aura for 10s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-dolor-resonante",
+    "name": "Scourge Hook: Pain Resonance",
+    "character": "The Artist",
+    "image": "/perks/killer/gancho-torturador-dolor-resonante.png",
+    "description": "At the start, 4 hooks become scourge hooks and you gain 4 tokens; the first hook on one spends a token to explode the generator with the most progress, which loses 20% and starts regressing while whoever repairs it screams.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-arrepentimiento",
+    "name": "Hex: Pentimento",
+    "character": "The Artist",
+    "image": "/perks/killer/maleficio-arrepentimiento.png",
+    "description": "You see the aura of cleansed totems and can reignite each one once; survivors within 16m see reignited totem auras and heal/repair 20% slower (+3% per extra one); if all 5 are reignited at once, they become blocked.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-torrente-de-ira",
+    "name": "Scourge Hook: Floods of Rage",
+    "character": "The Onryō",
+    "image": "/perks/killer/gancho-torturador-torrente-de-ira.png",
+    "description": "At the start, 4 random hooks become scourge hooks; unhooking someone from one reveals the aura of other survivors for 7 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-anuncio-de-salmuera",
+    "name": "Call of Brine",
+    "character": "The Onryō",
+    "image": "/perks/killer/anuncio-de-salmuera.png",
+    "description": "Damaging a generator makes it regress 50% faster for 70 seconds; during that time, good repair skill checks on it alert you.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-tormenta-despiadada",
+    "name": "Merciless Storm",
+    "character": "The Onryō",
+    "image": "/perks/killer/tormenta-despiadada.png",
+    "description": "The first time each generator reaches 90%, whoever repairs it gets special skill checks; failing one or stopping repairs blocks it for 20 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-disolucion",
+    "name": "Dissolution",
+    "character": "The Dredge",
+    "image": "/perks/killer/disolucion.png",
+    "description": "Three seconds after a survivor takes damage, for 20s the next pallet fast-vaulted within your terror radius is destroyed.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-oscuridad-revelada",
+    "name": "Darkness Revealed",
+    "character": "The Dredge",
+    "image": "/perks/killer/oscuridad-revelada.png",
+    "description": "Checking a locker reveals the aura of survivors within 8 meters of lockers for 8 seconds (30s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-contacto-septico",
+    "name": "Septic Touch",
+    "character": "The Dredge",
+    "image": "/perks/killer/contacto-septico.png",
+    "description": "A survivor healing within your terror radius suffers Blindness and Exhausted (ends 30s after they stop healing).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-anatomia-superior",
+    "name": "Superior Anatomy",
+    "character": "The Mastermind",
+    "image": "/perks/killer/anatomia-superior.png",
+    "description": "If a survivor fast-vaults within 12 meters of you, your next window vault is 40% faster (25s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-conciencia-de-estar-despierto",
+    "name": "Awakened Awareness",
+    "character": "The Mastermind",
+    "image": "/perks/killer/conciencia-de-estar-despierto.png",
+    "description": "While carrying a survivor, you see the aura of other survivors within 20 meters.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-terminal",
+    "name": "Terminus",
+    "character": "The Mastermind",
+    "image": "/perks/killer/terminal.png",
+    "description": "When all generators are completed, injured, downed, and hooked survivors suffer Broken until 45 seconds after an exit gate opens.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-no-hay-donde-esconderse",
+    "name": "No Place to Hide",
+    "character": "The Knight",
+    "image": "/perks/killer/no-hay-donde-esconderse.png",
+    "description": "Damaging a generator reveals the aura of survivors within 24 meters or less for 5 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-enfrentar-a-la-oscuridad",
+    "name": "Hex: Face the Darkness",
+    "character": "The Knight",
+    "image": "/perks/killer/maleficio-enfrentar-a-la-oscuridad.png",
+    "description": "Damaging a survivor curses them and ignites a dull totem; every 25s, other survivors outside your terror radius scream and you see their aura for 2s; the curse ends if the marked survivor is downed or heals.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-soberbia",
+    "name": "Hubris",
+    "character": "The Knight",
+    "image": "/perks/killer/soberbia.png",
+    "description": "A survivor who stuns you suffers Exposed for 30 seconds (20s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-hora-de-la-caceria",
+    "name": "Game Afoot",
+    "character": "The Skull Merchant",
+    "image": "/perks/killer/hora-de-la-caceria.png",
+    "description": "While chasing your obsession, breaking pallets/walls or damaging generators grants 7% Haste for 10s; damaging the survivor with the most chase time with a basic attack makes them the new obsession.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-plaf",
+    "name": "THWACK!",
+    "character": "The Skull Merchant",
+    "image": "/perks/killer/plaf.png",
+    "description": "You start with 3 tokens (max 3, +1 per hook); spend 1 when breaking a pallet or wall to make survivors within 36 meters scream and reveal their aura for 6s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-influencia",
+    "name": "Leverage",
+    "character": "The Skull Merchant",
+    "image": "/perks/killer/influencia.png",
+    "description": "Self-unhooking or unhooking another makes that survivor heal 30% slower for 60 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-limites-geneticos",
+    "name": "Genetic Limits",
+    "character": "The Singularity",
+    "image": "/perks/killer/limites-geneticos.png",
+    "description": "A survivor who takes damage suffers Exhausted for 8 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-duda-forzada",
+    "name": "Forced Hesitation",
+    "character": "The Singularity",
+    "image": "/perks/killer/duda-forzada.png",
+    "description": "Downing someone gives others within 16 meters of the downed survivor 20% Hindered for 10s (30s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-aprendizaje-automatizado",
+    "name": "Machine Learning",
+    "character": "The Singularity",
+    "image": "/perks/killer/aprendizaje-automatizado.png",
+    "description": "Damaging a generator compromises it; when survivors complete it, you gain 8% Haste and Undetectable for 60s (only one compromised at a time).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-arma-definitiva",
+    "name": "Ultimate Weapon",
+    "character": "The Xenomorph",
+    "image": "/perks/killer/arma-definitiva.png",
+    "description": "Checking a locker makes survivors within 40 meters suffer Blindness for 30 seconds and scream (45s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-brutalidad-veloz",
+    "name": "Rapid Brutality",
+    "character": "The Xenomorph",
+    "image": "/perks/killer/brutalidad-veloz.png",
+    "description": "Damaging with a basic attack grants 5% Haste for 10 seconds; while chasing, you can't gain Bloodlust.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-instinto-alienigena",
+    "name": "Alien Instinct",
+    "character": "The Xenomorph",
+    "image": "/perks/killer/instinto-alienigena.png",
+    "description": "Hooking someone makes the farthest injured survivor suffer Oblivious for 60 seconds and reveals their aura for 8s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-yo-tambien-puedo-jugar",
+    "name": "Hex: Two Can Play",
+    "character": "The Good Guy",
+    "image": "/perks/killer/maleficio-yo-tambien-puedo-jugar.png",
+    "description": "While this hex isn't active, being blinded or stunned twice ignites a dull totem; blinding or stunning you while you aren't carrying anyone inflicts Blindness for 1.5s on whoever did it.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-amigos-hasta-el-fin",
+    "name": "Friends 'Til the End",
+    "character": "The Good Guy",
+    "image": "/perks/killer/amigos-hasta-el-fin.png",
+    "description": "Hooking someone who isn’t the obsession exposes the obsession for 20s and reveals their aura for 10s; hooking the obsession makes another survivor scream, alerts you, and makes them the new obsession.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-baterias-incluidas",
+    "name": "Batteries Included",
+    "character": "The Good Guy",
+    "image": "/perks/killer/baterias-incluidas.png",
+    "description": "Within 16 meters of a completed generator you gain 5% Haste (ends 5s after leaving the radius).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-desatado",
+    "name": "Unbound",
+    "character": "The Unknown",
+    "image": "/perks/killer/desatado.png",
+    "description": "When an unharmed survivor is injured, for the next 30s your basic window vaults grant 7% Haste for 10s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-imprevisto",
+    "name": "Unforeseen",
+    "character": "The Unknown",
+    "image": "/perks/killer/imprevisto.png",
+    "description": "Damaging a generator sets your terror radius to it (32m) and grants Undetectable for 30 seconds (30s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-inacabado",
+    "name": "Undone",
+    "character": "The Unknown",
+    "image": "/perks/killer/inacabado.png",
+    "description": "Failing a skill check grants 3 tokens (max 30); damaging a generator spends them all: it loses 1% progress and blocks for 1s per token, then starts regressing once unblocked (60s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-armonizacion-de-tejido",
+    "name": "Weave Attunement",
+    "character": "The Lich",
+    "image": "/perks/killer/armonizacion-de-tejido.png",
+    "description": "The first time an item depletes, it drops to the ground; both of you see auras near it, and whoever picks it up suffers Oblivious for 30s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-toque-languido",
+    "name": "Languid Touch",
+    "character": "The Lich",
+    "image": "/perks/killer/toque-languido.png",
+    "description": "Startling a crow within 36 meters of you inflicts Exhausted for 10 seconds (5s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-arrogancia-oscura",
+    "name": "Dark Arrogance",
+    "character": "The Lich",
+    "image": "/perks/killer/arrogancia-oscura.png",
+    "description": "You vault windows 25% faster; if you are blinded or pallet-stunned, the duration increases by 15%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-destino-miserable",
+    "name": "Hex: Wretched Fate",
+    "character": "The Dark Lord",
+    "image": "/perks/killer/maleficio-destino-miserable.png",
+    "description": "A dull totem ignites when the first generator is completed; the obsession repairs 33% slower and sees the totem’s aura within 12 meters.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-codicia-humana",
+    "name": "Human Greed",
+    "character": "The Dark Lord",
+    "image": "/perks/killer/codicia-humana.png",
+    "description": "You see the aura of survivors within 8 meters of locked chests for 5s; you can lock chests (10s cooldown) and see the aura of locked ones.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-dominacion",
+    "name": "Dominance",
+    "character": "The Dark Lord",
+    "image": "/perks/killer/dominacion.png",
+    "description": "Each survivor's first unlocked chest and cleansed/blessed totem gets blocked for 16 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-trueno-sismico",
+    "name": "All-Shaking Thunder",
+    "character": "The Houndmaster",
+    "image": "/perks/killer/trueno-sismico.png",
+    "description": "Falling 1.2 meters or more makes your next lunges 75% longer for 25s (5s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-brujula-irregular",
+    "name": "Scourge Hook: Jagged Compass",
+    "character": "The Houndmaster",
+    "image": "/perks/killer/gancho-torturador-brujula-irregular.png",
+    "description": "At the start, 4 random hooks become scourge hooks (and any hook someone is unhooked from becomes one too); hooking on one reveals the aura of the generator with the most progress for 10s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sin-piedad",
+    "name": "No Quarter",
+    "character": "The Houndmaster",
+    "image": "/perks/killer/sin-piedad.png",
+    "description": "While self-healing and reaching 75% progress, the survivor gets special skill checks; failing one or stopping inflicts Broken for 30 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-pura-miseria",
+    "name": "Hex: Nothing But Misery",
+    "character": "The Ghoul",
+    "image": "/perks/killer/maleficio-pura-miseria.png",
+    "description": "After damaging survivors with basic attacks 8 times, a dull totem ignites; damaging a survivor with a basic attack inflicts 5% Hindered for 15s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-unidos-por-siempre",
+    "name": "Forever Entwined",
+    "character": "The Ghoul",
+    "image": "/perks/killer/unidos-por-siempre.png",
+    "description": "Taking damage grants 1 token (max 8); for each, you hook, carry, and down survivors 4% faster.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-nadie-es-libre",
+    "name": "None Are Free",
+    "character": "The Ghoul",
+    "image": "/perks/killer/nadie-es-libre.png",
+    "description": "Each survivor's first hook grants 1 token; once all generators are done, pallets and windows are blocked for 16s per token.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-pedido-de-ayuda",
+    "name": "Compromised",
+    "character": "Springtrap",
+    "image": "/perks/killer/pedido-de-ayuda.png",
+    "description": "Damaging a generator compromises it; when survivors complete it, your basic attack cooldown is 25% shorter for 60s (only one compromised at a time).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-miedo-fantasmal",
+    "name": "Ghostly Fear",
+    "character": "Springtrap",
+    "image": "/perks/killer/miedo-fantasmal.png",
+    "description": "A survivor who looks at you within your terror radius screams and reveals their aura for 2 seconds (60s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-caos",
+    "name": "Chaos",
+    "character": "Springtrap",
+    "image": "/perks/killer/caos.png",
+    "description": "Exit gates at 80% progress or more revert to 100% speed, their lights flickering at random.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-voracidad",
+    "name": "Voracity",
+    "character": "The Krasue",
+    "image": "/perks/killer/voracidad.png",
+    "description": "Each survivor's first hook grants 1 token; at 4, everyone screams and suffers Exposed for 60 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-ojo-errante",
+    "name": "Wandering Eye",
+    "character": "The Krasue",
+    "image": "/perks/killer/ojo-errante.png",
+    "description": "While chasing someone, for 5s you see the aura of other injured survivors within 20 meters (30s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-obertura-de-la-perdicion",
+    "name": "Hex: Doomsday Overture",
+    "character": "The Krasue",
+    "image": "/perks/killer/maleficio-obertura-de-la-perdicion.png",
+    "description": "A dull totem ignites at the start and curses the farthest generator; after 5s of repairing it, you gain Undetectable for 30s with your radius set to it, then the curse moves to the next farthest generator.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-retrocede-el-tiempo",
+    "name": "Turn Back the Clock",
+    "character": "The First",
+    "image": "/perks/killer/retrocede-el-tiempo.png",
+    "description": "After hooking someone, for the next 60s you can detonate a generator you can see within 20 meters, making it lose 10% progress and start regressing.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-proyecto-secreto",
+    "name": "Secret Project",
+    "character": "The First",
+    "image": "/perks/killer/proyecto-secreto.png",
+    "description": "Blessing or cleansing a totem blocks a random unblocked generator for 30s; while one is blocked, you gain Undetectable for 30s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-mente-colmena",
+    "name": "Hex: Hive Mind",
+    "character": "The First",
+    "image": "/perks/killer/maleficio-mente-colmena.png",
+    "description": "The first hook ignites a dull totem; generator auras show their progress, and once only 1 remains, all others explode, lose 10% progress, start regressing, and the totem snuffs out.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-terror-hasta-la-muerte",
+    "name": "Hex: Scared to Death",
+    "character": "The Slasher",
+    "image": "/perks/killer/maleficio-terror-hasta-la-muerte.png",
+    "description": "After hooking 3 different survivors, a dull totem ignites; while chasing, breaking a pallet makes survivors within 13 meters scream and suffer 13% Hindered for 3s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sombra-silenciosa",
+    "name": "Silent Shadow",
+    "character": "The Slasher",
+    "image": "/perks/killer/sombra-silenciosa.png",
+    "description": "Every hook grants Undetectable for 13 seconds; once all generators are done, you gain Undetectable.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-matanza",
+    "name": "Rampage",
+    "character": "The Slasher",
+    "image": "/perks/killer/matanza.png",
+    "description": "Breaking pallets or walls grants 1 token (max 13); when blinded or pallet-stunned, for 13s you gain 1% Haste per token (20s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-acechador-de-ciervos",
+    "name": "Deerstalker",
+    "character": "General",
+    "image": "/perks/killer/acechador-de-ciervos.png",
+    "description": "Every 30 seconds, the survivor with the least chase time sees your aura for 3s; while a survivor sees your aura, you see theirs too.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-apreton-de-hierro",
+    "name": "Iron Grasp",
+    "character": "General",
+    "image": "/perks/killer/apreton-de-hierro.png",
+    "description": "While carrying someone, their struggle is 12% slower and 75% weaker.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-carnicero-chapucero",
+    "name": "Sloppy Butcher",
+    "character": "General",
+    "image": "/perks/killer/carnicero-chapucero.png",
+    "description": "Damaging with a basic attack inflicts Hemorrhage and Mangled for 90s; while Hemorrhaging, healing progress is lost 25% faster.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-desasosiego",
+    "name": "Distressing",
+    "character": "General",
+    "image": "/perks/killer/desasosiego.png",
+    "description": "Your terror radius increases by 30%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-esperanza-rota",
+    "name": "Shattered Hope",
+    "character": "General",
+    "image": "/perks/killer/esperanza-rota.png",
+    "description": "Snuffing a boon totem reveals the aura of survivors nearby for 8s and destroys it.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-espias-de-las-sombras",
+    "name": "Spies from the Shadows",
+    "character": "General",
+    "image": "/perks/killer/espias-de-las-sombras.png",
+    "description": "If a survivor startles a crow within 36 meters, you get an alert (5s cooldown).",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-heridas-supurantes",
+    "name": "Scourge Hook: Weeping Wounds",
+    "character": "General",
+    "image": "/perks/killer/gancho-torturador-heridas-supurantes.png",
+    "description": "At the start, 4 hooks become scourge hooks; unhooking from one inflicts Hemorrhage and Mangled for 90s, and until they take damage, healing and repairing are 16% slower.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-el-bufon-de-la-fortuna",
+    "name": "Hex: Fortune's Fool",
+    "character": "General",
+    "image": "/perks/killer/maleficio-el-bufon-de-la-fortuna.png",
+    "description": "Each survivor's first hook curses them and ignites a dull totem (blocked for others for 90s); cursed survivors suffer Oblivious and see the totem's aura within 16 meters.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sin-restricciones",
+    "name": "Deadlock",
+    "character": "General",
+    "image": "/perks/killer/sin-restricciones.png",
+    "description": "When a generator is completed, the one with the most progress is blocked for 25 seconds.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-gancho-torturador-santuario-monstruoso",
+    "name": "Scourge Hook: Monstrous Shrine",
+    "character": "General",
+    "image": "/perks/killer/gancho-torturador-santuario-monstruoso.png",
+    "description": "At the start, 4 random hooks and the basement hooks become scourge hooks; sacrificing someone within 24 meters of one is 20% faster.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-implacable",
+    "name": "Unrelenting",
+    "character": "General",
+    "image": "/perks/killer/implacable.png",
+    "description": "Missing a basic attack reduces your cooldown by 30%.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-insidia",
+    "name": "Insidious",
+    "character": "General",
+    "image": "/perks/killer/insidia.png",
+    "description": "After standing still for 1 second, you gain Undetectable until you act.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-la-emocion-de-la-caza",
+    "name": "Hex: Thrill of the Hunt",
+    "character": "General",
+    "image": "/perks/killer/maleficio-la-emocion-de-la-caza.png",
+    "description": "A dull totem ignites at the start; for each remaining dull and hex totem you gain a token, and for each one, survivors cleanse and bless totems 12% slower.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-nadie-escapa-de-la-muerte",
+    "name": "Hex: No One Escapes Death",
+    "character": "General",
+    "image": "/perks/killer/maleficio-nadie-escapa-de-la-muerte.png",
+    "description": "When all generators are completed, a dull totem ignites: survivors suffer Exposed and you gain 4% Haste; they see the totem’s aura within 4 meters, expanding to 24 over 30s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-mira-como-corren",
+    "name": "Play With Your Food",
+    "character": "General",
+    "image": "/perks/killer/mira-como-corren.png",
+    "description": "Stopping a chase with the obsession grants 1 token (max 3, 10s cooldown); each token grants 5% Haste, but attacking spends 1.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-que-sigan-esperando",
+    "name": "Save the Best for Last",
+    "character": "General",
+    "image": "/perks/killer/que-sigan-esperando.png",
+    "description": "Damaging a non-obsession survivor with a basic attack grants 1 token (max 8) that reduces your basic attack cooldown 4% each; damaging the obsession removes 2, and you gain none while they are dead.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-sacrifica-a-los-debiles",
+    "name": "Dying Light",
+    "character": "General",
+    "image": "/perks/killer/sacrifica-a-los-debiles.png",
+    "description": "Hooking a non-obsession survivor grants 1 token; while the obsession is alive, for each token others heal, repair, and sabotage 3% slower, while the obsession does those 33% faster.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-murmullo-amargo",
+    "name": "Bitter Murmur",
+    "character": "General",
+    "image": "/perks/killer/murmullo-amargo.png",
+    "description": "When a generator is completed, you see the aura of survivors within 16 meters of it for 5s; when all are completed, you see everyone’s aura for 10s.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-murmullos",
+    "name": "Whispers",
+    "character": "General",
+    "image": "/perks/killer/murmullos.png",
+    "description": "Within 32 meters of a survivor, you hear random whispers.",
+    "role": "killer"
+  }
+]
