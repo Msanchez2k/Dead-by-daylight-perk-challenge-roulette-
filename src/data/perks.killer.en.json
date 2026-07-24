@@ -217,7 +217,7 @@
   },
   {
     "id": "kl-gancho-torturador-truco-del-verdugo",
-    "name": "Scourge Hook: Hangman's Trick",
+    "name": "Hangman's Trick",
     "character": "The Pig",
     "image": "/perks/killer/gancho-torturador-truco-del-verdugo.png",
     "description": "At the start, 4 random hooks become scourge hooks; carrying someone reveals auras near them, and you get alerted if one is being sabotaged.",
@@ -649,7 +649,7 @@
   },
   {
     "id": "kl-no-hay-donde-esconderse",
-    "name": "No Place to Hide",
+    "name": "Nowhere to Hide",
     "character": "The Knight",
     "image": "/perks/killer/no-hay-donde-esconderse.png",
     "description": "Damaging a generator reveals the aura of survivors within 24 meters or less for 5 seconds.",
@@ -889,7 +889,7 @@
   },
   {
     "id": "kl-pedido-de-ayuda",
-    "name": "Compromised",
+    "name": "Help Wanted",
     "character": "Springtrap",
     "image": "/perks/killer/pedido-de-ayuda.png",
     "description": "Damaging a generator compromises it; when survivors complete it, your basic attack cooldown is 25% shorter for 60s (only one compromised at a time).",
@@ -897,7 +897,7 @@
   },
   {
     "id": "kl-miedo-fantasmal",
-    "name": "Ghostly Fear",
+    "name": "Phantom Fear",
     "character": "Springtrap",
     "image": "/perks/killer/miedo-fantasmal.png",
     "description": "A survivor who looks at you within your terror radius screams and reveals their aura for 2 seconds (60s cooldown).",
@@ -905,7 +905,7 @@
   },
   {
     "id": "kl-caos",
-    "name": "Chaos",
+    "name": "Haywire",
     "character": "Springtrap",
     "image": "/perks/killer/caos.png",
     "description": "Exit gates at 80% progress or more revert to 100% speed, their lights flickering at random.",
@@ -913,7 +913,7 @@
   },
   {
     "id": "kl-voracidad",
-    "name": "Voracity",
+    "name": "Ravenous",
     "character": "The Krasue",
     "image": "/perks/killer/voracidad.png",
     "description": "Each survivor's first hook grants 1 token; at 4, everyone screams and suffers Exposed for 60 seconds.",
@@ -929,7 +929,7 @@
   },
   {
     "id": "kl-maleficio-obertura-de-la-perdicion",
-    "name": "Hex: Doomsday Overture",
+    "name": "Hex: Overture of Doom",
     "character": "The Krasue",
     "image": "/perks/killer/maleficio-obertura-de-la-perdicion.png",
     "description": "A dull totem ignites at the start and curses the farthest generator; after 5s of repairing it, you gain Undetectable for 30s with your radius set to it, then the curse moves to the next farthest generator.",
