@@ -8,7 +8,18 @@ function detectDefaultLanguage(): Language {
   return navigator.language?.toLowerCase().startsWith('es') ? 'es' : 'en';
 }
 
+/** Permite forzar el idioma con un link tipo ?lang=en, sin importar el
+ * navegador de quien lo abra ni una preferencia guardada previamente. */
+function getLanguageFromUrl(): Language | null {
+  if (typeof window === 'undefined') return null;
+  const param = new URLSearchParams(window.location.search).get('lang');
+  return param === 'es' || param === 'en' ? param : null;
+}
+
 function loadLanguage(): Language {
+  const fromUrl = getLanguageFromUrl();
+  if (fromUrl) return fromUrl;
+
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (raw === 'es' || raw === 'en') return raw;
