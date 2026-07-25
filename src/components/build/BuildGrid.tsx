@@ -19,7 +19,10 @@ export function BuildGrid({ slots, onSlotClick }: BuildGridProps) {
   return (
     <div className="relative mx-auto aspect-square w-72 sm:w-96">
       {slots.map((slot, index) => (
-        <div key={slot.id} className={`absolute h-1/2 w-1/2 ${POSITION_CLASS[index]}`}>
+        <div
+          key={slot.id}
+          className={`pointer-events-none absolute h-1/2 w-1/2 ${POSITION_CLASS[index]}`}
+        >
           <BuildSlotCard slot={slot} onClick={onSlotClick} />
         </div>
       ))}

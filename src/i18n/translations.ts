@@ -15,6 +15,9 @@ export interface UIStrings {
     newBuild: string;
     copyBuild: string;
     copied: string;
+    reroll: string;
+    rerollCancel: string;
+    rerollHint: string;
     backLabel: string;
     backAria: string;
     settingsAria: string;
@@ -84,6 +87,9 @@ export const translations: Record<Language, UIStrings> = {
       newBuild: 'Nueva Build',
       copyBuild: 'Copiar Build',
       copied: '¡Copiado!',
+      reroll: 'Volver a Tirar',
+      rerollCancel: 'Cancelar',
+      rerollHint: 'Toca la perk que quieras volver a tirar',
       backLabel: 'Rol',
       backAria: 'Volver a elegir rol',
       settingsAria: 'Configuración',
@@ -154,6 +160,9 @@ export const translations: Record<Language, UIStrings> = {
       newBuild: 'New Build',
       copyBuild: 'Copy Build',
       copied: 'Copied!',
+      reroll: 'Reroll',
+      rerollCancel: 'Cancel',
+      rerollHint: 'Tap the perk you want to reroll',
       backLabel: 'Role',
       backAria: 'Back to role selection',
       settingsAria: 'Settings',

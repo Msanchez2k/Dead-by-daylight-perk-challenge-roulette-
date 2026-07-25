@@ -22,17 +22,12 @@ export function BuildSlotCard({ slot, onClick }: BuildSlotCardProps) {
     <button
       type="button"
       onClick={() => onClick(slot.id)}
-      className="group relative z-0 flex aspect-square w-full cursor-pointer items-center justify-center
+      className="group pointer-events-auto relative z-0 flex aspect-square w-full cursor-pointer items-center justify-center
                  bg-transparent transition-transform duration-300 ease-out
                  hover:z-10 active:scale-[0.96]"
+      style={{ clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)' }}
     >
-      {/* El clipPath vive en este wrapper, no en el <button>: así el área táctil real
-          sigue siendo el cuadrado completo (más fácil de tocar en celular) y solo lo
-          visual queda recortado a la forma del rombo. */}
-      <div
-        className="absolute inset-0 h-full w-full"
-        style={{ clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)' }}
-      >
+      <div className="absolute inset-0 h-full w-full">
         {/* Textura del rombo: el filtro drop-shadow sigue el contorno real (alpha), no la caja cuadrada */}
         <img
           src={isSpecialRed ? diamondTextureWildcard : diamondTexture}

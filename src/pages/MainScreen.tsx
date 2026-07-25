@@ -40,12 +40,19 @@ export function MainScreen({ role, settings, onToggleSetting, onBack }: MainScre
   const [perkManagementOpen, setPerkManagementOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const [detailPerk, setDetailPerk] = useState<Perk | null>(null);
+  const [rerollMode, setRerollMode] = useState(false);
+  const [rerollUsed, setRerollUsed] = useState(false);
   const { strings } = useTranslation();
   const t = strings.mainScreen;
 
-  const usedPerkIds = new Set(slots.filter((s) => s.perk).map((s) => s.perk!.id));
+  // Al tirar de nuevo una casilla ya llena, su propia perk no debe contarse
+  // como "en uso" — si no, se quedaría fuera de su propio pool de reroll.
+  const usedPerkIds = new Set(
+    slots.filter((s) => s.perk && s.id !== activeSlotId).map((s) => s.perk!.id),
+  );
   const availablePerks = allPerks.filter((p) => isEnabled(role, p.id) && !usedPerkIds.has(p.id));
   const hasProgress = slots.some((s) => s.status !== 'unfilled');
+  const canReroll = hasProgress && !rerollUsed && activeSlotId === null;
 
   const wildcardPerk = useMemo(
     () =>
@@ -58,6 +65,14 @@ export function MainScreen({ role, settings, onToggleSetting, onBack }: MainScre
   function handleSlotClick(id: number) {
     const slot = slots.find((s) => s.id === id);
     if (!slot) return;
+
+    if (rerollMode) {
+      if (slot.status !== 'filled' && slot.status !== 'empty') return;
+      setRerollMode(false);
+      setRerollUsed(true);
+      setActiveSlotId(id);
+      return;
+    }
 
     if (slot.status === 'filled' && slot.perk) {
       setDetailPerk(slot.perk);
@@ -79,6 +94,12 @@ export function MainScreen({ role, settings, onToggleSetting, onBack }: MainScre
   function handleNewBuild() {
     if (hasProgress && !window.confirm(t.confirmNewBuild)) return;
     resetBuild();
+    setRerollMode(false);
+    setRerollUsed(false);
+  }
+
+  function handleRerollClick() {
+    setRerollMode((prev) => !prev);
   }
 
   function handleBack() {
@@ -136,8 +157,13 @@ export function MainScreen({ role, settings, onToggleSetting, onBack }: MainScre
         </h1>
       </div>
 
-      <div className="relative z-10">
+      <div className="relative z-10 flex flex-col items-center gap-3">
         <BuildGrid slots={slots} onSlotClick={handleSlotClick} />
+        {rerollMode && (
+          <p className="font-display text-xs uppercase tracking-[0.2em] text-blood-500 animate-fade-in">
+            {t.rerollHint}
+          </p>
+        )}
       </div>
 
       <div className="relative z-10 flex items-center gap-3">
@@ -146,6 +172,9 @@ export function MainScreen({ role, settings, onToggleSetting, onBack }: MainScre
         </Button>
         <Button variant="ghost" onClick={handleCopyBuild} disabled={!hasProgress}>
           {copied ? t.copied : t.copyBuild}
+        </Button>
+        <Button variant="ghost" onClick={handleRerollClick} disabled={!rerollMode && !canReroll}>
+          {rerollMode ? t.rerollCancel : t.reroll}
         </Button>
       </div>
 
