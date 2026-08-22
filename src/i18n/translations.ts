@@ -55,6 +55,36 @@ export interface UIStrings {
     enabledCount: string;
     specialGroupTitle: string;
   };
+  killerModeSelect: {
+    eyebrow: string;
+    title: string;
+    characterTitle: string;
+    characterTagline: string;
+    perksTitle: string;
+    perksTagline: string;
+    choose: string;
+    backLabel: string;
+    backAria: string;
+  };
+  killerRoulette: {
+    title: string;
+    spin: string;
+    spinAgain: string;
+    prompt: string;
+    managementAria: string;
+    backLabel: string;
+    backAria: string;
+    goToPerksAria: string;
+    goToKillerAria: string;
+  };
+  killerManagement: {
+    title: string;
+    searchPlaceholder: string;
+    selectAll: string;
+    selectNone: string;
+    minWarning: string;
+    enabledCount: string;
+  };
   footer: {
     disclaimer: string;
     adSlot: string;
@@ -94,7 +124,7 @@ export const translations: Record<Language, UIStrings> = {
       backAria: 'Volver a elegir rol',
       settingsAria: 'Configuración',
       confirmNewBuild: '¿Reiniciar las 4 casillas de la build actual?',
-      confirmBack: '¿Volver a elegir rol? Perderás la build actual.',
+      confirmBack: '¿Volver atrás? Perderás la build actual.',
     },
     slot: {
       empty: 'Vacío',
@@ -126,6 +156,36 @@ export const translations: Record<Language, UIStrings> = {
       minWarning: 'Debes dejar al menos 4 perks habilitadas.',
       enabledCount: 'habilitadas',
       specialGroupTitle: 'Especiales',
+    },
+    killerModeSelect: {
+      eyebrow: 'Elige tu ruleta',
+      title: 'Killer',
+      characterTitle: 'Killer',
+      characterTagline: '¿Con qué killer te tocará jugar?',
+      perksTitle: 'Perks',
+      perksTagline: 'Arma tu build de perks al azar.',
+      choose: 'Elegir →',
+      backLabel: 'Rol',
+      backAria: 'Volver a elegir rol',
+    },
+    killerRoulette: {
+      title: 'Ruleta de Killer',
+      spin: 'Girar Killer',
+      spinAgain: 'Volver a Girar',
+      prompt: '¿Qué killer te tocará jugar?',
+      managementAria: 'Killers disponibles',
+      backLabel: 'Modo',
+      backAria: 'Volver a elegir modo',
+      goToPerksAria: 'Ver perks de este killer',
+      goToKillerAria: 'Ver qué killer te tocó',
+    },
+    killerManagement: {
+      title: 'Killers disponibles',
+      searchPlaceholder: 'Buscar killer...',
+      selectAll: 'Seleccionar todos',
+      selectNone: 'Ninguno',
+      minWarning: 'Debes dejar al menos 1 killer habilitado.',
+      enabledCount: 'habilitados',
     },
     footer: {
       disclaimer:
@@ -167,7 +227,7 @@ export const translations: Record<Language, UIStrings> = {
       backAria: 'Back to role selection',
       settingsAria: 'Settings',
       confirmNewBuild: 'Reset all 4 slots of the current build?',
-      confirmBack: "Go back to role selection? You'll lose the current build.",
+      confirmBack: "Go back? You'll lose the current build.",
     },
     slot: {
       empty: 'Empty',
@@ -199,6 +259,36 @@ export const translations: Record<Language, UIStrings> = {
       minWarning: 'You must leave at least 4 perks enabled.',
       enabledCount: 'enabled',
       specialGroupTitle: 'Special',
+    },
+    killerModeSelect: {
+      eyebrow: 'Choose your roulette',
+      title: 'Killer',
+      characterTitle: 'Killer',
+      characterTagline: 'Which killer will you play?',
+      perksTitle: 'Perks',
+      perksTagline: 'Build a random perk loadout.',
+      choose: 'Choose →',
+      backLabel: 'Role',
+      backAria: 'Back to role selection',
+    },
+    killerRoulette: {
+      title: 'Killer Roulette',
+      spin: 'Spin Killer',
+      spinAgain: 'Spin Again',
+      prompt: 'Which killer will you play?',
+      managementAria: 'Available killers',
+      backLabel: 'Mode',
+      backAria: 'Back to mode selection',
+      goToPerksAria: "See this killer's perks",
+      goToKillerAria: 'See which killer you got',
+    },
+    killerManagement: {
+      title: 'Available killers',
+      searchPlaceholder: 'Search killer...',
+      selectAll: 'Select all',
+      selectNone: 'None',
+      minWarning: 'You must leave at least 1 killer enabled.',
+      enabledCount: 'enabled',
     },
     footer: {
       disclaimer:

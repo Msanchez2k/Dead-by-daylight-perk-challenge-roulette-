@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import type { Perk } from '@/types/perk';
+import type { RouletteBase } from '@/types/roulette';
 import { Modal } from '@/components/ui/Modal';
 import { Roulette } from './Roulette';
 import { useRoulette } from '@/hooks/useRoulette';
@@ -7,25 +7,25 @@ import { pickWinner } from '@/utils/roulette';
 import { playLandSound, playSpinSound, playTickSound } from '@/utils/sound';
 import { useTranslation } from '@/context/LanguageContext';
 
-interface RouletteModalProps {
-  perks: Perk[];
+interface RouletteModalProps<T extends RouletteBase> {
+  perks: T[];
   allowEmptySlot: boolean;
-  wildcard: Perk | null;
+  wildcard: T | null;
   soundEnabled: boolean;
-  onResult: (perk: Perk | null) => void;
+  onResult: (perk: T | null) => void;
 }
 
 const AUTO_CLOSE_DELAY_MS = 1400;
 
-export function RouletteModal({
+export function RouletteModal<T extends RouletteBase>({
   perks,
   allowEmptySlot,
   wildcard,
   soundEnabled,
   onResult,
-}: RouletteModalProps) {
+}: RouletteModalProps<T>) {
   const { status, spinToken, spin, land } = useRoulette();
-  const [winner] = useState<Perk | null>(() => pickWinner(perks, allowEmptySlot, wildcard));
+  const [winner] = useState<T | null>(() => pickWinner(perks, allowEmptySlot, wildcard));
   const autoCloseTimer = useRef<ReturnType<typeof setTimeout>>();
   const { strings } = useTranslation();
   const t = strings.roulette;

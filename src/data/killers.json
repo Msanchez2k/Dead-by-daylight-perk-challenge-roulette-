@@ -1,0 +1,217 @@
+[
+  {
+    "id": "animatronic",
+    "name": "El Animatrónico",
+    "image": "/killers/animatronic.png"
+  },
+  {
+    "id": "artist",
+    "name": "La Artista",
+    "image": "/killers/artist.png"
+  },
+  {
+    "id": "blight",
+    "name": "El Deterioro",
+    "image": "/killers/blight.png"
+  },
+  {
+    "id": "cannibal",
+    "name": "El Caníbal",
+    "image": "/killers/cannibal.png"
+  },
+  {
+    "id": "cenobite",
+    "name": "El Cenobita",
+    "image": "/killers/cenobite.png"
+  },
+  {
+    "id": "clown",
+    "name": "El Payaso",
+    "image": "/killers/clown.png"
+  },
+  {
+    "id": "dark-lord",
+    "name": "El Señor Oscuro",
+    "image": "/killers/dark-lord.png"
+  },
+  {
+    "id": "deathslinger",
+    "name": "El Arponero de la Muerte",
+    "image": "/killers/deathslinger.png"
+  },
+  {
+    "id": "demogorgon",
+    "name": "El Demogorgon",
+    "image": "/killers/demogorgon.png"
+  },
+  {
+    "id": "doctor",
+    "name": "El Doctor",
+    "image": "/killers/doctor.png"
+  },
+  {
+    "id": "dredge",
+    "name": "La Draga",
+    "image": "/killers/dredge.png"
+  },
+  {
+    "id": "executioner",
+    "name": "El Ejecutor",
+    "image": "/killers/executioner.png"
+  },
+  {
+    "id": "ghostface",
+    "name": "Ghost Face",
+    "image": "/killers/ghostface.png"
+  },
+  {
+    "id": "ghoul",
+    "name": "El Ghoul",
+    "image": "/killers/ghoul.png"
+  },
+  {
+    "id": "good-guy",
+    "name": "El Chico Bueno",
+    "image": "/killers/good-guy.png"
+  },
+  {
+    "id": "hag",
+    "name": "La Bruja",
+    "image": "/killers/hag.png"
+  },
+  {
+    "id": "hillbilly",
+    "name": "El Pueblerino",
+    "image": "/killers/hillbilly.png"
+  },
+  {
+    "id": "houndmaster",
+    "name": "La Señora de los Sabuesos",
+    "image": "/killers/houndmaster.png"
+  },
+  {
+    "id": "huntress",
+    "name": "La Cazadora",
+    "image": "/killers/huntress.png"
+  },
+  {
+    "id": "knight",
+    "name": "El Caballero",
+    "image": "/killers/knight.png"
+  },
+  {
+    "id": "krasue",
+    "name": "La Krasue",
+    "image": "/killers/krasue.png"
+  },
+  {
+    "id": "legion",
+    "name": "La Legión",
+    "image": "/killers/legion.png"
+  },
+  {
+    "id": "lich",
+    "name": "El Liche",
+    "image": "/killers/lich.png"
+  },
+  {
+    "id": "mastermind",
+    "name": "La Mente Maestra",
+    "image": "/killers/mastermind.png"
+  },
+  {
+    "id": "nemesis",
+    "name": "Némesis",
+    "image": "/killers/nemesis.png"
+  },
+  {
+    "id": "nightmare",
+    "name": "La Pesadilla",
+    "image": "/killers/nightmare.png"
+  },
+  {
+    "id": "nurse",
+    "name": "La Enfermera",
+    "image": "/killers/nurse.png"
+  },
+  {
+    "id": "oni",
+    "name": "El Oni",
+    "image": "/killers/oni.png"
+  },
+  {
+    "id": "onryo",
+    "name": "La Onryō",
+    "image": "/killers/onryo.png"
+  },
+  {
+    "id": "pig",
+    "name": "La Cerda",
+    "image": "/killers/pig.png"
+  },
+  {
+    "id": "plague",
+    "name": "La Plaga",
+    "image": "/killers/plague.png"
+  },
+  {
+    "id": "shape",
+    "name": "La Forma",
+    "image": "/killers/shape.png"
+  },
+  {
+    "id": "singularity",
+    "name": "La Singularidad",
+    "image": "/killers/singularity.png"
+  },
+  {
+    "id": "skull-merchant",
+    "name": "La Comerciante de Calaveras",
+    "image": "/killers/skull-merchant.png"
+  },
+  {
+    "id": "slasher",
+    "name": "El Acuchillador",
+    "image": "/killers/slasher.png"
+  },
+  {
+    "id": "spirit",
+    "name": "El Espíritu",
+    "image": "/killers/spirit.png"
+  },
+  {
+    "id": "the-first",
+    "name": "El Primero",
+    "image": "/killers/the-first.png"
+  },
+  {
+    "id": "trapper",
+    "name": "El Trampero",
+    "image": "/killers/trapper.png"
+  },
+  {
+    "id": "trickster",
+    "name": "El Embaucador",
+    "image": "/killers/trickster.png"
+  },
+  {
+    "id": "twins",
+    "name": "Los Gemelos",
+    "image": "/killers/twins.png"
+  },
+  {
+    "id": "unknown",
+    "name": "Lo Desconocido",
+    "image": "/killers/unknown.png"
+  },
+  {
+    "id": "wraith",
+    "name": "El Espectro",
+    "image": "/killers/wraith.png"
+  },
+  {
+    "id": "xenomorph",
+    "name": "El Xenomorfo",
+    "image": "/killers/xenomorph.png"
+  }
+]

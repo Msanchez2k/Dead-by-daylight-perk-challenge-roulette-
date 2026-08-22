@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { Perk } from '@/types/perk';
+import type { RouletteBase } from '@/types/roulette';
 import { buildReel } from '@/utils/roulette';
 import { cubicBezier } from '@/utils/easing';
 
@@ -20,18 +20,18 @@ const TRANSITION = `transform ${SPIN_DURATION_MS}ms cubic-bezier(${EASE_POINTS.j
 // calcular cuadro a cuadro qué ítem está pasando bajo la aguja para el tick.
 const spinEasing = cubicBezier(...EASE_POINTS);
 
-interface RouletteProps {
-  perks: Perk[];
+interface RouletteProps<T extends RouletteBase> {
+  perks: T[];
   allowEmptySlot: boolean;
-  wildcard: Perk | null;
-  winner: Perk | null;
+  wildcard: T | null;
+  winner: T | null;
   spinToken: number;
   landed: boolean;
   onLand: () => void;
   onTick?: () => void;
 }
 
-export function Roulette({
+export function Roulette<T extends RouletteBase>({
   perks,
   allowEmptySlot,
   wildcard,
@@ -40,7 +40,7 @@ export function Roulette({
   landed,
   onLand,
   onTick,
-}: RouletteProps) {
+}: RouletteProps<T>) {
   const [spinAngle, setSpinAngle] = useState(0);
   const [animate, setAnimate] = useState(false);
   const rafRef = useRef<number>();

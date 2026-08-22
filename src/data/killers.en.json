@@ -1,0 +1,217 @@
+[
+  {
+    "id": "animatronic",
+    "name": "Springtrap",
+    "image": "/killers/animatronic.png"
+  },
+  {
+    "id": "artist",
+    "name": "The Artist",
+    "image": "/killers/artist.png"
+  },
+  {
+    "id": "blight",
+    "name": "The Blight",
+    "image": "/killers/blight.png"
+  },
+  {
+    "id": "cannibal",
+    "name": "The Cannibal",
+    "image": "/killers/cannibal.png"
+  },
+  {
+    "id": "cenobite",
+    "name": "The Cenobite",
+    "image": "/killers/cenobite.png"
+  },
+  {
+    "id": "clown",
+    "name": "The Clown",
+    "image": "/killers/clown.png"
+  },
+  {
+    "id": "dark-lord",
+    "name": "The Dark Lord",
+    "image": "/killers/dark-lord.png"
+  },
+  {
+    "id": "deathslinger",
+    "name": "The Deathslinger",
+    "image": "/killers/deathslinger.png"
+  },
+  {
+    "id": "demogorgon",
+    "name": "The Demogorgon",
+    "image": "/killers/demogorgon.png"
+  },
+  {
+    "id": "doctor",
+    "name": "The Doctor",
+    "image": "/killers/doctor.png"
+  },
+  {
+    "id": "dredge",
+    "name": "The Dredge",
+    "image": "/killers/dredge.png"
+  },
+  {
+    "id": "executioner",
+    "name": "The Executioner",
+    "image": "/killers/executioner.png"
+  },
+  {
+    "id": "ghostface",
+    "name": "Ghost Face",
+    "image": "/killers/ghostface.png"
+  },
+  {
+    "id": "ghoul",
+    "name": "The Ghoul",
+    "image": "/killers/ghoul.png"
+  },
+  {
+    "id": "good-guy",
+    "name": "The Good Guy",
+    "image": "/killers/good-guy.png"
+  },
+  {
+    "id": "hag",
+    "name": "The Hag",
+    "image": "/killers/hag.png"
+  },
+  {
+    "id": "hillbilly",
+    "name": "The Hillbilly",
+    "image": "/killers/hillbilly.png"
+  },
+  {
+    "id": "houndmaster",
+    "name": "The Houndmaster",
+    "image": "/killers/houndmaster.png"
+  },
+  {
+    "id": "huntress",
+    "name": "The Huntress",
+    "image": "/killers/huntress.png"
+  },
+  {
+    "id": "knight",
+    "name": "The Knight",
+    "image": "/killers/knight.png"
+  },
+  {
+    "id": "krasue",
+    "name": "The Krasue",
+    "image": "/killers/krasue.png"
+  },
+  {
+    "id": "legion",
+    "name": "The Legion",
+    "image": "/killers/legion.png"
+  },
+  {
+    "id": "lich",
+    "name": "The Lich",
+    "image": "/killers/lich.png"
+  },
+  {
+    "id": "mastermind",
+    "name": "The Mastermind",
+    "image": "/killers/mastermind.png"
+  },
+  {
+    "id": "nemesis",
+    "name": "Nemesis",
+    "image": "/killers/nemesis.png"
+  },
+  {
+    "id": "nightmare",
+    "name": "The Nightmare",
+    "image": "/killers/nightmare.png"
+  },
+  {
+    "id": "nurse",
+    "name": "The Nurse",
+    "image": "/killers/nurse.png"
+  },
+  {
+    "id": "oni",
+    "name": "The Oni",
+    "image": "/killers/oni.png"
+  },
+  {
+    "id": "onryo",
+    "name": "The Onryō",
+    "image": "/killers/onryo.png"
+  },
+  {
+    "id": "pig",
+    "name": "The Pig",
+    "image": "/killers/pig.png"
+  },
+  {
+    "id": "plague",
+    "name": "The Plague",
+    "image": "/killers/plague.png"
+  },
+  {
+    "id": "shape",
+    "name": "The Shape",
+    "image": "/killers/shape.png"
+  },
+  {
+    "id": "singularity",
+    "name": "The Singularity",
+    "image": "/killers/singularity.png"
+  },
+  {
+    "id": "skull-merchant",
+    "name": "The Skull Merchant",
+    "image": "/killers/skull-merchant.png"
+  },
+  {
+    "id": "slasher",
+    "name": "The Slasher",
+    "image": "/killers/slasher.png"
+  },
+  {
+    "id": "spirit",
+    "name": "The Spirit",
+    "image": "/killers/spirit.png"
+  },
+  {
+    "id": "the-first",
+    "name": "The First",
+    "image": "/killers/the-first.png"
+  },
+  {
+    "id": "trapper",
+    "name": "The Trapper",
+    "image": "/killers/trapper.png"
+  },
+  {
+    "id": "trickster",
+    "name": "The Trickster",
+    "image": "/killers/trickster.png"
+  },
+  {
+    "id": "twins",
+    "name": "The Twins",
+    "image": "/killers/twins.png"
+  },
+  {
+    "id": "unknown",
+    "name": "The Unknown",
+    "image": "/killers/unknown.png"
+  },
+  {
+    "id": "wraith",
+    "name": "The Wraith",
+    "image": "/killers/wraith.png"
+  },
+  {
+    "id": "xenomorph",
+    "name": "The Xenomorph",
+    "image": "/killers/xenomorph.png"
+  }
+]

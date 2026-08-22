@@ -35,7 +35,8 @@ export function RoleSelect({ onSelectRole }: RoleSelectProps) {
 
       <div className="relative z-10 flex flex-col gap-6 sm:flex-row sm:gap-10 animate-fade-in">
         <RoleCard
-          role="survivor"
+          id="survivor"
+          accent="bone"
           title={t.survivorTitle}
           tagline={t.survivorTagline}
           chooseLabel={t.choose}
@@ -43,7 +44,8 @@ export function RoleSelect({ onSelectRole }: RoleSelectProps) {
           onSelect={onSelectRole}
         />
         <RoleCard
-          role="killer"
+          id="killer"
+          accent="blood"
           title={t.killerTitle}
           tagline={t.killerTagline}
           chooseLabel={t.choose}

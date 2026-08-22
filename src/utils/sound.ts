@@ -60,6 +60,17 @@ const SPIN_SRC = '/audio/spin.wav';
 const LAND_SRC = '/audio/land.wav';
 const TICK_SRC = '/audio/tick.wav';
 
+// Killers cuyo audio viene en 2 variantes (se elige una al azar cada vez).
+const TWO_VARIANT_KILLER_SOUNDS = new Set(['mastermind', 'oni']);
+
+function killerSoundSrc(killerId: string): string {
+  if (TWO_VARIANT_KILLER_SOUNDS.has(killerId)) {
+    const variant = Math.random() < 0.5 ? 1 : 2;
+    return `/killer-sounds/${killerId}-${variant}.mp3`;
+  }
+  return `/killer-sounds/${killerId}.mp3`;
+}
+
 /** Precarga y decodifica los efectos de sonido para que suenen sin retraso la primera vez. */
 export function preloadSounds() {
   loadBuffer(SPIN_SRC);
@@ -80,4 +91,13 @@ export function playLandSound() {
 /** Clic cada vez que la tira de la ruleta pasa por un ítem. */
 export function playTickSound() {
   playFileSound(TICK_SRC, 0.4);
+}
+
+/**
+ * Frase característica del killer que tocó en la ruleta. Si el killer todavía
+ * no tiene audio subido a /public/killer-sounds, la carga falla en silencio
+ * (ver loadBuffer) y simplemente no suena nada.
+ */
+export function playKillerSound(killerId: string) {
+  playFileSound(killerSoundSrc(killerId), 1.4);
 }

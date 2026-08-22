@@ -1,50 +1,53 @@
-import type { Perk } from '@/types/perk';
-import type { RouletteItem } from '@/types/roulette';
+import type { RouletteBase, RouletteItem } from '@/types/roulette';
 import { pickRandom } from './random';
 
 /**
- * Elige la perk ganadora (o null = espacio vacío) entre las perks disponibles.
+ * Elige el ítem ganador (o null = espacio vacío) entre los ítems disponibles.
  * El espacio vacío y el comodín participan como una opción más cada uno, con
- * la misma probabilidad que una perk individual — son "casillas" más de la ruleta.
+ * la misma probabilidad que un ítem individual — son "casillas" más de la ruleta.
  */
-export function pickWinner(
-  perks: Perk[],
+export function pickWinner<T extends RouletteBase>(
+  items: T[],
   allowEmptySlot: boolean,
-  wildcard: Perk | null,
-): Perk | null {
-  const pool = buildPool(perks, allowEmptySlot, wildcard);
+  wildcard: T | null,
+): T | null {
+  const pool = buildPool(items, allowEmptySlot, wildcard);
   return pickRandom(pool);
 }
 
-function buildPool(perks: Perk[], allowEmptySlot: boolean, wildcard: Perk | null): (Perk | null)[] {
-  const pool: (Perk | null)[] = [...perks];
+function buildPool<T extends RouletteBase>(
+  items: T[],
+  allowEmptySlot: boolean,
+  wildcard: T | null,
+): (T | null)[] {
+  const pool: (T | null)[] = [...items];
   if (allowEmptySlot) pool.push(null);
   if (wildcard) pool.push(wildcard);
   return pool;
 }
 
 // Largo fijo de la tira: da la sensación de un giro largo sin importar
-// si el pool tiene 12 perks o 500 — clave para escalar a los ~170+ perks reales.
+// si el pool tiene 12 ítems o 500 — clave para escalar a los ~170+ perks reales.
 // Debe quedar por debajo de 360° / ITEM_ANGLE_STEP (9°) = 40 posiciones: si el
 // total (REEL_LENGTH + TAIL_PADDING) llega o supera 40, algún índice cae en el
 // mismo ángulo que otro (ej. 43 y 3) y sus ítems se dibujan superpuestos.
 const REEL_LENGTH = 32;
 const TAIL_PADDING = 4;
 
-function perkKey(perk: Perk | null): string {
-  return perk?.id ?? 'empty';
+function itemKey<T extends RouletteBase>(item: T | null): string {
+  return item?.id ?? 'empty';
 }
 
 /**
  * Elige un ítem al azar del pool evitando repetir `avoidKey` cuando hay
- * más de una opción disponible — con pools chicos (pocas perks habilitadas)
+ * más de una opción disponible — con pools chicos (pocos ítems habilitados)
  * los repetidos consecutivos se notaban demasiado en la tira.
  */
-function pickAvoiding(pool: (Perk | null)[], avoidKey: string | null): Perk | null {
+function pickAvoiding<T extends RouletteBase>(pool: (T | null)[], avoidKey: string | null): T | null {
   if (pool.length <= 1) return pickRandom(pool);
   const choice = pickRandom(pool);
-  if (perkKey(choice) !== avoidKey) return choice;
-  const rest = pool.filter((p) => perkKey(p) !== avoidKey);
+  if (itemKey(choice) !== avoidKey) return choice;
+  const rest = pool.filter((p) => itemKey(p) !== avoidKey);
   return pickRandom(rest);
 }
 
@@ -53,39 +56,39 @@ function pickAvoiding(pool: (Perk | null)[], avoidKey: string | null): Perk | nu
  * ítems tomados al azar del pool sin repetir el vecino inmediato), garantizando
  * que el ganador quede fijo en `winnerIndex`.
  */
-export function buildReel(
-  perks: Perk[],
+export function buildReel<T extends RouletteBase>(
+  items: T[],
   allowEmptySlot: boolean,
-  wildcard: Perk | null,
-  winner: Perk | null,
-): { reel: RouletteItem[]; winnerIndex: number } {
-  const basePool = buildPool(perks, allowEmptySlot, wildcard);
+  wildcard: T | null,
+  winner: T | null,
+): { reel: RouletteItem<T>[]; winnerIndex: number } {
+  const basePool = buildPool(items, allowEmptySlot, wildcard);
 
-  const reel: RouletteItem[] = [];
+  const reel: RouletteItem<T>[] = [];
   let prevKey: string | null = null;
   for (let i = 0; i < REEL_LENGTH; i++) {
-    const perk = pickAvoiding(basePool, prevKey);
-    prevKey = perkKey(perk);
-    reel.push({ key: `reel-${i}-${prevKey}`, perk });
+    const item: T | null = pickAvoiding<T>(basePool, prevKey);
+    prevKey = itemKey(item);
+    reel.push({ key: `reel-${i}-${prevKey}`, perk: item });
   }
 
   const winnerIndex = REEL_LENGTH - TAIL_PADDING - 1;
-  const winnerKey = perkKey(winner);
+  const winnerKey = itemKey(winner);
 
   // Si el ítem justo antes del ganador coincidió con él, se redibuja para
   // que no se vean "dos iguales pegados" justo donde cae la aguja.
-  if (winnerIndex > 0 && perkKey(reel[winnerIndex - 1].perk) === winnerKey) {
-    const perk = pickAvoiding(basePool, winnerKey);
-    reel[winnerIndex - 1] = { key: `reel-${winnerIndex - 1}-${perkKey(perk)}`, perk };
+  if (winnerIndex > 0 && itemKey(reel[winnerIndex - 1].perk) === winnerKey) {
+    const item = pickAvoiding<T>(basePool, winnerKey);
+    reel[winnerIndex - 1] = { key: `reel-${winnerIndex - 1}-${itemKey(item)}`, perk: item };
   }
 
   reel[winnerIndex] = { key: `winner-${winnerKey}`, perk: winner };
 
   let tailPrevKey = winnerKey;
   for (let i = 0; i < TAIL_PADDING; i++) {
-    const perk = pickAvoiding(basePool, tailPrevKey);
-    tailPrevKey = perkKey(perk);
-    reel.push({ key: `tail-${i}-${tailPrevKey}`, perk });
+    const item = pickAvoiding<T>(basePool, tailPrevKey);
+    tailPrevKey = itemKey(item);
+    reel.push({ key: `tail-${i}-${tailPrevKey}`, perk: item });
   }
 
   return { reel, winnerIndex };

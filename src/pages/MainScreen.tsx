@@ -11,6 +11,7 @@ import { PerkManagementPanel } from '@/components/settings/PerkManagementPanel';
 import { BackIcon } from '@/components/ui/icons';
 import managePerksIcon from '@/assets/icons/manage-perks.png';
 import settingsIcon from '@/assets/icons/settings.png';
+import exposedIcon from '@/assets/icons/exposed.png';
 import { EmberField } from '@/components/ui/EmberField';
 import { Footer } from '@/components/ui/Footer';
 import { Button } from '@/components/ui/Button';
@@ -24,6 +25,7 @@ interface MainScreenProps {
   settings: Settings;
   onToggleSetting: (key: keyof Settings) => void;
   onBack: () => void;
+  onGoToKiller?: () => void;
 }
 
 const ROLE_LABEL: Record<Role, string> = {
@@ -31,7 +33,7 @@ const ROLE_LABEL: Record<Role, string> = {
   killer: 'Killer',
 };
 
-export function MainScreen({ role, settings, onToggleSetting, onBack }: MainScreenProps) {
+export function MainScreen({ role, settings, onToggleSetting, onBack, onGoToKiller }: MainScreenProps) {
   const { slots, fillSlot, resetBuild } = useBuild();
   const allPerks = usePerks(role);
   const { isEnabled, togglePerk, setAllDisabled, setPerksEnabled } = usePerkSelection();
@@ -53,6 +55,9 @@ export function MainScreen({ role, settings, onToggleSetting, onBack }: MainScre
   const availablePerks = allPerks.filter((p) => isEnabled(role, p.id) && !usedPerkIds.has(p.id));
   const hasProgress = slots.some((s) => s.status !== 'unfilled');
   const canReroll = hasProgress && !rerollUsed && activeSlotId === null;
+  // Si el rol es killer, "atrás" vuelve a la pantalla de modo (Killer/Perks), no a selección de rol.
+  const backLabel = role === 'killer' ? strings.killerRoulette.backLabel : t.backLabel;
+  const backAria = role === 'killer' ? strings.killerRoulette.backAria : t.backAria;
 
   const wildcardPerk = useMemo(
     () =>
@@ -122,11 +127,11 @@ export function MainScreen({ role, settings, onToggleSetting, onBack }: MainScre
       <button
         type="button"
         onClick={handleBack}
-        aria-label={t.backAria}
+        aria-label={backAria}
         className="fixed left-5 top-5 z-20 flex items-center gap-2 text-steel-400 transition-colors duration-300 hover:text-blood-500"
       >
         <BackIcon className="h-5 w-5" />
-        <span className="font-display text-xs uppercase tracking-[0.2em]">{t.backLabel}</span>
+        <span className="font-display text-xs uppercase tracking-[0.2em]">{backLabel}</span>
       </button>
 
       <div className="fixed right-5 top-5 z-20 flex items-center gap-4">
@@ -167,6 +172,16 @@ export function MainScreen({ role, settings, onToggleSetting, onBack }: MainScre
       </div>
 
       <div className="relative z-10 flex items-center gap-3">
+        {role === 'killer' && onGoToKiller && (
+          <button
+            type="button"
+            onClick={onGoToKiller}
+            aria-label={strings.killerRoulette.goToKillerAria}
+            className="opacity-80 transition-all duration-300 hover:scale-110 hover:opacity-100 hover:drop-shadow-[0_0_10px_rgba(196,30,30,0.6)]"
+          >
+            <img src={exposedIcon} alt="" aria-hidden="true" className="h-12 w-12 select-none" />
+          </button>
+        )}
         <Button variant="ghost" onClick={handleNewBuild} disabled={!hasProgress}>
           {t.newBuild}
         </Button>
