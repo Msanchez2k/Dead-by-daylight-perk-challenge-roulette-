@@ -1,14 +1,17 @@
 import type { Perk, Role } from '@/types/perk';
 import type { Settings } from '@/types/settings';
+import type { BuildHistoryEntry } from '@/types/buildHistory';
 import { useBuild } from '@/hooks/useBuild';
 import { usePerks } from '@/hooks/usePerks';
 import { usePerkSelection } from '@/hooks/usePerkSelection';
+import { useBuildHistory } from '@/hooks/useBuildHistory';
 import { BuildGrid } from '@/components/build/BuildGrid';
 import { PerkDetailModal } from '@/components/build/PerkDetailModal';
+import { BuildHistoryPanel } from '@/components/build/BuildHistoryPanel';
 import { RouletteModal } from '@/components/roulette/RouletteModal';
 import { SettingsPanel } from '@/components/settings/SettingsPanel';
 import { PerkManagementPanel } from '@/components/settings/PerkManagementPanel';
-import { BackIcon } from '@/components/ui/icons';
+import { BackIcon, HistoryIcon } from '@/components/ui/icons';
 import managePerksIcon from '@/assets/icons/manage-perks.png';
 import settingsIcon from '@/assets/icons/settings.png';
 import exposedIcon from '@/assets/icons/exposed.png';
@@ -34,12 +37,14 @@ const ROLE_LABEL: Record<Role, string> = {
 };
 
 export function MainScreen({ role, settings, onToggleSetting, onBack, onGoToKiller }: MainScreenProps) {
-  const { slots, fillSlot, resetBuild } = useBuild();
+  const { slots, setSlots, fillSlot, resetBuild } = useBuild();
   const allPerks = usePerks(role);
   const { isEnabled, togglePerk, setAllDisabled, setPerksEnabled } = usePerkSelection();
+  const { history, addEntry, removeEntry, clearHistory } = useBuildHistory();
   const [activeSlotId, setActiveSlotId] = useState<number | null>(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [perkManagementOpen, setPerkManagementOpen] = useState(false);
+  const [historyOpen, setHistoryOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const [detailPerk, setDetailPerk] = useState<Perk | null>(null);
   const [rerollMode, setRerollMode] = useState(false);
@@ -98,6 +103,7 @@ export function MainScreen({ role, settings, onToggleSetting, onBack, onGoToKill
 
   function handleNewBuild() {
     if (hasProgress && !window.confirm(t.confirmNewBuild)) return;
+    if (hasProgress) addEntry(role, slots);
     resetBuild();
     setRerollMode(false);
     setRerollUsed(false);
@@ -109,7 +115,15 @@ export function MainScreen({ role, settings, onToggleSetting, onBack, onGoToKill
 
   function handleBack() {
     if (hasProgress && !window.confirm(t.confirmBack)) return;
+    if (hasProgress) addEntry(role, slots);
     onBack();
+  }
+
+  function handleRestoreFromHistory(entry: BuildHistoryEntry) {
+    setSlots(entry.slots);
+    setRerollMode(false);
+    setRerollUsed(false);
+    setHistoryOpen(false);
   }
 
   async function handleCopyBuild() {
@@ -142,6 +156,14 @@ export function MainScreen({ role, settings, onToggleSetting, onBack, onGoToKill
           className="opacity-70 transition-all duration-300 hover:scale-110 hover:opacity-100 hover:drop-shadow-[0_0_10px_rgba(196,30,30,0.6)]"
         >
           <img src={managePerksIcon} alt="" aria-hidden="true" className="h-16 w-16 select-none" />
+        </button>
+        <button
+          type="button"
+          onClick={() => setHistoryOpen(true)}
+          aria-label={t.historyAria}
+          className="text-bone-100 opacity-70 transition-all duration-300 hover:scale-110 hover:opacity-100 hover:drop-shadow-[0_0_10px_rgba(196,30,30,0.6)]"
+        >
+          <HistoryIcon className="h-9 w-9 select-none" />
         </button>
         <button
           type="button"
@@ -223,6 +245,17 @@ export function MainScreen({ role, settings, onToggleSetting, onBack, onGoToKill
           settings={settings}
           onToggleSetting={onToggleSetting}
           onClose={() => setPerkManagementOpen(false)}
+        />
+      )}
+
+      {historyOpen && (
+        <BuildHistoryPanel
+          role={role}
+          history={history}
+          onRestore={handleRestoreFromHistory}
+          onDelete={removeEntry}
+          onClearAll={() => clearHistory(role)}
+          onClose={() => setHistoryOpen(false)}
         />
       )}
     </div>

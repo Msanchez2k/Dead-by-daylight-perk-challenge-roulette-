@@ -21,6 +21,7 @@ export interface UIStrings {
     backLabel: string;
     backAria: string;
     settingsAria: string;
+    historyAria: string;
     confirmNewBuild: string;
     confirmBack: string;
   };
@@ -54,6 +55,19 @@ export interface UIStrings {
     minWarning: string;
     enabledCount: string;
     specialGroupTitle: string;
+  };
+  buildHistory: {
+    title: string;
+    empty: string;
+    survivorLabel: string;
+    killerLabel: string;
+    restore: string;
+    copy: string;
+    copied: string;
+    delete: string;
+    clearAll: string;
+    confirmClear: string;
+    confirmRestore: string;
   };
   killerModeSelect: {
     eyebrow: string;
@@ -123,6 +137,7 @@ export const translations: Record<Language, UIStrings> = {
       backLabel: 'Rol',
       backAria: 'Volver a elegir rol',
       settingsAria: 'Configuración',
+      historyAria: 'Historial de builds',
       confirmNewBuild: '¿Reiniciar las 4 casillas de la build actual?',
       confirmBack: '¿Volver atrás? Perderás la build actual.',
     },
@@ -156,6 +171,19 @@ export const translations: Record<Language, UIStrings> = {
       minWarning: 'Debes dejar al menos 4 perks habilitadas.',
       enabledCount: 'habilitadas',
       specialGroupTitle: 'Especiales',
+    },
+    buildHistory: {
+      title: 'Historial de builds',
+      empty: 'Todavía no guardaste ninguna build.',
+      survivorLabel: 'Survivor',
+      killerLabel: 'Killer',
+      restore: 'Usar esta build',
+      copy: 'Copiar',
+      copied: '¡Copiado!',
+      delete: 'Eliminar',
+      clearAll: 'Borrar historial',
+      confirmClear: '¿Borrar todo el historial de builds de este rol?',
+      confirmRestore: '¿Reemplazar la build actual con esta? Perderás el progreso actual.',
     },
     killerModeSelect: {
       eyebrow: 'Elige tu ruleta',
@@ -226,6 +254,7 @@ export const translations: Record<Language, UIStrings> = {
       backLabel: 'Role',
       backAria: 'Back to role selection',
       settingsAria: 'Settings',
+      historyAria: 'Build history',
       confirmNewBuild: 'Reset all 4 slots of the current build?',
       confirmBack: "Go back? You'll lose the current build.",
     },
@@ -259,6 +288,19 @@ export const translations: Record<Language, UIStrings> = {
       minWarning: 'You must leave at least 4 perks enabled.',
       enabledCount: 'enabled',
       specialGroupTitle: 'Special',
+    },
+    buildHistory: {
+      title: 'Build history',
+      empty: "You haven't saved any builds yet.",
+      survivorLabel: 'Survivor',
+      killerLabel: 'Killer',
+      restore: 'Use this build',
+      copy: 'Copy',
+      copied: 'Copied!',
+      delete: 'Delete',
+      clearAll: 'Clear history',
+      confirmClear: 'Clear the whole build history for this role?',
+      confirmRestore: "Replace the current build with this one? You'll lose the current progress.",
     },
     killerModeSelect: {
       eyebrow: 'Choose your roulette',
