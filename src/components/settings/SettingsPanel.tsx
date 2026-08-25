@@ -1,5 +1,6 @@
 import { Modal } from '@/components/ui/Modal';
 import { Toggle } from '@/components/ui/Toggle';
+import { Slider } from '@/components/ui/Slider';
 import { LanguageSwitch } from '@/components/ui/LanguageSwitch';
 import { MenuPanel, MenuRow } from '@/components/ui/MenuPanel';
 import { useTranslation } from '@/context/LanguageContext';
@@ -8,10 +9,11 @@ import type { Settings } from '@/types/settings';
 interface SettingsPanelProps {
   settings: Settings;
   onToggle: (key: keyof Settings) => void;
+  onSetVolume: (key: 'soundVolume' | 'musicVolume', value: number) => void;
   onClose: () => void;
 }
 
-export function SettingsPanel({ settings, onToggle, onClose }: SettingsPanelProps) {
+export function SettingsPanel({ settings, onToggle, onSetVolume, onClose }: SettingsPanelProps) {
   const { strings } = useTranslation();
   const t = strings.settings;
 
@@ -31,11 +33,27 @@ export function SettingsPanel({ settings, onToggle, onClose }: SettingsPanelProp
               onChange={() => onToggle('soundEnabled')}
             />
           </MenuRow>
+          <MenuRow label={t.soundVolume}>
+            <Slider
+              label={t.soundVolume}
+              value={settings.soundVolume}
+              disabled={!settings.soundEnabled}
+              onChange={(value) => onSetVolume('soundVolume', value)}
+            />
+          </MenuRow>
           <MenuRow label={t.music}>
             <Toggle
               label={t.music}
               checked={settings.musicEnabled}
               onChange={() => onToggle('musicEnabled')}
+            />
+          </MenuRow>
+          <MenuRow label={t.musicVolume}>
+            <Slider
+              label={t.musicVolume}
+              value={settings.musicVolume}
+              disabled={!settings.musicEnabled}
+              onChange={(value) => onSetVolume('musicVolume', value)}
             />
           </MenuRow>
           <MenuRow label={t.animations}>

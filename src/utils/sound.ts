@@ -78,19 +78,27 @@ export function preloadSounds() {
   loadBuffer(TICK_SRC);
 }
 
+// El volumen "de fábrica" de cada efecto (los valores de siempre) corresponde
+// al 60% en el ajustador de la UI; de ahí se escala hacia arriba o abajo.
+const DEFAULT_VOLUME_PERCENT = 60;
+
+function scaleVolume(baseVolume: number, volumePercent: number): number {
+  return baseVolume * (volumePercent / DEFAULT_VOLUME_PERCENT);
+}
+
 /** Tambor grave al iniciar el giro de la ruleta. */
-export function playSpinSound() {
-  playFileSound(SPIN_SRC, 0.5);
+export function playSpinSound(volumePercent = DEFAULT_VOLUME_PERCENT) {
+  playFileSound(SPIN_SRC, scaleVolume(0.5, volumePercent));
 }
 
 /** Stinger al aterrizar el resultado. */
-export function playLandSound() {
-  playFileSound(LAND_SRC, 0.5);
+export function playLandSound(volumePercent = DEFAULT_VOLUME_PERCENT) {
+  playFileSound(LAND_SRC, scaleVolume(0.5, volumePercent));
 }
 
 /** Clic cada vez que la tira de la ruleta pasa por un ítem. */
-export function playTickSound() {
-  playFileSound(TICK_SRC, 0.4);
+export function playTickSound(volumePercent = DEFAULT_VOLUME_PERCENT) {
+  playFileSound(TICK_SRC, scaleVolume(0.4, volumePercent));
 }
 
 /**
@@ -98,6 +106,6 @@ export function playTickSound() {
  * no tiene audio subido a /public/killer-sounds, la carga falla en silencio
  * (ver loadBuffer) y simplemente no suena nada.
  */
-export function playKillerSound(killerId: string) {
-  playFileSound(killerSoundSrc(killerId), 1.4);
+export function playKillerSound(killerId: string, volumePercent = DEFAULT_VOLUME_PERCENT) {
+  playFileSound(killerSoundSrc(killerId), scaleVolume(1.4, volumePercent));
 }

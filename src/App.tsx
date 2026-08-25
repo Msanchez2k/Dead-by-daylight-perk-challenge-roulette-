@@ -12,9 +12,9 @@ import { preloadSounds } from '@/utils/sound';
 function App() {
   const [role, setRole] = useState<Role | null>(null);
   const [killerMode, setKillerMode] = useState<KillerMode | null>(null);
-  const { settings, toggle } = useSettings();
+  const { settings, toggle, setVolume } = useSettings();
 
-  useBackgroundMusic(settings.musicEnabled);
+  useBackgroundMusic(settings.musicEnabled, settings.musicVolume);
 
   useEffect(() => {
     preloadSounds();
@@ -48,6 +48,7 @@ function App() {
           <KillerRouletteScreen
             settings={settings}
             onToggleSetting={toggle}
+            onSetVolume={setVolume}
             onBack={() => setKillerMode(null)}
             onGoToPerks={() => setKillerMode('perks')}
           />
@@ -57,6 +58,7 @@ function App() {
             role={role}
             settings={settings}
             onToggleSetting={toggle}
+            onSetVolume={setVolume}
             onBack={() => setKillerMode(null)}
             onGoToKiller={() => setKillerMode('character')}
           />
@@ -66,7 +68,13 @@ function App() {
   }
 
   return (
-    <MainScreen role={role} settings={settings} onToggleSetting={toggle} onBack={handleBackToRoleSelect} />
+    <MainScreen
+      role={role}
+      settings={settings}
+      onToggleSetting={toggle}
+      onSetVolume={setVolume}
+      onBack={handleBackToRoleSelect}
+    />
   );
 }
 

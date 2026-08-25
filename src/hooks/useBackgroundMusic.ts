@@ -1,7 +1,9 @@
 import { useEffect, useRef } from 'react';
 
 const MUSIC_SRC = '/audio/theme.mp3';
-const VOLUME = 0.35;
+const BASE_VOLUME = 0.35;
+// El volumen "de fábrica" (BASE_VOLUME) corresponde al 60% en el ajustador de la UI.
+const DEFAULT_VOLUME_PERCENT = 60;
 
 /**
  * Reproduce música de fondo en loop mientras `enabled` sea true.
@@ -10,18 +12,23 @@ const VOLUME = 0.35;
  * y el play real ocurre en el primer intento tras una interacción
  * (cualquier click en la app ya cuenta como interacción válida).
  */
-export function useBackgroundMusic(enabled: boolean) {
+export function useBackgroundMusic(enabled: boolean, volumePercent = DEFAULT_VOLUME_PERCENT) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     if (!audioRef.current) {
       const audio = new Audio(MUSIC_SRC);
       audio.loop = true;
-      audio.volume = VOLUME;
       audioRef.current = audio;
     }
 
     const audio = audioRef.current;
+    audio.volume = Math.min(1, BASE_VOLUME * (volumePercent / DEFAULT_VOLUME_PERCENT));
+  }, [volumePercent]);
+
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
 
     if (!enabled) {
       audio.pause();

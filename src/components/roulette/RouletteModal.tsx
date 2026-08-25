@@ -12,6 +12,7 @@ interface RouletteModalProps<T extends RouletteBase> {
   allowEmptySlot: boolean;
   wildcard: T | null;
   soundEnabled: boolean;
+  soundVolume?: number;
   onResult: (perk: T | null) => void;
 }
 
@@ -22,6 +23,7 @@ export function RouletteModal<T extends RouletteBase>({
   allowEmptySlot,
   wildcard,
   soundEnabled,
+  soundVolume,
   onResult,
 }: RouletteModalProps<T>) {
   const { status, spinToken, spin, land } = useRoulette();
@@ -32,13 +34,13 @@ export function RouletteModal<T extends RouletteBase>({
 
   useEffect(() => {
     spin();
-    if (soundEnabled) playSpinSound();
+    if (soundEnabled) playSpinSound(soundVolume);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
     if (status !== 'landed') return;
-    if (soundEnabled) playLandSound();
+    if (soundEnabled) playLandSound(soundVolume);
     autoCloseTimer.current = setTimeout(() => onResult(winner), AUTO_CLOSE_DELAY_MS);
     return () => clearTimeout(autoCloseTimer.current);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -65,7 +67,7 @@ export function RouletteModal<T extends RouletteBase>({
           spinToken={spinToken}
           landed={status === 'landed'}
           onLand={land}
-          onTick={soundEnabled ? playTickSound : undefined}
+          onTick={soundEnabled ? () => playTickSound(soundVolume) : undefined}
         />
 
         <div className="h-16 text-center">

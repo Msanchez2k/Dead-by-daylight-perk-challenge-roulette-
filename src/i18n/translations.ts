@@ -36,7 +36,9 @@ export interface UIStrings {
   settings: {
     title: string;
     sound: string;
+    soundVolume: string;
     music: string;
+    musicVolume: string;
     animations: string;
     emptySlot: string;
     wildcard: string;
@@ -152,7 +154,9 @@ export const translations: Record<Language, UIStrings> = {
     settings: {
       title: 'Configuración',
       sound: 'Sonidos',
+      soundVolume: 'Volumen de sonidos',
       music: 'Música',
+      musicVolume: 'Volumen de música',
       animations: 'Animaciones',
       emptySlot: 'Espacio vacío en la ruleta',
       wildcard: 'Comodín en la ruleta',
@@ -269,7 +273,9 @@ export const translations: Record<Language, UIStrings> = {
     settings: {
       title: 'Settings',
       sound: 'Sound',
+      soundVolume: 'Sound volume',
       music: 'Music',
+      musicVolume: 'Music volume',
       animations: 'Animations',
       emptySlot: 'Empty slot in roulette',
       wildcard: 'Wildcard in roulette',

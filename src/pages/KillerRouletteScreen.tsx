@@ -19,6 +19,7 @@ import { playKillerSound } from '@/utils/sound';
 interface KillerRouletteScreenProps {
   settings: Settings;
   onToggleSetting: (key: keyof Settings) => void;
+  onSetVolume: (key: 'soundVolume' | 'musicVolume', value: number) => void;
   onBack: () => void;
   onGoToPerks: () => void;
 }
@@ -26,6 +27,7 @@ interface KillerRouletteScreenProps {
 export function KillerRouletteScreen({
   settings,
   onToggleSetting,
+  onSetVolume,
   onBack,
   onGoToPerks,
 }: KillerRouletteScreenProps) {
@@ -48,7 +50,7 @@ export function KillerRouletteScreen({
   function handleResult(killer: Killer | null) {
     setSelectedKiller(killer);
     setKillerSpinning(false);
-    if (killer && settings.soundEnabled) playKillerSound(killer.id);
+    if (killer && settings.soundEnabled) playKillerSound(killer.id, settings.soundVolume);
   }
 
   return (
@@ -148,6 +150,7 @@ export function KillerRouletteScreen({
           allowEmptySlot={false}
           wildcard={null}
           soundEnabled={settings.soundEnabled}
+          soundVolume={settings.soundVolume}
           onResult={handleResult}
         />
       )}
@@ -156,6 +159,7 @@ export function KillerRouletteScreen({
         <SettingsPanel
           settings={settings}
           onToggle={onToggleSetting}
+          onSetVolume={onSetVolume}
           onClose={() => setSettingsOpen(false)}
         />
       )}

@@ -27,6 +27,7 @@ interface MainScreenProps {
   role: Role;
   settings: Settings;
   onToggleSetting: (key: keyof Settings) => void;
+  onSetVolume: (key: 'soundVolume' | 'musicVolume', value: number) => void;
   onBack: () => void;
   onGoToKiller?: () => void;
 }
@@ -36,7 +37,14 @@ const ROLE_LABEL: Record<Role, string> = {
   killer: 'Killer',
 };
 
-export function MainScreen({ role, settings, onToggleSetting, onBack, onGoToKiller }: MainScreenProps) {
+export function MainScreen({
+  role,
+  settings,
+  onToggleSetting,
+  onSetVolume,
+  onBack,
+  onGoToKiller,
+}: MainScreenProps) {
   const { slots, setSlots, fillSlot, resetBuild } = useBuild();
   const allPerks = usePerks(role);
   const { isEnabled, togglePerk, setAllDisabled, setPerksEnabled } = usePerkSelection();
@@ -221,6 +229,7 @@ export function MainScreen({ role, settings, onToggleSetting, onBack, onGoToKill
           allowEmptySlot={settings.emptySlotEnabled}
           wildcard={wildcardPerk}
           soundEnabled={settings.soundEnabled}
+          soundVolume={settings.soundVolume}
           onResult={handleResult}
         />
       )}
@@ -229,6 +238,7 @@ export function MainScreen({ role, settings, onToggleSetting, onBack, onGoToKill
         <SettingsPanel
           settings={settings}
           onToggle={onToggleSetting}
+          onSetVolume={onSetVolume}
           onClose={() => setSettingsOpen(false)}
         />
       )}

@@ -26,5 +26,9 @@ export function useSettings() {
     setSettings((prev) => ({ ...prev, [key]: !prev[key] }));
   }
 
-  return { settings, toggle };
+  function setVolume(key: 'soundVolume' | 'musicVolume', value: number) {
+    setSettings((prev) => ({ ...prev, [key]: value }));
+  }
+
+  return { settings, toggle, setVolume };
 }
