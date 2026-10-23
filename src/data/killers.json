@@ -95,6 +95,11 @@
     "image": "/killers/huntress.png"
   },
   {
+    "id": "judgment",
+    "name": "El Juicio",
+    "image": "/killers/judgment.png"
+  },
+  {
     "id": "knight",
     "name": "El Caballero",
     "image": "/killers/knight.png"

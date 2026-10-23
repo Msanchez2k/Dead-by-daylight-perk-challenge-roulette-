@@ -984,6 +984,30 @@
     "role": "killer"
   },
   {
+    "id": "kl-testigo-celestial",
+    "name": "Testigo Celestial",
+    "character": "El Juicio",
+    "image": "/perks/killer/testigo-celestial.png",
+    "description": "Cada 30 segundos, si la obsesión está a 40 metros o más de ti, ves su aura durante 3 segundos. De no ser así, el sobreviviente más lejano se convierte en la obsesión.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-bajo-el-yugo",
+    "name": "Maleficio: Bajo el Yugo",
+    "character": "El Juicio",
+    "image": "/perks/killer/maleficio-bajo-el-yugo.png",
+    "description": "La primera vez que un sobreviviente obtiene un estado de gancho, se enciende un tótem apagado. Cada vez que un sobreviviente en carrera obtiene Celeridad a 32 metros o menos de ti, recibes una alerta. Los sobrevivientes en carrera no pueden recibir más de 15% de Celeridad a la vez.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-devastacion",
+    "name": "Devastación",
+    "character": "El Juicio",
+    "image": "/perks/killer/devastacion.png",
+    "description": "Cada vez que dañas un generador, por cada carga que tenga, se revierte 2% más rápido. Recuperación: 45s.",
+    "role": "killer"
+  },
+  {
     "id": "kl-acechador-de-ciervos",
     "name": "Acechador de Ciervos",
     "character": "Ventaja",

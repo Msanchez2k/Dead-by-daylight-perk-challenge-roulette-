@@ -1248,6 +1248,30 @@
     "role": "survivor"
   },
   {
+    "id": "sv-bendicion-determinacion",
+    "name": "Bendición: Determinación",
+    "character": "Aurora Stardotter",
+    "image": "/perks/survivor/bendicion-determinacion.png",
+    "description": "Al estar junto a un tótem, usa el botón de acción para bendecirlo, lo que creará un tótem de bendición único que combina todas las bendiciones. Los generadores dentro del radio de la bendición se revierten 50% más lento y los sobrevivientes los reparan 10% más rápido. Los sobrevivientes dentro del radio de la bendición pueden ver el aura de los generadores afectados.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-grito-de-salvacion",
+    "name": "Grito de Salvación",
+    "character": "Aurora Stardotter",
+    "image": "/perks/survivor/grito-de-salvacion.png",
+    "description": "Cada vez que el asesino te persiga: ves el aura de los demás sobrevivientes durante 3 segundos; los sobrevivientes que no estén siendo perseguidos ven tu aura durante 5 segundos y el aura del asesino durante 5 segundos.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-cosechas-lo-que-siembras",
+    "name": "Cosechas lo que Siembras",
+    "character": "Aurora Stardotter",
+    "image": "/perks/survivor/cosechas-lo-que-siembras.png",
+    "description": "Cada vez que completas un generador, obtienes un distintivo. Cada vez que terminas de reparar un generador, por cada distintivo obtienes 5% de Celeridad durante 2 segundos y 20% de progreso de curación.",
+    "role": "survivor"
+  },
+  {
     "id": "sv-ganas-de-vivir",
     "name": "Ganas de Vivir",
     "character": "Ventaja",

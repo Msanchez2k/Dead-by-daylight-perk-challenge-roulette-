@@ -1248,6 +1248,30 @@
     "role": "survivor"
   },
   {
+    "id": "sv-bendicion-determinacion",
+    "name": "Boon: Steadfast",
+    "character": "Aurora Stardotter",
+    "image": "/perks/survivor/bendicion-determinacion.png",
+    "description": "While standing next to a totem, use the action button to bless it, creating a unique Boon Totem that combines all boons. Generators within the boon's radius regress 50% slower and survivors repair them 10% faster. Survivors within the boon's radius can see the aura of the affected generators.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-grito-de-salvacion",
+    "name": "Salvation's Cry",
+    "character": "Aurora Stardotter",
+    "image": "/perks/survivor/grito-de-salvacion.png",
+    "description": "Whenever the killer chases you: you see the auras of other survivors for 3 seconds; survivors who are not being chased see your aura for 5 seconds and the killer's aura for 5 seconds.",
+    "role": "survivor"
+  },
+  {
+    "id": "sv-cosechas-lo-que-siembras",
+    "name": "Fruits of Your Labor",
+    "character": "Aurora Stardotter",
+    "image": "/perks/survivor/cosechas-lo-que-siembras.png",
+    "description": "Each time you complete a generator, you gain a token. Each time you finish repairing a generator, for each token you gain 5% Haste for 2 seconds and 20% healing progress.",
+    "role": "survivor"
+  },
+  {
     "id": "sv-ganas-de-vivir",
     "name": "Decisive Strike",
     "character": "General",

@@ -984,6 +984,30 @@
     "role": "killer"
   },
   {
+    "id": "kl-testigo-celestial",
+    "name": "Celestial Witness",
+    "character": "The Judgment",
+    "image": "/perks/killer/testigo-celestial.png",
+    "description": "Every 30 seconds, if the Obsession is at least 40 meters away from you, you see their aura for 3 seconds. Otherwise, the farthest survivor becomes the Obsession.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-maleficio-bajo-el-yugo",
+    "name": "Hex: Under Your Thumb",
+    "character": "The Judgment",
+    "image": "/perks/killer/maleficio-bajo-el-yugo.png",
+    "description": "The first time a survivor gains a hook state, a Dull Totem is lit. Whenever a running survivor within 32 meters of you gains Haste, you receive an alert. Running survivors cannot gain more than 15% Haste at once.",
+    "role": "killer"
+  },
+  {
+    "id": "kl-devastacion",
+    "name": "Lay Waste",
+    "character": "The Judgment",
+    "image": "/perks/killer/devastacion.png",
+    "description": "Whenever you damage a generator, it regresses 2% faster for each charge it has. Cooldown: 45s.",
+    "role": "killer"
+  },
+  {
     "id": "kl-acechador-de-ciervos",
     "name": "Deerstalker",
     "character": "General",
